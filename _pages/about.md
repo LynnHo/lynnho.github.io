@@ -39,7 +39,7 @@ Selected Publications
         <a href="https://www.youtube.com/watch?v=E_88BajgIOs">Video</a> |
         <a href="https://github.com/LynnHo/EigenGAN-Tensorflow">TensorFlow (Official)</a> |
         <a href="https://github.com/bryandlee/eigengan-pytorch">PyTorch</a> |
-        <a href="0_lynn/projects/eigengan/eigengan.bib">Bib</a>
+        <a href="0_lynn/projects/eigengan/eigengan.txt">Bib</a>
     </td>
 </table>
 
@@ -57,7 +57,7 @@ Selected Publications
         <a href="https://github.com/LynnHo/AttGAN-Tensorflow">TensorFlow (Official)</a> |
         <a href="https://github.com/elvisyjlin/AttGAN-PyTorch">PyTorch</a> |
         <a href="https://www.paddlepaddle.org.cn/modelbasedetail/attgan">PaddlePaddle</a> |
-        <a href="0_lynn/projects/attgan/attgan.bib">Bib</a>
+        <a href="0_lynn/projects/attgan/attgan.txt">Bib</a>
     </td>
 </table>
 
@@ -72,7 +72,7 @@ Selected Publications
         
         <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/He_S2GAN_Share_Aging_Factors_Across_Ages_and_Share_Aging_Trends_ICCV_2019_paper.pdf">Paper</a> |
         <a href="https://www.youtube.com/watch?v=ByfFufRhuRc">Video</a> |
-        <a href="0_lynn/projects/s2gan/s2gan.bib">Bib</a>
+        <a href="0_lynn/projects/s2gan/s2gan.txt">Bib</a>
     </td>
 </table>
 
@@ -88,7 +88,7 @@ Selected Publications
         <a href="https://github.com/LynnHo/PA-GAN-Tensorflow">Project</a> |
         <a href="https://arxiv.org/pdf/2007.05892.pdf">Paper</a> |
         <a href="https://github.com/LynnHo/PA-GAN-Tensorflow">Code</a> |
-        <a href="0_lynn/projects/pa-gan/pa-gan.bib">Bib</a>
+        <a href="0_lynn/projects/pa-gan/pa-gan.txt">Bib</a>
     </td>
 </table>
 
@@ -103,7 +103,7 @@ Selected Publications
         <p class="content">CVIU 2021</p>
         
         <a href="0_lynn/projects/std-gan/std-gan.pdf">Paper</a> |
-        <a href="0_lynn/projects/std-gan/std-gan.bib">Bib</a>
+        <a href="0_lynn/projects/std-gan/std-gan.txt">Bib</a>
     </td>
 </table>
 
