@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "何振梁（Zhenliang He）"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,43 +8,122 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+<!--Zhenliang He received his Ph.D. from Institute of Computing Technology, Chinese Academy of Sciences, in 2021, under the supervision of Prof. [Shiguang Shan](https://vipl.ict.ac.cn/people/~sgshan). He received his B.E. from Beijing University of Posts and Telecommunications in 2015. His research interests include generative adversarial networks, facial attribute editing, and facial landmark detection.-->
 
-A data-driven personal website
++ **Email**: lynn_ho AT 163 DOT com
++ 2021.08 - now, I am now a research engineer at JD.com, Inc.
++ 2015.09 - 2021.07, I was a Ph.D. student at Institute of Computing Technology, Chinese Academy of Sciences, under the supervision of Prof. [Shiguang Shan](https://vipl.ict.ac.cn/people/~sgshan). I also had close collaboration with Prof. [Meina Kan](https://vipl.ict.ac.cn/homepage/mnkan/index.html) and Prof. [Xilin Chen](https://vipl.ict.ac.cn/people/~xlchen).
++ 2011.09 - 2015.07, I was a college student at Beijing University of Posts and Telecommunications.
+
+
+
+---
+
+Selected Publications
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+*See the full list on [Google Scholar](https://scholar.google.com/citations?user=fDTTEaAAAAAJ)*
 
-Getting started
+
+<!--EigenGAN-->
+<table>
+    <td width="1000"><a href="https://github.com/LynnHo/EigenGAN-Tensorflow"><img src="0_lynn/projects/eigengan/eigengan.gif" width="1000"></a></td>
+    
+    <td width="4000">
+        <p class="content"><strong>EigenGAN: Layer-Wise Eigen-Learning for GANs</strong></p>
+        <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan</p>
+        <p class="content">ICCV 2021</p>
+
+        <a href="https://github.com/LynnHo/EigenGAN-Tensorflow">Project</a> |
+        <a href="https://arxiv.org/pdf/2104.12476.pdf">Paper</a> |
+        <a href="https://www.youtube.com/watch?v=E_88BajgIOs">Video</a> |
+        <a href="https://github.com/LynnHo/EigenGAN-Tensorflow">TensorFlow (Official)</a> |
+        <a href="https://github.com/bryandlee/eigengan-pytorch">PyTorch</a> |
+        <a href="0_lynn/projects/eigengan/eigengan.bib">Bib</a>
+    </td>
+</table>
+
+<!--AttGAN-->
+<table>
+    <td width="1000"><a href="https://github.com/LynnHo/AttGAN-Tensorflow"><img src="0_lynn/projects/attgan/attgan.jpg" width="1000"></a></td>
+    
+    <td width="4000">
+        <p class="content"><strong>AttGAN: Facial Attribute Editing by Only Changing What You Want</strong></p>
+        <p class="content"><strong>Zhenliang He</strong>, Wangmeng Zuo, Meina Kan, Shiguang Shan, Xilin Chen</p>
+        <p class="content">T-IP 2019</p>
+        
+        <a href="https://github.com/LynnHo/AttGAN-Tensorflow">Project</a> |
+        <a href="https://vipl.ict.ac.cn/uploadfile/upload/2019112511573287.pdf">Paper</a> |
+        <a href="https://github.com/LynnHo/AttGAN-Tensorflow">TensorFlow (Official)</a> |
+        <a href="https://github.com/elvisyjlin/AttGAN-PyTorch">PyTorch</a> |
+        <a href="https://www.paddlepaddle.org.cn/modelbasedetail/attgan">PaddlePaddle</a> |
+        <a href="0_lynn/projects/attgan/attgan.bib">Bib</a>
+    </td>
+</table>
+
+<!--S2GAN-->
+<table>
+    <td width="1000"><a href="https://openaccess.thecvf.com/content_ICCV_2019/html/He_S2GAN_Share_Aging_Factors_Across_Ages_and_Share_Aging_Trends_ICCV_2019_paper.html"><img src="0_lynn/projects/s2gan/s2gan.jpg" width="1000"></a></td>
+    
+    <td width="4000">
+        <p class="content"><strong>S2GAN: Share Aging Factors Across Ages and Share Aging Trends Among Individuals</strong></p>
+        <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan, Xilin Chen</p>
+        <p class="content">ICCV 2019 <strong>Oral</strong></p>
+        
+        <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/He_S2GAN_Share_Aging_Factors_Across_Ages_and_Share_Aging_Trends_ICCV_2019_paper.pdf">Paper</a> |
+        <a href="https://www.youtube.com/watch?v=ByfFufRhuRc">Video</a> |
+        <a href="0_lynn/projects/s2gan/s2gan.bib">Bib</a>
+    </td>
+</table>
+
+<!--PA-GAN-->
+<table>
+    <td width="1000"><a href="https://github.com/LynnHo/PA-GAN-Tensorflow"><img src="0_lynn/projects/pa-gan/pa-gan.jpg" width="1000"></a></td>
+    
+    <td width="4000">
+        <p class="content"><strong>PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing</strong></p>
+        <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Jichao Zhang, Shiguang Shan</p>
+        <p class="content">	arXiv:2007.05892 2020</p>
+        
+        <a href="https://github.com/LynnHo/PA-GAN-Tensorflow">Project</a> |
+        <a href="https://arxiv.org/pdf/2007.05892.pdf">Paper</a> |
+        <a href="https://github.com/LynnHo/PA-GAN-Tensorflow">Code</a> |
+        <a href="0_lynn/projects/pa-gan/pa-gan.bib">Bib</a>
+    </td>
+</table>
+
+
+<!--STD-GAN-->
+<table>
+    <td width="1000"><a href="0_lynn/projects/std-gan/std-gan.pdf"><img src="0_lynn/projects/std-gan/std-gan.jpg" width="1000"></a></td>
+    
+    <td width="4000">
+        <p class="content"><strong>Image Style Disentangling for Instance-Level Facial Attribute Transfer</strong></p>
+        <p class="content">Xuyang Guo, Meina Kan, <strong>Zhenliang He</strong>, Xingguang Song, Shiguang Shan</p>
+        <p class="content">CVIU 2021</p>
+        
+        <a href="0_lynn/projects/std-gan/std-gan.pdf">Paper</a> |
+        <a href="0_lynn/projects/std-gan/std-gan.bib">Bib</a>
+    </td>
+</table>
+
+
+---
+
+Tutorial
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
++ [Matrix Calculus (Matrix Derivative, 矩阵求导教程)](https://github.com/LynnHo/Matrix-Calculus-Tutorial)
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
-**Markdown generator**
+---
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+Honors & Awards
+======
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
++ Outstanding Graduates Award of Beijing, ICT, CAS, 2021
++ Special Scholarship of ICT (**highest award in ICT**), ICT, CAS, 2019
++ Huawei Excellent Cooperation Award, 2017
++ Second Place Winner of MENPO Challenge in CVPR 2017
++ First Prize of Beijing Higher Mathematics Competition, 2012
++ National Scholarship (**top 8 of 610 students**), BUPT, 2012 & 2014
