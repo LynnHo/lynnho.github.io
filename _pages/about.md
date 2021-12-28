@@ -24,7 +24,7 @@ Tutorial
 
 + [Matrix Calculus (Matrix Derivative, 矩阵求导教程)](https://github.com/LynnHo/Matrix-Calculus-Tutorial)
 
-  <img src="https://user-images.githubusercontent.com/16457298/147549423-70e1561b-be2e-4392-9ee1-e9aa5ec0bdfe.png" width="20%">
+  <a href="https://github.com/LynnHo/Matrix-Calculus-Tutorial"><img src="https://user-images.githubusercontent.com/16457298/147549423-70e1561b-be2e-4392-9ee1-e9aa5ec0bdfe.png" width="20%"></a>
 
 ---
 
