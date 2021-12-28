@@ -10,12 +10,21 @@ redirect_from:
 
 <!--Zhenliang He received his Ph.D. from Institute of Computing Technology, Chinese Academy of Sciences, in 2021, under the supervision of Prof. [Shiguang Shan](https://vipl.ict.ac.cn/people/~sgshan). He received his B.E. from Beijing University of Posts and Telecommunications in 2015. His research interests include generative adversarial networks, facial attribute editing, and facial landmark detection.-->
 
-+ **Email**: lynn_ho AT 163 DOT com
++ *Email: lynn_ho AT 163 DOT com*
 + 2021.08 - now, I am now a research engineer at JD.com, Inc.
 + 2015.09 - 2021.07, I was a Ph.D. student at Institute of Computing Technology, Chinese Academy of Sciences, under the supervision of Prof. [Shiguang Shan](https://vipl.ict.ac.cn/people/~sgshan). I also had close collaboration with Prof. [Meina Kan](https://vipl.ict.ac.cn/homepage/mnkan/index.html) and Prof. [Xilin Chen](https://vipl.ict.ac.cn/people/~xlchen).
 + 2011.09 - 2015.07, I was a college student at Beijing University of Posts and Telecommunications.
 
 
+
+---
+
+Tutorial
+======
+
++ [Matrix Calculus (Matrix Derivative, 矩阵求导教程)](https://github.com/LynnHo/Matrix-Calculus-Tutorial)
+
+  <img src="https://user-images.githubusercontent.com/16457298/147549423-70e1561b-be2e-4392-9ee1-e9aa5ec0bdfe.png" width="20%">
 
 ---
 
@@ -107,13 +116,6 @@ Selected Publications
     </td>
 </table>
 
-
----
-
-Tutorial
-======
-
-+ [Matrix Calculus (Matrix Derivative, 矩阵求导教程)](https://github.com/LynnHo/Matrix-Calculus-Tutorial)
 
 
 ---
