@@ -111,6 +111,7 @@ Selected Publications
         <p class="content">Xuyang Guo, Meina Kan, <strong>Zhenliang He</strong>, Xingguang Song, Shiguang Shan</p>
         <p class="content">CVIU 2021</p>
         
+        <a href="https://github.com/XuyangGuo/STD-GAN">Project</a> |
         <a href="0_lynn/projects/std-gan/std-gan.pdf">Paper</a> |
         <a href="0_lynn/projects/std-gan/std-gan.txt">Bib</a>
     </td>
