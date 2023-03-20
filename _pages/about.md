@@ -62,7 +62,7 @@ Selected Publications
         <p class="content">T-IP 2019</p>
         
         <a href="https://github.com/LynnHo/AttGAN-Tensorflow">Project</a> |
-        <a href="https://vipl.ict.ac.cn/uploadfile/upload/2019112511573287.pdf">Paper</a> |
+        <a href="https://vipl.ict.ac.cn/publications/2019/jour/202212/P020221230369682856969.pdf">Paper</a> |
         <a href="https://github.com/LynnHo/AttGAN-Tensorflow">TensorFlow (Official)</a> |
         <a href="https://github.com/elvisyjlin/AttGAN-PyTorch">PyTorch</a> |
         <a href="https://www.paddlepaddle.org.cn/modelbasedetail/attgan">PaddlePaddle</a> |
