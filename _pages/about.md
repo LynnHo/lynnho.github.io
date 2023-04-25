@@ -8,13 +8,20 @@ redirect_from:
   - /about.html
 ---
 
-<!--Zhenliang He received his Ph.D. from Institute of Computing Technology, Chinese Academy of Sciences, in 2021, under the supervision of Prof. [Shiguang Shan](https://vipl.ict.ac.cn/people/~sgshan). He received his B.E. from Beijing University of Posts and Telecommunications in 2015. His research interests include generative adversarial networks, facial attribute editing, and facial landmark detection.-->
+I am an Assistant Professor in the [Visual Information Processing and Learning (VIPL)](http://vipl.ict.ac.cn/en) research group at the [Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS)](http://www.ict.cas.cn). I received my Ph.D. from ICT, CAS in 2021, under the supervision of Prof. [Shiguang Shan](https://vipl.ict.ac.cn/people/~sgshan) and close collaboration with Prof. [Meina Kan](https://vipl.ict.ac.cn/homepage/mnkan/index.html) and Prof. [Xilin Chen](https://vipl.ict.ac.cn/people/~xlchen). I received my B.E. from Beijing University of Posts and Telecommunications in 2015. My current research focuses on generative models and representation learning.
 
-+ *Email: lynn_ho AT 163 DOT com*
-+ 2021.08 - 2023-03, research engineer at JD.com, Inc.
-+ 2015.09 - 2021.07, I was a Ph.D. student at Institute of Computing Technology, Chinese Academy of Sciences, under the supervision of Prof. [Shiguang Shan](https://vipl.ict.ac.cn/people/~sgshan). I also had close collaboration with Prof. [Meina Kan](https://vipl.ict.ac.cn/homepage/mnkan/index.html) and Prof. [Xilin Chen](https://vipl.ict.ac.cn/people/~xlchen).
-+ 2011.09 - 2015.07, I was a college student at Beijing University of Posts and Telecommunications.
+**[Google Scholar](https://scholar.google.com/citations?user=fDTTEaAAAAAJ) / [GitHub](https://github.com/LynnHo) / Email: hezhenliang@ict.ac.cn**
 
+
+---
+
+Education & Experience
+======
+
++ 2023.04 - now, Assistant Professor in the [Visual Information Processing and Learning (VIPL)](http://vipl.ict.ac.cn/en) research group at the [Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS)](http://www.ict.cas.cn).
++ 2021.08 - 2023-03, Research Engineer at JD.com, Inc.
++ 2015.09 - 2021.06, Ph.D. student at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS), under the supervision of Prof. [Shiguang Shan](https://vipl.ict.ac.cn/people/~sgshan). I also had close collaboration with Prof. [Meina Kan](https://vipl.ict.ac.cn/homepage/mnkan/index.html) and Prof. [Xilin Chen](https://vipl.ict.ac.cn/people/~xlchen).
++ 2011.09 - 2015.07, college student at Beijing University of Posts and Telecommunications.
 
 
 ---
@@ -92,7 +99,7 @@ Selected Publications
     <td width="4000">
         <p class="content"><strong>PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing</strong></p>
         <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Jichao Zhang, Shiguang Shan</p>
-        <p class="content">	arXiv:2007.05892 2020</p>
+        <p class="content"> arXiv:2007.05892 2020</p>
         
         <a href="https://github.com/LynnHo/PA-GAN-Tensorflow">Project</a> |
         <a href="https://arxiv.org/pdf/2007.05892.pdf">Paper</a> |
