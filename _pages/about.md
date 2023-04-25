@@ -47,6 +47,7 @@ Selected Publications
             <a href="0_lynn/projects/eigengan/eigengan.txt">Bib</a>
         </td>
     </tr>
+
     <tr><td colspan="2">
         <details>
             <summary>Abstract</summary>
@@ -57,72 +58,78 @@ Selected Publications
 
 <!--AttGAN-->
 <table>
-    <td width="1000"><a href="https://github.com/LynnHo/AttGAN-Tensorflow"><img src="0_lynn/projects/attgan/attgan.jpg" width="1000"></a></td>
-    
-    <td width="4000">
-        <p class="content"><strong>AttGAN: Facial Attribute Editing by Only Changing What You Want</strong></p>
-        <p class="content"><strong>Zhenliang He</strong>, Wangmeng Zuo, Meina Kan, Shiguang Shan, Xilin Chen</p>
-        <p class="content"><img src="https://img.shields.io/badge/T--IP%202019-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/stars/LynnHo/AttGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;"> </p>
-        
-        <a href="https://github.com/LynnHo/AttGAN-Tensorflow">Project</a> |
-        <a href="https://vipl.ict.ac.cn/publications/2019/jour/202212/P020221230369682856969.pdf">Paper</a> |
-        <a href="https://github.com/LynnHo/AttGAN-Tensorflow">TensorFlow (Official)</a> |
-        <a href="https://github.com/elvisyjlin/AttGAN-PyTorch">PyTorch</a> |
-        <a href="https://www.paddlepaddle.org.cn/modelbasedetail/attgan">PaddlePaddle</a> |
-        <a href="0_lynn/projects/attgan/attgan.txt">Bib</a>
+    <tr>
+        <td width="1000"><a href="https://github.com/LynnHo/AttGAN-Tensorflow"><img src="0_lynn/projects/attgan/attgan.jpg" width="1000"></a></td>
 
-        <p class="content">
+        <td width="4000">
+            <p class="content"><strong>AttGAN: Facial Attribute Editing by Only Changing What You Want</strong></p>
+            <p class="content"><strong>Zhenliang He</strong>, Wangmeng Zuo, Meina Kan, Shiguang Shan, Xilin Chen</p>
+            <p class="content"><img src="https://img.shields.io/badge/T--IP%202019-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/stars/LynnHo/AttGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;"> </p>
+
+            <a href="https://github.com/LynnHo/AttGAN-Tensorflow">Project</a> |
+            <a href="https://vipl.ict.ac.cn/publications/2019/jour/202212/P020221230369682856969.pdf">Paper</a> |
+            <a href="https://github.com/LynnHo/AttGAN-Tensorflow">TensorFlow (Official)</a> |
+            <a href="https://github.com/elvisyjlin/AttGAN-PyTorch">PyTorch</a> |
+            <a href="https://www.paddlepaddle.org.cn/modelbasedetail/attgan">PaddlePaddle</a> |
+            <a href="0_lynn/projects/attgan/attgan.txt">Bib</a>
+        </td>
+    </tr>
+
+    <tr><td colspan="2">
         <details>
             <summary>Abstract</summary>
             Facial attribute editing aims to manipulate single or multiple attributes on a given face image, i.e., to generate a new face image with desired attributes while preserving other details. Recently, generative adversarial net (GAN) and encoder-decoder architecture are usually incorporated to handle this task with promising results. Based on the encoder-decoder architecture, facial attribute editing is achieved by decoding the latent representation of a given face conditioned on the desired attributes. Some existing methods attempt to establish an attribute-independent latent representation for further attribute editing. However, such attribute-independent constraint on the latent representation is excessive because it restricts the capacity of the latent representation and may result in information loss, leading to over-smooth or distorted generation. Instead of imposing constraints on the latent representation, in this work we propose to apply an <strong>attribute classification constraint</strong> to the generated image to just guarantee the correct change of desired attributes, i.e., to "change what you want". Meanwhile, the <strong>reconstruction learning</strong> is introduced to preserve attribute-excluding details, in other words, to "only change what you want". Besides, the <strong>adversarial learning</strong> is employed for visually realistic editing. These three components cooperate with each other forming an effective framework for high quality facial attribute editing, referred as <strong>AttGAN</strong>. Furthermore, the proposed method is extended for <strong>attribute style manipulation</strong> in an unsupervised manner. Experiments on two wild datasets, CelebA and LFW, show that the proposed method outperforms the state-of-the-arts on realistic attribute editing with other facial details well preserved.
         </details>
-        </p>
-    </td>
+    </td></tr>
 </table>
 
 <!--S2GAN-->
 <table>
-    <td width="1000"><a href="https://openaccess.thecvf.com/content_ICCV_2019/html/He_S2GAN_Share_Aging_Factors_Across_Ages_and_Share_Aging_Trends_ICCV_2019_paper.html"><img src="0_lynn/projects/s2gan/s2gan.jpg" width="1000"></a></td>
-    
-    <td width="4000">
-        <p class="content"><strong>S2GAN: Share Aging Factors Across Ages and Share Aging Trends Among Individuals</strong></p>
-        <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan, Xilin Chen</p>
-        <p class="content"><img src="https://img.shields.io/badge/Oral-FFF1DC?label=ICCV%202019&labelColor=3A98B9" style="width:auto;height:25px;"> </p>
-        
-        <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/He_S2GAN_Share_Aging_Factors_Across_Ages_and_Share_Aging_Trends_ICCV_2019_paper.pdf">Paper</a> |
-        <a href="https://www.youtube.com/watch?v=ByfFufRhuRc">Video</a> |
-        <a href="0_lynn/projects/s2gan/s2gan.txt">Bib</a>
+    <tr>
+        <td width="1000"><a href="https://openaccess.thecvf.com/content_ICCV_2019/html/He_S2GAN_Share_Aging_Factors_Across_Ages_and_Share_Aging_Trends_ICCV_2019_paper.html"><img src="0_lynn/projects/s2gan/s2gan.jpg" width="1000"></a></td>
 
-        <p class="content">
+        <td width="4000">
+            <p class="content"><strong>S2GAN: Share Aging Factors Across Ages and Share Aging Trends Among Individuals</strong></p>
+            <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan, Xilin Chen</p>
+            <p class="content"><img src="https://img.shields.io/badge/Oral-FFF1DC?label=ICCV%202019&labelColor=3A98B9" style="width:auto;height:25px;"> </p>
+
+            <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/He_S2GAN_Share_Aging_Factors_Across_Ages_and_Share_Aging_Trends_ICCV_2019_paper.pdf">Paper</a> |
+            <a href="https://www.youtube.com/watch?v=ByfFufRhuRc">Video</a> |
+            <a href="0_lynn/projects/s2gan/s2gan.txt">Bib</a>
+        </td>
+    </tr>
+
+    <tr><td colspan="2">
         <details>
             <summary>Abstract</summary>
             Generally, we human follow the roughly <strong>common aging trends</strong>, e.g., the wrinkles only tend to be more, longer or deeper. However, the aging process of each individual is more dominated by his/her <strong>personalized factors</strong>, including the invariant factors such as identity and mole, as well as the personalized aging patterns, e.g., one may age by graying hair while another may age by receding hairline. Following this biological principle, in this work, we propose an effective and efficient method to simulate natural aging. Specifically, a <strong>personalized aging basis</strong> is established for each individual to depict his/her own aging factors. Then different ages share this basis, being derived through <strong>age-specific transforms</strong>. The age-specific transforms represent the aging trends which are shared among all individuals. The proposed method can achieve continuous face aging with favorable aging accuracy, identity preservation, and fidelity. Furthermore, befitted from the effective design, a unique model is capable of all ages and the prediction time is significantly saved.
         </details>
-        </p>
-    </td>
+    </td></tr>
 </table>
 
 <!--PA-GAN-->
 <table>
-    <td width="1000"><a href="https://github.com/LynnHo/PA-GAN-Tensorflow"><img src="0_lynn/projects/pa-gan/pa-gan.jpg" width="1000"></a></td>
-    
-    <td width="4000">
-        <p class="content"><strong>PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing</strong></p>
-        <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Jichao Zhang, Shiguang Shan</p>
-        <p class="content"><img src="https://img.shields.io/badge/arXiv-3A98B9" style="width:auto;height:25px;"> </p>
-        
-        <a href="https://github.com/LynnHo/PA-GAN-Tensorflow">Project</a> |
-        <a href="https://arxiv.org/pdf/2007.05892.pdf">Paper</a> |
-        <a href="https://github.com/LynnHo/PA-GAN-Tensorflow">Code</a> |
-        <a href="0_lynn/projects/pa-gan/pa-gan.txt">Bib</a>
+    <tr>
+        <td width="1000"><a href="https://github.com/LynnHo/PA-GAN-Tensorflow"><img src="0_lynn/projects/pa-gan/pa-gan.jpg" width="1000"></a></td>
 
-        <p class="content">
+        <td width="4000">
+            <p class="content"><strong>PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing</strong></p>
+            <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Jichao Zhang, Shiguang Shan</p>
+            <p class="content"><img src="https://img.shields.io/badge/arXiv-3A98B9" style="width:auto;height:25px;"> </p>
+
+            <a href="https://github.com/LynnHo/PA-GAN-Tensorflow">Project</a> |
+            <a href="https://arxiv.org/pdf/2007.05892.pdf">Paper</a> |
+            <a href="https://github.com/LynnHo/PA-GAN-Tensorflow">Code</a> |
+            <a href="0_lynn/projects/pa-gan/pa-gan.txt">Bib</a>
+        </td>
+    </tr>
+
+    <tr><td colspan="2">
         <details>
             <summary>Abstract</summary>
             Facial attribute editing aims to manipulate attributes on the human face, e.g., adding a mustache or changing the hair color. Existing approaches suffer from a serious compromise between correct attribute generation and preservation of the other information such as identity and background, because they edit the attributes in the imprecise area. To resolve this dilemma, we propose a progressive attention GAN (PA-GAN) for facial attribute editing. In our approach, the editing is progressively conducted from high to low feature level while being constrained inside a proper attribute area by an attention mask at each level. This manner prevents undesired modifications to the irrelevant regions from the beginning, and then the network can focus more on correctly generating the attributes within a proper boundary at each level. As a result, our approach achieves correct attribute editing with irrelevant details much better preserved compared with the state-of-the-arts.
         </details>
-        </p>
-    </td>
+    </td></tr>
 </table>
 
 
@@ -138,14 +145,14 @@ Selected Publications
         <a href="https://github.com/XuyangGuo/STD-GAN">Project</a> |
         <a href="0_lynn/projects/std-gan/std-gan.pdf">Paper</a> |
         <a href="0_lynn/projects/std-gan/std-gan.txt">Bib</a>
+    </td>
 
-        <p class="content">
+    <tr><td colspan="2">
         <details>
             <summary>Abstract</summary>
             Instance-level facial attribute transfer aims at transferring an attribute including its style from a source face to a target one. Existing studies have limitations on fidelity or correctness. To address this problem, we propose a weakly supervised style disentangling method embedded in Generative Adversarial Network (GAN) for accurate instance-level attribute transfer, using only binary attribute annotations. In our method, the whole attributes transfer process is designed as two steps for easier transfer, which first removes the original attribute or transfers it to a neutral state and then adds the attributes style disentangled from a source face. Moreover, a style disentangling module is proposed to extract the attribute style of an image used in the adding step. Our method aims for accurate attribute style transfer. However, it is also capable of semantic attribute editing as a special case, which is not achievable with existing instance-level attribute transfer methods. Comprehensive experiments on CelebA Dataset show that our method can transfer the style more precisely than existing methods, with an improvement of 39% in user study, 16.5% in accuracy, and about 3.3 in FID.
         </details>
-        </p>
-    </td>
+    </td></tr>
 </table>
 
 
