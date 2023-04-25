@@ -10,7 +10,7 @@ redirect_from:
 
 I am an Assistant Professor in the [Visual Information Processing and Learning (VIPL)](http://vipl.ict.ac.cn/en) research group at the [Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS)](http://www.ict.cas.cn). I received my Ph.D. from ICT, CAS in 2021, under the supervision of Prof. [Shiguang Shan](https://vipl.ict.ac.cn/people/~sgshan) and close collaboration with Prof. [Meina Kan](https://vipl.ict.ac.cn/homepage/mnkan/index.html) and Prof. [Xilin Chen](https://vipl.ict.ac.cn/people/~xlchen). I received my B.E. from Beijing University of Posts and Telecommunications in 2015. My current research focuses on generative models and representation learning.
 
-<a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ"><img src="images/google-scholar.png" width="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo"><img src="https://img.icons8.com/ios-filled/50/null/github.svg" width="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:hezhenliang@ict.ac.cn"><img src="images/email.png" width="25"></a>&nbsp;[<font size="4">hezhenliang@ict.ac.cn</font>](mailto:hezhenliang@ict.ac.cn)
+<a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ"><img src="images/google-scholar.png" width="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo"><img src="images/github.png" width="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:hezhenliang@ict.ac.cn"><img src="images/email.png" width="25"></a>&nbsp;[<font size="4">hezhenliang@ict.ac.cn</font>](mailto:hezhenliang@ict.ac.cn)
 
 
 ---
@@ -37,7 +37,7 @@ Selected Publications
     <td width="4000">
         <p class="content"><strong>EigenGAN: Layer-Wise Eigen-Learning for GANs</strong></p>
         <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan</p>
-        <p class="content"><img src="https://img.shields.io/badge/ICCV%202021-3A98B9" height="40">&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/stars/LynnHo/EigenGAN-Tensorflow.svg?style=social" height="40"> </p>
+        <p class="content"><img src="https://img.shields.io/badge/ICCV%202021-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/stars/LynnHo/EigenGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;"> </p>
 
         <a href="https://github.com/LynnHo/EigenGAN-Tensorflow">Project</a> |
         <a href="https://arxiv.org/pdf/2104.12476.pdf">Paper</a> |
@@ -55,7 +55,7 @@ Selected Publications
     <td width="4000">
         <p class="content"><strong>AttGAN: Facial Attribute Editing by Only Changing What You Want</strong></p>
         <p class="content"><strong>Zhenliang He</strong>, Wangmeng Zuo, Meina Kan, Shiguang Shan, Xilin Chen</p>
-        <p class="content"><img src="https://img.shields.io/badge/T--IP%202019-3A98B9" height="40">&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/stars/LynnHo/AttGAN-Tensorflow.svg?style=social" height="40"> </p>
+        <p class="content"><img src="https://img.shields.io/badge/T--IP%202019-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/stars/LynnHo/AttGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;"> </p>
         
         <a href="https://github.com/LynnHo/AttGAN-Tensorflow">Project</a> |
         <a href="https://vipl.ict.ac.cn/publications/2019/jour/202212/P020221230369682856969.pdf">Paper</a> |
@@ -73,7 +73,7 @@ Selected Publications
     <td width="4000">
         <p class="content"><strong>S2GAN: Share Aging Factors Across Ages and Share Aging Trends Among Individuals</strong></p>
         <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan, Xilin Chen</p>
-        <p class="content"><img src="https://img.shields.io/badge/Oral-FFF1DC?label=ICCV%202019&labelColor=3A98B9" height="40"> </p>
+        <p class="content"><img src="https://img.shields.io/badge/Oral-FFF1DC?label=ICCV%202019&labelColor=3A98B9" style="width:auto;height:25px;"> </p>
         
         <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/He_S2GAN_Share_Aging_Factors_Across_Ages_and_Share_Aging_Trends_ICCV_2019_paper.pdf">Paper</a> |
         <a href="https://www.youtube.com/watch?v=ByfFufRhuRc">Video</a> |
@@ -88,7 +88,7 @@ Selected Publications
     <td width="4000">
         <p class="content"><strong>PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing</strong></p>
         <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Jichao Zhang, Shiguang Shan</p>
-        <p class="content"><img src="https://img.shields.io/badge/arXiv-3A98B9" height="40"> </p>
+        <p class="content"><img src="https://img.shields.io/badge/arXiv-3A98B9" style="width:auto;height:25px;"> </p>
         
         <a href="https://github.com/LynnHo/PA-GAN-Tensorflow">Project</a> |
         <a href="https://arxiv.org/pdf/2007.05892.pdf">Paper</a> |
@@ -105,7 +105,7 @@ Selected Publications
     <td width="4000">
         <p class="content"><strong>Image Style Disentangling for Instance-Level Facial Attribute Transfer</strong></p>
         <p class="content">Xuyang Guo, Meina Kan, <strong>Zhenliang He</strong>, Xingguang Song, Shiguang Shan</p>
-        <p class="content"><img src="https://img.shields.io/badge/CVIU%202021-3A98B9" height="40"></p>
+        <p class="content"><img src="https://img.shields.io/badge/CVIU%202021-3A98B9" style="width:auto;height:25px;"></p>
         
         <a href="https://github.com/XuyangGuo/STD-GAN">Project</a> |
         <a href="0_lynn/projects/std-gan/std-gan.pdf">Paper</a> |
@@ -120,7 +120,7 @@ Education & Experience
 ======
 
 + 2023.04 - now, Assistant Professor in the [Visual Information Processing and Learning (VIPL)](http://vipl.ict.ac.cn/en) research group at the [Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS)](http://www.ict.cas.cn).
-+ 2021.08 - 2023-03, Research Engineer at JD.com, Inc.
++ 2021.08 - 2023.03, Research Engineer at JD.com, Inc.
 + 2015.09 - 2021.06, Ph.D. student at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS), under the supervision of Prof. [Shiguang Shan](https://vipl.ict.ac.cn/people/~sgshan). I also had close collaboration with Prof. [Meina Kan](https://vipl.ict.ac.cn/homepage/mnkan/index.html) and Prof. [Xilin Chen](https://vipl.ict.ac.cn/people/~xlchen).
 + 2011.09 - 2015.07, college student at Beijing University of Posts and Telecommunications.
 
