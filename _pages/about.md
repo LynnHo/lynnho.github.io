@@ -33,8 +33,8 @@ Selected Publications
 <table>
 <!--EigenGAN-->
     <tr>
-        <td width="1000" style="padding-left:0;padding-top:10px;padding-bottom:0;"><a href="https://github.com/LynnHo/EigenGAN-Tensorflow"><img src="0_lynn/projects/eigengan/eigengan.gif" style="height:100%;width:auto;"></a></td>
-        <td width="4000" style="padding-top:10px;padding-bottom:0;">
+        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="https://github.com/LynnHo/EigenGAN-Tensorflow"><img src="0_lynn/projects/eigengan/eigengan.gif" style="height:100%;width:auto;"></a></td>
+        <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p class="content"><strong>EigenGAN: Layer-Wise Eigen-Learning for GANs</strong></p>
             <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan</p>
             <p class="content"><img src="https://img.shields.io/badge/ICCV%202021-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/stars/LynnHo/EigenGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;"> </p>
@@ -57,9 +57,9 @@ Selected Publications
 
 <!--AttGAN-->
     <tr>
-        <td width="1000" style="padding-left:0;padding-top:10px;padding-bottom:0;"><a href="https://github.com/LynnHo/AttGAN-Tensorflow"><img src="0_lynn/projects/attgan/attgan.jpg" style="height:100%;width:auto;"></a></td>
+        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="https://github.com/LynnHo/AttGAN-Tensorflow"><img src="0_lynn/projects/attgan/attgan.jpg" style="height:100%;width:auto;"></a></td>
 
-        <td width="4000" style="padding-top:10px;padding-bottom:0;">
+        <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p class="content"><strong>AttGAN: Facial Attribute Editing by Only Changing What You Want</strong></p>
             <p class="content"><strong>Zhenliang He</strong>, Wangmeng Zuo, Meina Kan, Shiguang Shan, Xilin Chen</p>
             <p class="content"><img src="https://img.shields.io/badge/T--IP%202019-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/stars/LynnHo/AttGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;"> </p>
@@ -82,9 +82,9 @@ Selected Publications
 
 <!--S2GAN-->
     <tr>
-        <td width="1000" style="padding-left:0;padding-top:10px;padding-bottom:0;"><a href="https://openaccess.thecvf.com/content_ICCV_2019/html/He_S2GAN_Share_Aging_Factors_Across_Ages_and_Share_Aging_Trends_ICCV_2019_paper.html"><img src="0_lynn/projects/s2gan/s2gan.jpg" style="height:100%;width:auto;"></a></td>
+        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="https://openaccess.thecvf.com/content_ICCV_2019/html/He_S2GAN_Share_Aging_Factors_Across_Ages_and_Share_Aging_Trends_ICCV_2019_paper.html"><img src="0_lynn/projects/s2gan/s2gan.jpg" style="height:100%;width:auto;"></a></td>
 
-        <td width="4000" style="padding-top:10px;padding-bottom:0;">
+        <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p class="content"><strong>S2GAN: Share Aging Factors Across Ages and Share Aging Trends Among Individuals</strong></p>
             <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan, Xilin Chen</p>
             <p class="content"><img src="https://img.shields.io/badge/Oral-FFF1DC?label=ICCV%202019&labelColor=3A98B9" style="width:auto;height:25px;"> </p>
@@ -104,9 +104,9 @@ Selected Publications
 
 <!--PA-GAN-->
     <tr>
-        <td width="1000" style="padding-left:0;padding-top:10px;padding-bottom:0;"><a href="https://github.com/LynnHo/PA-GAN-Tensorflow"><img src="0_lynn/projects/pa-gan/pa-gan.jpg" style="height:100%;width:auto;"></a></td>
+        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="https://github.com/LynnHo/PA-GAN-Tensorflow"><img src="0_lynn/projects/pa-gan/pa-gan.jpg" style="height:100%;width:auto;"></a></td>
 
-        <td width="4000" style="padding-top:10px;padding-bottom:0;">
+        <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p class="content"><strong>PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing</strong></p>
             <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Jichao Zhang, Shiguang Shan</p>
             <p class="content"><img src="https://img.shields.io/badge/arXiv-3A98B9" style="width:auto;height:25px;"> </p>
@@ -126,9 +126,9 @@ Selected Publications
     </td></tr>
 
 <!--STD-GAN-->
-    <td width="1000" style="padding-left:0;padding-top:10px;padding-bottom:0;"><a href="0_lynn/projects/std-gan/std-gan.pdf"><img src="0_lynn/projects/std-gan/std-gan.jpg" style="height:100%;width:auto;"></a></td>
+    <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="0_lynn/projects/std-gan/std-gan.pdf"><img src="0_lynn/projects/std-gan/std-gan.jpg" style="height:100%;width:auto;"></a></td>
     
-    <td width="4000" style="padding-top:10px;padding-bottom:0;">
+    <td width="4000" style="padding-top:30px;padding-bottom:0;">
         <p class="content"><strong>Image Style Disentangling for Instance-Level Facial Attribute Transfer</strong></p>
         <p class="content">Xuyang Guo, Meina Kan, <strong>Zhenliang He</strong>, Xingguang Song, Shiguang Shan</p>
         <p class="content"><img src="https://img.shields.io/badge/CVIU%202021-3A98B9" style="width:auto;height:25px;"></p>
