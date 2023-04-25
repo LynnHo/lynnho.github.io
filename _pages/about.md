@@ -10,7 +10,7 @@ redirect_from:
 
 I am an Assistant Professor in the [Visual Information Processing and Learning (VIPL)](http://vipl.ict.ac.cn/en) research group at the [Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS)](http://www.ict.cas.cn). I received my Ph.D. from ICT, CAS in 2021, under the supervision of Prof. [Shiguang Shan](https://vipl.ict.ac.cn/people/~sgshan) and close collaboration with Prof. [Meina Kan](https://vipl.ict.ac.cn/homepage/mnkan/index.html) and Prof. [Xilin Chen](https://vipl.ict.ac.cn/people/~xlchen). I received my B.E. from Beijing University of Posts and Telecommunications in 2015. My current research focuses on generative models and representation learning.
 
-<a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ"><img src="images/google-scolar.png" width="20"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo"><img src="images/github.png" width="20"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="hezhenliang@ict.ac.cn"><img src="images/email.png" width="20"></a>&nbsp;&nbsp;<font size="4">hezhenliang@ict.ac.cn</font>
+<a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ"><img src="images/google-scholar.png" width="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo"><img src="images/github.png" width="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="hezhenliang@ict.ac.cn"><img src="images/email.png" width="25"></a>&nbsp;&nbsp;<font size="4">hezhenliang@ict.ac.cn</font>
 
 
 ---
