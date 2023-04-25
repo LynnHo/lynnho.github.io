@@ -10,18 +10,7 @@ redirect_from:
 
 I am an Assistant Professor in the [Visual Information Processing and Learning (VIPL)](http://vipl.ict.ac.cn/en) research group at the [Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS)](http://www.ict.cas.cn). I received my Ph.D. from ICT, CAS in 2021, under the supervision of Prof. [Shiguang Shan](https://vipl.ict.ac.cn/people/~sgshan) and close collaboration with Prof. [Meina Kan](https://vipl.ict.ac.cn/homepage/mnkan/index.html) and Prof. [Xilin Chen](https://vipl.ict.ac.cn/people/~xlchen). I received my B.E. from Beijing University of Posts and Telecommunications in 2015. My current research focuses on generative models and representation learning.
 
-<a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ"><img src="images/google-scholar.png" width="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo"><img src="images/github.png" width="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="hezhenliang@ict.ac.cn"><img src="images/email.png" width="25"></a>&nbsp;&nbsp;<font size="4">hezhenliang@ict.ac.cn</font>
-
-
----
-
-Education & Experience
-======
-
-+ 2023.04 - now, Assistant Professor in the [Visual Information Processing and Learning (VIPL)](http://vipl.ict.ac.cn/en) research group at the [Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS)](http://www.ict.cas.cn).
-+ 2021.08 - 2023-03, Research Engineer at JD.com, Inc.
-+ 2015.09 - 2021.06, Ph.D. student at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS), under the supervision of Prof. [Shiguang Shan](https://vipl.ict.ac.cn/people/~sgshan). I also had close collaboration with Prof. [Meina Kan](https://vipl.ict.ac.cn/homepage/mnkan/index.html) and Prof. [Xilin Chen](https://vipl.ict.ac.cn/people/~xlchen).
-+ 2011.09 - 2015.07, college student at Beijing University of Posts and Telecommunications.
+<a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ"><img src="images/google-scholar.png" width="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo"><img src="images/github.png" width="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:hezhenliang@ict.ac.cn"><img src="images/email.png" width="25"></a>&nbsp;&nbsp;[<font size="4">hezhenliang@ict.ac.cn</font>](hezhenliang@ict.ac.cn)
 
 
 ---
@@ -124,6 +113,16 @@ Selected Publications
     </td>
 </table>
 
+
+---
+
+Education & Experience
+======
+
++ 2023.04 - now, Assistant Professor in the [Visual Information Processing and Learning (VIPL)](http://vipl.ict.ac.cn/en) research group at the [Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS)](http://www.ict.cas.cn).
++ 2021.08 - 2023-03, Research Engineer at JD.com, Inc.
++ 2015.09 - 2021.06, Ph.D. student at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS), under the supervision of Prof. [Shiguang Shan](https://vipl.ict.ac.cn/people/~sgshan). I also had close collaboration with Prof. [Meina Kan](https://vipl.ict.ac.cn/homepage/mnkan/index.html) and Prof. [Xilin Chen](https://vipl.ict.ac.cn/people/~xlchen).
++ 2011.09 - 2015.07, college student at Beijing University of Posts and Telecommunications.
 
 
 ---
