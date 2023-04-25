@@ -10,7 +10,7 @@ redirect_from:
 
 I am an Assistant Professor in the [Visual Information Processing and Learning (VIPL)](http://vipl.ict.ac.cn/en) research group at the [Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS)](http://www.ict.cas.cn). I received my Ph.D. from ICT, CAS in 2021, under the supervision of Prof. [Shiguang Shan](https://vipl.ict.ac.cn/people/~sgshan) and close collaboration with Prof. [Meina Kan](https://vipl.ict.ac.cn/homepage/mnkan/index.html) and Prof. [Xilin Chen](https://vipl.ict.ac.cn/people/~xlchen). I received my B.E. from Beijing University of Posts and Telecommunications in 2015. My current research focuses on generative models and representation learning.
 
-<a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ"><img src="images/google-scholar.png" width="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo"><img src="images/github.png" width="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:hezhenliang@ict.ac.cn"><img src="images/email.png" width="25"></a>&nbsp;[<font size="4">hezhenliang@ict.ac.cn</font>](mailto:hezhenliang@ict.ac.cn)
+<a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ"><img src="images/google-scholar.png" style="width:auto;height:30px;></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo"><img src="images/github.png" style="width:auto;height:30px;></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:hezhenliang@ict.ac.cn"><img src="images/email.png" style="width:auto;height:30px;></a>&nbsp;[<font size="4">hezhenliang@ict.ac.cn</font>](mailto:hezhenliang@ict.ac.cn)
 
 
 ---
@@ -18,7 +18,7 @@ I am an Assistant Professor in the [Visual Information Processing and Learning (
 Tutorial
 ======
 
-+ [Matrix Calculus (Matrix Derivative, 矩阵求导教程)](https://github.com/LynnHo/Matrix-Calculus-Tutorial)
++ [Matrix Calculus (Matrix Derivative, 矩阵求导教程)](https://github.com/LynnHo/Matrix-Calculus-Tutorial)&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/stars/LynnHo/Matrix-Calculus-Tutorial.svg?style=social" style="width:auto;height:25px;">
 
   <a href="https://github.com/LynnHo/Matrix-Calculus-Tutorial"><img src="https://user-images.githubusercontent.com/16457298/147549423-70e1561b-be2e-4392-9ee1-e9aa5ec0bdfe.png" width="20%"></a>
 
