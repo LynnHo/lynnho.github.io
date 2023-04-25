@@ -28,6 +28,13 @@ Tutorial
             <p class="content"><img src="https://img.shields.io/github/stars/LynnHo/Matrix-Calculus-Tutorial.svg?style=social" style="width:auto;height:25px;"> </p>
         </td>
     </tr>
+
+    <tr><td colspan="2" style="padding: 0;">
+        <details>
+            <summary>Abstract</summary>
+            In this page, we introduce a differential based method for vector and matrix derivatives (matrix calculus), which <strong>only needs a few simple rules to derive most matrix derivatives</strong>. This method is useful and well established in mathematics; however, few documents clearly or detailedly describe it. Therefore, we make this page aiming at the comprehensive introduction of <strong>matrix calculus via differentials</strong>.
+        </details>
+    </td></tr>
 </table>
 
 
