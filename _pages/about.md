@@ -37,7 +37,7 @@ Selected Publications
     <td width="4000">
         <p class="content"><strong>EigenGAN: Layer-Wise Eigen-Learning for GANs</strong></p>
         <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan</p>
-        <p class="content">ICCV 2021  <img src="https://img.shields.io/github/stars/LynnHo/EigenGAN-Tensorflow.svg?style=social"> </p>
+        <p class="content"><img src="https://img.shields.io/badge/ICCV%202021-FFBFA9" height="25">&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/stars/LynnHo/EigenGAN-Tensorflow.svg?style=social" height="25"> </p>
 
         <a href="https://github.com/LynnHo/EigenGAN-Tensorflow">Project</a> |
         <a href="https://arxiv.org/pdf/2104.12476.pdf">Paper</a> |
