@@ -18,7 +18,7 @@ I am an Assistant Professor in the [Visual Information Processing and Learning (
 Tutorial
 ======
 
-+ [Matrix Calculus (Matrix Derivative, 矩阵求导教程)](https://github.com/LynnHo/Matrix-Calculus-Tutorial)&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/stars/LynnHo/Matrix-Calculus-Tutorial.svg?style=social" style="width:auto;height:25px;">
++ **[Matrix Calculus (Matrix Derivative, 矩阵求导教程)](https://github.com/LynnHo/Matrix-Calculus-Tutorial)**&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/stars/LynnHo/Matrix-Calculus-Tutorial.svg?style=social" style="width:auto;height:25px;">
 
   <a href="https://github.com/LynnHo/Matrix-Calculus-Tutorial"><img src="https://user-images.githubusercontent.com/16457298/147549423-70e1561b-be2e-4392-9ee1-e9aa5ec0bdfe.png" width="20%"></a>
 
