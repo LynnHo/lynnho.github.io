@@ -33,7 +33,7 @@ Selected Publications
 <table>
 <!--EigenGAN-->
     <tr>
-        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="https://github.com/LynnHo/EigenGAN-Tensorflow"><img src="0_lynn/projects/eigengan/eigengan.gif" style="height:100%;width:auto;"></a></td>
+        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="https://github.com/LynnHo/EigenGAN-Tensorflow"><img src="0_lynn/projects/eigengan/eigengan.gif" width="1000"></a></td>
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p class="content"><strong>EigenGAN: Layer-Wise Eigen-Learning for GANs</strong></p>
             <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan</p>
@@ -57,7 +57,7 @@ Selected Publications
 
 <!--AttGAN-->
     <tr>
-        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="https://github.com/LynnHo/AttGAN-Tensorflow"><img src="0_lynn/projects/attgan/attgan.jpg" style="height:100%;width:auto;"></a></td>
+        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="https://github.com/LynnHo/AttGAN-Tensorflow"><img src="0_lynn/projects/attgan/attgan.jpg" width="1000"></a></td>
 
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p class="content"><strong>AttGAN: Facial Attribute Editing by Only Changing What You Want</strong></p>
@@ -82,7 +82,7 @@ Selected Publications
 
 <!--S2GAN-->
     <tr>
-        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="https://openaccess.thecvf.com/content_ICCV_2019/html/He_S2GAN_Share_Aging_Factors_Across_Ages_and_Share_Aging_Trends_ICCV_2019_paper.html"><img src="0_lynn/projects/s2gan/s2gan.jpg" style="height:100%;width:auto;"></a></td>
+        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="https://openaccess.thecvf.com/content_ICCV_2019/html/He_S2GAN_Share_Aging_Factors_Across_Ages_and_Share_Aging_Trends_ICCV_2019_paper.html"><img src="0_lynn/projects/s2gan/s2gan.jpg" width="1000"></a></td>
 
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p class="content"><strong>S2GAN: Share Aging Factors Across Ages and Share Aging Trends Among Individuals</strong></p>
@@ -104,7 +104,7 @@ Selected Publications
 
 <!--PA-GAN-->
     <tr>
-        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="https://github.com/LynnHo/PA-GAN-Tensorflow"><img src="0_lynn/projects/pa-gan/pa-gan.jpg" style="height:100%;width:auto;"></a></td>
+        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="https://github.com/LynnHo/PA-GAN-Tensorflow"><img src="0_lynn/projects/pa-gan/pa-gan.jpg" width="1000"></a></td>
 
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p class="content"><strong>PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing</strong></p>
@@ -126,7 +126,7 @@ Selected Publications
     </td></tr>
 
 <!--STD-GAN-->
-    <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="0_lynn/projects/std-gan/std-gan.pdf"><img src="0_lynn/projects/std-gan/std-gan.jpg" style="height:100%;width:auto;"></a></td>
+    <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="0_lynn/projects/std-gan/std-gan.pdf"><img src="0_lynn/projects/std-gan/std-gan.jpg" width="1000"></a></td>
     
     <td width="4000" style="padding-top:30px;padding-bottom:0;">
         <p class="content"><strong>Image Style Disentangling for Instance-Level Facial Attribute Transfer</strong></p>
