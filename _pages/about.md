@@ -21,7 +21,7 @@ Tutorial
 <table>
 <!--Matrix Calculus-->
     <tr>
-        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="https://user-images.githubusercontent.com/16457298/147549423-70e1561b-be2e-4392-9ee1-e9aa5ec0bdfe.png" width="1000"></a></td>
+        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="ttps://github.com/LynnHo/Matrix-Calculus-Tutorial"><img src="https://user-images.githubusercontent.com/16457298/147549423-70e1561b-be2e-4392-9ee1-e9aa5ec0bdfe.png" width="1000"></a></td>
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p class="content"><strong>Matrix Calculus (Matrix Derivative, 矩阵求导教程)</strong></p>
             <p class="content"><strong>Zhenliang He</strong></p>
