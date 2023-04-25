@@ -32,32 +32,34 @@ Selected Publications
 
 <!--EigenGAN-->
 <table>
-    <td width="1400"><a href="https://github.com/LynnHo/EigenGAN-Tensorflow"><img src="0_lynn/projects/eigengan/eigengan.gif" width="1400"></a></td>
-    
-    <td width="4000">
-        <p class="content"><strong>EigenGAN: Layer-Wise Eigen-Learning for GANs</strong></p>
-        <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan</p>
-        <p class="content"><img src="https://img.shields.io/badge/ICCV%202021-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/stars/LynnHo/EigenGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;"> </p>
+    <tr>
+        <td width="1000"><a href="https://github.com/LynnHo/EigenGAN-Tensorflow"><img src="0_lynn/projects/eigengan/eigengan.gif" width="1000"></a></td>
+        <td width="4000">
+            <p class="content"><strong>EigenGAN: Layer-Wise Eigen-Learning for GANs</strong></p>
+            <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan</p>
+            <p class="content"><img src="https://img.shields.io/badge/ICCV%202021-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/stars/LynnHo/EigenGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;"> </p>
 
-        <a href="https://github.com/LynnHo/EigenGAN-Tensorflow">Project</a> |
-        <a href="https://arxiv.org/pdf/2104.12476.pdf">Paper</a> |
-        <a href="https://www.youtube.com/watch?v=E_88BajgIOs">Video</a> |
-        <a href="https://github.com/LynnHo/EigenGAN-Tensorflow">TensorFlow (Official)</a> |
-        <a href="https://github.com/bryandlee/eigengan-pytorch">PyTorch</a> |
-        <a href="0_lynn/projects/eigengan/eigengan.txt">Bib</a>
-
+            <a href="https://github.com/LynnHo/EigenGAN-Tensorflow">Project</a> |
+            <a href="https://arxiv.org/pdf/2104.12476.pdf">Paper</a> |
+            <a href="https://www.youtube.com/watch?v=E_88BajgIOs">Video</a> |
+            <a href="https://github.com/LynnHo/EigenGAN-Tensorflow">TensorFlow (Official)</a> |
+            <a href="https://github.com/bryandlee/eigengan-pytorch">PyTorch</a> |
+            <a href="0_lynn/projects/eigengan/eigengan.txt">Bib</a>
+        </td>
+    </tr>
+    <tr><td colspan="2">
         <p class="content">
         <details>
             <summary>Abstract</summary>
             Recent studies on Generative Adversarial Network (GAN) reveal that different layers of a generative CNN hold different semantics of the synthesized images. However, few GAN models have explicit dimensions to control the semantic attributes represented in a specific layer. This paper proposes EigenGAN which is able to unsupervisedly mine interpretable and controllable dimensions from different generator layers. Specifically, EigenGAN embeds one linear subspace with orthogonal basis into each generator layer. Via generative adversarial training to learn a target distribution, these layer-wise subspaces automatically discover a set of eigen-dimensions at each layer corresponding to a set of semantic attributes or interpretable variations. By traversing the coefficient of a specific eigen-dimension, the generator can produce samples with continuous changes corresponding to a specific semantic attribute. Taking the human face for example, EigenGAN can discover controllable dimensions for high-level concepts such as pose and gender in the subspace of deep layers, as well as low-level concepts such as hue and color in the subspace of shallow layers. Moreover, in the linear case, we theoretically prove that our algorithm derives the principal components as PCA does.
         </details>
         </p>
-    </td>
+    </tr></td>
 </table>
 
 <!--AttGAN-->
 <table>
-    <td width="1400"><a href="https://github.com/LynnHo/AttGAN-Tensorflow"><img src="0_lynn/projects/attgan/attgan.jpg" width="1400"></a></td>
+    <td width="1000"><a href="https://github.com/LynnHo/AttGAN-Tensorflow"><img src="0_lynn/projects/attgan/attgan.jpg" width="1000"></a></td>
     
     <td width="4000">
         <p class="content"><strong>AttGAN: Facial Attribute Editing by Only Changing What You Want</strong></p>
@@ -82,7 +84,7 @@ Selected Publications
 
 <!--S2GAN-->
 <table>
-    <td width="1400"><a href="https://openaccess.thecvf.com/content_ICCV_2019/html/He_S2GAN_Share_Aging_Factors_Across_Ages_and_Share_Aging_Trends_ICCV_2019_paper.html"><img src="0_lynn/projects/s2gan/s2gan.jpg" width="1400"></a></td>
+    <td width="1000"><a href="https://openaccess.thecvf.com/content_ICCV_2019/html/He_S2GAN_Share_Aging_Factors_Across_Ages_and_Share_Aging_Trends_ICCV_2019_paper.html"><img src="0_lynn/projects/s2gan/s2gan.jpg" width="1000"></a></td>
     
     <td width="4000">
         <p class="content"><strong>S2GAN: Share Aging Factors Across Ages and Share Aging Trends Among Individuals</strong></p>
@@ -104,7 +106,7 @@ Selected Publications
 
 <!--PA-GAN-->
 <table>
-    <td width="1400"><a href="https://github.com/LynnHo/PA-GAN-Tensorflow"><img src="0_lynn/projects/pa-gan/pa-gan.jpg" width="1400"></a></td>
+    <td width="1000"><a href="https://github.com/LynnHo/PA-GAN-Tensorflow"><img src="0_lynn/projects/pa-gan/pa-gan.jpg" width="1000"></a></td>
     
     <td width="4000">
         <p class="content"><strong>PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing</strong></p>
@@ -128,7 +130,7 @@ Selected Publications
 
 <!--STD-GAN-->
 <table>
-    <td width="1400"><a href="0_lynn/projects/std-gan/std-gan.pdf"><img src="0_lynn/projects/std-gan/std-gan.jpg" width="1400"></a></td>
+    <td width="1000"><a href="0_lynn/projects/std-gan/std-gan.pdf"><img src="0_lynn/projects/std-gan/std-gan.jpg" width="1000"></a></td>
     
     <td width="4000">
         <p class="content"><strong>Image Style Disentangling for Instance-Level Facial Attribute Transfer</strong></p>
