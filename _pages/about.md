@@ -136,7 +136,7 @@ Selected Publications
     <tr><td colspan="2" style="padding: 0;">
         <div id="AttGAN Bib" style="display:none;">
             @article{he2019attgan,<br>
-              title={AttGAN: Facial Attribute Editing by Only Changing What You Want},<br>
+              &emsp;title={AttGAN: Facial Attribute Editing by Only Changing What You Want},<br>
               &emsp;author={He, Zhenliang and Zuo, Wangmeng and Kan, Meina and Shan, Shiguang and Chen, Xilin},<br>
               &emsp;journal={IEEE Transactions on Image Processing},<br>
               &emsp;volume={28},<br>
