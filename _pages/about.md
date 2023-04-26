@@ -1,7 +1,3 @@
-<!-- ======================================================================= -->
-<!-- =                              Contents                               = -->
-<!-- ======================================================================= -->
-
 ---
 permalink: /
 title: "何振梁（Zhenliang He）"
@@ -31,15 +27,15 @@ Tutorial
             <p class="content"><strong>Zhenliang He</strong></p>
             <p class="content"><img src="https://img.shields.io/github/stars/LynnHo/Matrix-Calculus-Tutorial.svg?style=social" style="width:auto;height:25px;"> </p>
 
-            <span onclick="toggleText('Matrix Calculus Abstract')"><a>&#11167; Abstract</a></span> |
             <a href="https://github.com/LynnHo/Matrix-Calculus-Tutorial">Project</a>
         </td>
     </tr>
 
     <tr><td colspan="2" style="padding: 0;">
-        <div id="Matrix Calculus Abstract" style="display:none;">
+        <details>
+            <summary>Abstract</summary>
             In this page, we introduce a differential based method for vector and matrix derivatives (matrix calculus), which <strong>only needs a few simple rules to derive most matrix derivatives</strong>. This method is useful and well established in mathematics; however, few documents clearly or detailedly describe it. Therefore, we make this page aiming at the comprehensive introduction of <strong>matrix calculus via differentials</strong>.
-        </div>
+        </details>
     </td></tr>
 </table>
 
@@ -61,27 +57,20 @@ Selected Publications
             <p class="content"><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan</p>
             <p class="content"><img src="https://img.shields.io/badge/ICCV%202021-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/stars/LynnHo/EigenGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;"> </p>
 
-            <span onclick="toggleText('EigenGAN Abstract')"><a>&#11167; Abstract</a></span> |
             <a href="https://github.com/LynnHo/EigenGAN-Tensorflow">Project</a> |
             <a href="https://arxiv.org/pdf/2104.12476.pdf">Paper</a> |
             <a href="https://www.youtube.com/watch?v=E_88BajgIOs">Video</a> |
             <a href="https://github.com/LynnHo/EigenGAN-Tensorflow">TensorFlow (Official)</a> |
             <a href="https://github.com/bryandlee/eigengan-pytorch">PyTorch</a> |
-            <span onclick="toggleText('EigenGAN Bib')"><a>&#11167; Bib</a></span> |
-            <!-- <a href="0_lynn/projects/eigengan/eigengan.txt">Bib</a> -->
+            <a href="0_lynn/projects/eigengan/eigengan.txt">Bib</a>
         </td>
     </tr>
 
     <tr><td colspan="2" style="padding: 0;">
-        <div id="EigenGAN Abstract" style="display:none;">
+        <details>
+            <summary>Abstract</summary>
             Recent studies on Generative Adversarial Network (GAN) reveal that different layers of a generative CNN hold different semantics of the synthesized images. However, few GAN models have explicit dimensions to control the semantic attributes represented in a specific layer. This paper proposes EigenGAN which is able to unsupervisedly mine interpretable and controllable dimensions from different generator layers. Specifically, EigenGAN embeds one linear subspace with orthogonal basis into each generator layer. Via generative adversarial training to learn a target distribution, these layer-wise subspaces automatically discover a set of eigen-dimensions at each layer corresponding to a set of semantic attributes or interpretable variations. By traversing the coefficient of a specific eigen-dimension, the generator can produce samples with continuous changes corresponding to a specific semantic attribute. Taking the human face for example, EigenGAN can discover controllable dimensions for high-level concepts such as pose and gender in the subspace of deep layers, as well as low-level concepts such as hue and color in the subspace of shallow layers. Moreover, in the linear case, we theoretically prove that our algorithm derives the principal components as PCA does.
-        </div>
-    </td></tr>
-
-    <tr><td colspan="2" style="padding: 0;">
-        <div id="EigenGAN Bib" style="display:none;">
-            <iframe src="/home/hezhenliang/Tmp/lynnho.github.io/0_lynn/projects/eigengan/eigengan.txt" width="500" height="110" style="border:none;"></iframe>
-        </div>
+        </details>
     </td></tr>
 
 <!--AttGAN-->
@@ -198,19 +187,3 @@ Honors & Awards
 + Second Place Winner of MENPO Challenge in CVPR 2017
 + First Prize of Beijing Higher Mathematics Competition, 2012
 + National Scholarship (**top 8 of 610 students**), BUPT, 2012 & 2014
-
-
-<!-- ======================================================================= -->
-<!-- =                                Utils                                = -->
-<!-- ======================================================================= -->
-
-<script>
-function toggleText(id) {
-  var x = document.getElementById(id);
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
