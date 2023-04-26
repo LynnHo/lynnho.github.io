@@ -8,6 +8,11 @@ redirect_from:
   - /about.html
 ---
 
+
+<!-- ======================================================================= -->
+<!-- =                              Contents                               = -->
+<!-- ======================================================================= -->
+
 I am an Assistant Professor in the Visual Information Processing and Learning ([VIPL](http://vipl.ict.ac.cn/en)) research group at the Institute of Computing Technology ([ICT](http://www.ict.cas.cn)), Chinese Academy of Sciences ([CAS](https://english.cas.cn/)). I received my Ph.D. from ICT, CAS in 2021, under the supervision of Prof. [Shiguang Shan](https://vipl.ict.ac.cn/people/~sgshan) and close collaboration with Prof. [Meina Kan](https://vipl.ict.ac.cn/homepage/mnkan/index.html) and Prof. [Xilin Chen](https://vipl.ict.ac.cn/people/~xlchen). I received my B.E. from Beijing University of Posts and Telecommunications in 2015. My current research focuses on generative models and representation learning.
 
 <a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ"><img src="images/google-scholar.png" style="width:auto;height:30px;"></a>
@@ -55,7 +60,9 @@ Selected Publications
 
 
 <table>
-<!--EigenGAN-->
+    <!-- =============================== -->
+    <!-- =          EigenGAN           = -->
+    <!-- =============================== -->
     <tr>
         <td width="1000" style="padding-left:0;padding-top:5px;padding-bottom:0;">
             <a href="https://github.com/LynnHo/EigenGAN-Tensorflow"><img src="0_lynn/projects/eigengan/eigengan.gif" width="1000"></a>
@@ -95,7 +102,9 @@ Selected Publications
     </td></tr>
 
 
-<!--AttGAN-->
+    <!-- =============================== -->
+    <!-- =           AttGAN            = -->
+    <!-- =============================== -->
     <tr>
         <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;">
             <a href="https://github.com/LynnHo/AttGAN-Tensorflow"><img src="0_lynn/projects/attgan/attgan.jpg" width="1000"></a>
@@ -104,7 +113,7 @@ Selected Publications
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p class="content"><strong>AttGAN: Facial Attribute Editing by Only Changing What You Want</strong></p>
             <p class="content"><strong>Zhenliang He</strong>, Wangmeng Zuo, Meina Kan, Shiguang Shan, Xilin Chen</p>
-            <p class="content"><img src="https://img.shields.io/badge/T--IP%202019-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/stars/LynnHo/AttGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;"> </p>
+            <p class="content"><img src="https://img.shields.io/badge/T--IP%202019-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/stars/LynnHo/AttGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;"></p>
 
             <span id="AttGAN Abstract open" onclick="toggleText('AttGAN Abstract');toggleText('AttGAN Abstract close');toggleText('AttGAN Abstract open')"><a>&#11167; Abstract</a></span>
             <span id="AttGAN Abstract close" onclick="toggleText('AttGAN Abstract');toggleText('AttGAN Abstract close');toggleText('AttGAN Abstract open')" style="display:none;"><a>&#11165; Abstract</a></span> |
@@ -139,7 +148,9 @@ Selected Publications
     </td></tr>
 
 
-<!--S2GAN-->
+    <!-- =============================== -->
+    <!-- =            S2GAN            = -->
+    <!-- =============================== -->
     <tr>
         <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;">
             <a href="https://openaccess.thecvf.com/content_ICCV_2019/html/He_S2GAN_Share_Aging_Factors_Across_Ages_and_Share_Aging_Trends_ICCV_2019_paper.html"><img src="0_lynn/projects/s2gan/s2gan.jpg" width="1000"></a>
@@ -178,7 +189,9 @@ Selected Publications
     </td></tr>
 
 
-<!--PA-GAN-->
+    <!-- =============================== -->
+    <!-- =           PA-GAN            = -->
+    <!-- =============================== -->
     <tr>
         <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;">
             <a href="https://github.com/LynnHo/PA-GAN-Tensorflow"><img src="0_lynn/projects/pa-gan/pa-gan.jpg" width="1000"></a>
@@ -218,7 +231,9 @@ Selected Publications
     </td></tr>
 
 
-<!--STD-GAN-->
+    <!-- =============================== -->
+    <!-- =           STD-GAN           = -->
+    <!-- =============================== -->
     <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="0_lynn/projects/std-gan/std-gan.pdf">
         <img src="0_lynn/projects/std-gan/std-gan.jpg" width="1000"></a>
     </td>
@@ -280,6 +295,10 @@ Honors & Awards
 + First Prize of Beijing Higher Mathematics Competition, 2012
 + National Scholarship (**top 8 of 610 students**), BUPT, 2012 & 2014
 
+
+<!-- ======================================================================= -->
+<!-- =                                Utils                                = -->
+<!-- ======================================================================= -->
 
 <script>
 function toggleText(id) {
