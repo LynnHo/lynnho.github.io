@@ -27,7 +27,8 @@ Tutorial
             <p class="content"><strong>Zhenliang He</strong></p>
             <p class="content"><img src="https://img.shields.io/github/stars/LynnHo/Matrix-Calculus-Tutorial.svg?style=social" style="width:auto;height:25px;"> </p>
 
-            <span onclick="toggleText('Matrix Calculus Abstract')"><a>&#11167; Abstract</a></span> |
+            <span id="Matrix Calculus Abstract open" onclick="toggleText('Matrix Calculus Abstract');toggleText('Matrix Calculus Abstract close');toggleText('Matrix Calculus Abstract open')"><a>&#11167; Abstract</a></span>
+            <span id="Matrix Calculus Abstract close" onclick="toggleText('Matrix Calculus Abstract');toggleText('Matrix Calculus Abstract close');toggleText('Matrix Calculus Abstract open')" style="display:none;"><a>&#11165; Abstract</a></span> |
             <a href="https://github.com/LynnHo/Matrix-Calculus-Tutorial">Project</a>
         </td>
     </tr>
@@ -200,7 +201,7 @@ Honors & Awards
 function toggleText(id) {
   var x = document.getElementById(id);
   if (x.style.display === "none") {
-    x.style.display = "block";
+    x.style.display = "inline";
   } else {
     x.style.display = "none";
   }
