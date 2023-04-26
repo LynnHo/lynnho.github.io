@@ -1,9 +1,0 @@
-@article{he2019attgan,
-  title={AttGAN: Facial Attribute Editing by Only Changing What You Want},
-  author={He, Zhenliang and Zuo, Wangmeng and Kan, Meina and Shan, Shiguang and Chen, Xilin},
-  journal={IEEE Transactions on Image Processing},
-  volume={28},
-  number={11},
-  pages={5464--5478},
-  year={2019}
-}

@@ -1,6 +1,0 @@
-@article{he2020pagan,
-  title={PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing},
-  author={He, Zhenliang and Kan, Meina and Zhang, Jichao and Shan, Shiguang},
-  journal={arXiv:2007.05892},
-  year={2020}
-}

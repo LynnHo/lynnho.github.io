@@ -1,6 +1,0 @@
-@inproceedings{he2019s2gan,
-  title={S2GAN: Share Aging Factors Across Ages and Share Aging Trends Among Individuals},
-  author={He, Zhenliang and Kan, Meina and Shan, Shiguang and Chen, Xilin},
-  booktitle={International Conference on Computer Vision},
-  year={2019}
-}

@@ -1,6 +1,0 @@
-@inproceedings{he2021eigengan,
-  title={EigenGAN: Layer-Wise Eigen-Learning for GANs},
-  author={He, Zhenliang and Kan, Meina and Shan, Shiguang},
-  booktitle={International Conference on Computer Vision},
-  year={2021}
-}
