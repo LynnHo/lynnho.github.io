@@ -76,7 +76,7 @@ Selected Publications
 
     <tr><td colspan="2" style="padding: 0;">
         <div id="EigenGAN Bib" style="display:none;">
-            <iframe src="/home/hezhenliang/Tmp/lynnho.github.io/0_lynn/projects/eigengan/eigengan.txt" width="500" height="110" style="border:none;"></iframe>
+            <iframe src="0_lynn/projects/eigengan/eigengan.txt" width="500" height="110" style="border:none;"></iframe>
         </div>
     </td></tr>
 
