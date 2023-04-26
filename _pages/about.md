@@ -204,7 +204,7 @@ Honors & Awards
 <!-- =                                Utils                                = -->
 <!-- ======================================================================= -->
 
-<script>
+<!-- <script>
 function toggleText(id) {
   var x = document.getElementById(id);
   if (x.style.display === "none") {
@@ -214,3 +214,4 @@ function toggleText(id) {
   }
 }
 </script>
+ -->
