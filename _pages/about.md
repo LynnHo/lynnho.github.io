@@ -165,7 +165,6 @@ Selected Publications
             <span id="S2GAN Abstract close" onclick="toggleText('S2GAN Abstract');toggleText('S2GAN Abstract close');toggleText('S2GAN Abstract open')" style="display:none;"><a>&#11165; Abstract</a></span> |
             <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/He_S2GAN_Share_Aging_Factors_Across_Ages_and_Share_Aging_Trends_ICCV_2019_paper.pdf">Paper</a> |
             <a href="https://www.youtube.com/watch?v=ByfFufRhuRc">Video</a> |
-            <a href="0_lynn/projects/s2gan/s2gan.txt">Bib</a>
             <span id="S2GAN Bib open" onclick="toggleText('S2GAN Bib');toggleText('S2GAN Bib close');toggleText('S2GAN Bib open')"><a>&#11167; Bib</a></span>
             <span id="S2GAN Bib close" onclick="toggleText('S2GAN Bib');toggleText('S2GAN Bib close');toggleText('S2GAN Bib open')" style="display:none;"><a>&#11165; Bib</a></span>
         </td>
