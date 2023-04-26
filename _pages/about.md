@@ -76,7 +76,7 @@ Selected Publications
 
     <tr><td colspan="2" style="padding: 0;">
         <div id="EigenGAN Bib" style="display:none;">
-            <iframe src="0_lynn/projects/eigengan/eigengan.txt" width="500" height="110" style="border:none;"></iframe>
+            <object data="0_lynn/projects/eigengan/eigengan.txt" width="500" height="110"></object>
         </div>
     </td></tr>
 
@@ -194,3 +194,15 @@ Honors & Awards
 + Second Place Winner of MENPO Challenge in CVPR 2017
 + First Prize of Beijing Higher Mathematics Competition, 2012
 + National Scholarship (**top 8 of 610 students**), BUPT, 2012 & 2014
+
+
+<script>
+function toggleText(id) {
+  var x = document.getElementById(id);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
