@@ -74,8 +74,9 @@ Selected Publications
 
             <span id="EigenGAN Abstract open" onclick="toggleText('EigenGAN Abstract');toggleText('EigenGAN Abstract close');toggleText('EigenGAN Abstract open')"><a>&#11167; Abstract</a></span>
             <span id="EigenGAN Abstract close" onclick="toggleText('EigenGAN Abstract');toggleText('EigenGAN Abstract close');toggleText('EigenGAN Abstract open')" style="display:none;"><a>&#11165; Abstract</a></span> |
+            <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/He_EigenGAN_Layer-Wise_Eigen-Learning_for_GANs_ICCV_2021_paper.pdf">Paper</a> |
+            <a href="0_lynn/projects/eigengan/proof.pdf">Proof</a> |
             <a href="https://github.com/LynnHo/EigenGAN-Tensorflow">Project</a> |
-            <a href="https://arxiv.org/pdf/2104.12476.pdf">Paper</a> |
             <a href="https://www.youtube.com/watch?v=E_88BajgIOs">Video</a> |
             <a href="https://github.com/LynnHo/EigenGAN-Tensorflow">TensorFlow (Official)</a> |
             <a href="https://github.com/bryandlee/eigengan-pytorch">PyTorch</a> |
@@ -117,8 +118,8 @@ Selected Publications
 
             <span id="AttGAN Abstract open" onclick="toggleText('AttGAN Abstract');toggleText('AttGAN Abstract close');toggleText('AttGAN Abstract open')"><a>&#11167; Abstract</a></span>
             <span id="AttGAN Abstract close" onclick="toggleText('AttGAN Abstract');toggleText('AttGAN Abstract close');toggleText('AttGAN Abstract open')" style="display:none;"><a>&#11165; Abstract</a></span> |
-            <a href="https://github.com/LynnHo/AttGAN-Tensorflow">Project</a> |
             <a href="https://vipl.ict.ac.cn/publications/2019/jour/202212/P020221230369682856969.pdf">Paper</a> |
+            <a href="https://github.com/LynnHo/AttGAN-Tensorflow">Project</a> |
             <a href="https://github.com/LynnHo/AttGAN-Tensorflow">TensorFlow (Official)</a> |
             <a href="https://github.com/elvisyjlin/AttGAN-PyTorch">PyTorch</a> |
             <a href="https://www.paddlepaddle.org.cn/modelbasedetail/attgan">PaddlePaddle</a> |
@@ -203,9 +204,9 @@ Selected Publications
 
             <span id="PA-GAN Abstract open" onclick="toggleText('PA-GAN Abstract');toggleText('PA-GAN Abstract close');toggleText('PA-GAN Abstract open')"><a>&#11167; Abstract</a></span>
             <span id="PA-GAN Abstract close" onclick="toggleText('PA-GAN Abstract');toggleText('PA-GAN Abstract close');toggleText('PA-GAN Abstract open')" style="display:none;"><a>&#11165; Abstract</a></span> |
-            <a href="https://github.com/LynnHo/PA-GAN-Tensorflow">Project</a> |
             <a href="https://arxiv.org/pdf/2007.05892.pdf">Paper</a> |
-            <a href="https://github.com/LynnHo/PA-GAN-Tensorflow">Code</a> |
+            <a href="https://github.com/LynnHo/PA-GAN-Tensorflow">Project</a> |
+            <a href="https://github.com/LynnHo/PA-GAN-Tensorflow">TensorFlow (Official)</a> |
             <span id="PA-GAN Bib open" onclick="toggleText('PA-GAN Bib');toggleText('PA-GAN Bib close');toggleText('PA-GAN Bib open')"><a>&#11167; Bib</a></span>
             <span id="PA-GAN Bib close" onclick="toggleText('PA-GAN Bib');toggleText('PA-GAN Bib close');toggleText('PA-GAN Bib open')" style="display:none;"><a>&#11165; Bib</a></span>
         </td>
@@ -244,8 +245,8 @@ Selected Publications
         
         <span id="STD-GAN Abstract open" onclick="toggleText('STD-GAN Abstract');toggleText('STD-GAN Abstract close');toggleText('STD-GAN Abstract open')"><a>&#11167; Abstract</a></span>
         <span id="STD-GAN Abstract close" onclick="toggleText('STD-GAN Abstract');toggleText('STD-GAN Abstract close');toggleText('STD-GAN Abstract open')" style="display:none;"><a>&#11165; Abstract</a></span> |
-        <a href="https://github.com/XuyangGuo/STD-GAN">Project</a> |
         <a href="0_lynn/projects/std-gan/std-gan.pdf">Paper</a> |
+        <a href="https://github.com/XuyangGuo/STD-GAN">Project</a> |
         <span id="STD-GAN Bib open" onclick="toggleText('STD-GAN Bib');toggleText('STD-GAN Bib close');toggleText('STD-GAN Bib open')"><a>&#11167; Bib</a></span>
         <span id="STD-GAN Bib close" onclick="toggleText('STD-GAN Bib');toggleText('STD-GAN Bib close');toggleText('STD-GAN Bib open')" style="display:none;"><a>&#11165; Bib</a></span>
     </td>
