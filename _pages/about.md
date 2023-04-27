@@ -304,6 +304,11 @@ Honors & Awards
 
 <script>
 function toggle(prefix, type) {
+    function setDisplay(id, display) {
+        var x = document.getElementById(id);
+        x.style.display = display;
+    }
+
     function toggleDisplay(id) {
         var x = document.getElementById(id);
         if (x.style.display === "none") {
@@ -316,5 +321,6 @@ function toggle(prefix, type) {
     toggleDisplay(prefix + " " + type);
     toggleDisplay(prefix + " " + type + " open");
     toggleDisplay(prefix + " " + type + " close");
+
 }
 </script>
