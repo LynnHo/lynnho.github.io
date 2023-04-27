@@ -17,9 +17,9 @@ redirect_from:
     I am an Assistant Professor in the Visual Information Processing and Learning (<a href="http://vipl.ict.ac.cn/en">VIPL</a>) research group at the Institute of Computing Technology (<a href="http://www.ict.cas.cn">ICT</a>), Chinese Academy of Sciences (<a href="https://english.cas.cn/">CAS</a>). I received my Ph.D. from ICT, CAS in 2021, under the supervision of Prof. <a href="https://vipl.ict.ac.cn/people/~sgshan">Shiguang Shan</a> and close collaboration with Prof. <a href="https://vipl.ict.ac.cn/homepage/mnkan/index.html">Meina Kan</a> and Prof. <a href="https://vipl.ict.ac.cn/people/~xlchen">Xilin Chen</a>. I received my B.E. from Beijing University of Posts and Telecommunications in 2015. My current research focuses on generative models and representation learning.
 </p>
 
-<a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ" style="outline:none !important;"><img src="images/google-scholar.png" style="width:auto;height:30px;"></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo" style="outline:none !important;"><img src="images/github.png" style="width:auto;height:30px;"></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:hezhenliang@ict.ac.cn" style="outline:none !important;"><img src="images/email.png" style="width:auto;height:30px;"></a>
+<a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ" style="margin:0"><img src="images/google-scholar.png" style="width:auto;height:30px;"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo" style="margin:0"><img src="images/github.png" style="width:auto;height:30px;"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:hezhenliang@ict.ac.cn" style="margin:0"><img src="images/email.png" style="width:auto;height:30px;"></a>
 &nbsp;[hezhenliang@ict.ac.cn](mailto:hezhenliang@ict.ac.cn)
 
 
@@ -37,7 +37,7 @@ Tutorial
         <td width="4000" style="padding-top:5px;padding-bottom:0;">
             <p><strong>Matrix Calculus (Matrix Derivative, 矩阵求导教程)</strong></p>
             <p><strong>Zhenliang He</strong></p>
-            <p><a href="https://github.com/LynnHo/Matrix-Calculus-Tutorial" style="outline:none !important;"><img src="https://img.shields.io/github/stars/LynnHo/Matrix-Calculus-Tutorial.svg?style=social" style="width:auto;height:25px;"></a></p>
+            <p><a href="https://github.com/LynnHo/Matrix-Calculus-Tutorial" style="margin:0"><img src="https://img.shields.io/github/stars/LynnHo/Matrix-Calculus-Tutorial.svg?style=social" style="width:auto;height:25px;"></a></p>
 
             <span id="Matrix Calculus Abstract open" onclick="toggle('Matrix Calculus', 'Abstract')"><a>&#11167; Abstract</a></span>
             <span id="Matrix Calculus Abstract close" onclick="toggle('Matrix Calculus', 'Abstract')" style="display:none;"><a>&#11165; Abstract</a></span> |
@@ -72,7 +72,7 @@ Selected Publications
         <td width="4000" style="padding-top:5px;padding-bottom:0;">
             <p><strong>EigenGAN: Layer-Wise Eigen-Learning for GANs</strong></p>
             <p><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan</p>
-            <p><img src="https://img.shields.io/badge/ICCV%202021-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo/EigenGAN-Tensorflow" style="outline:none !important;"><img src="https://img.shields.io/github/stars/LynnHo/EigenGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;"></a></p>
+            <p><img src="https://img.shields.io/badge/ICCV%202021-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo/EigenGAN-Tensorflow" style="margin:0"><img src="https://img.shields.io/github/stars/LynnHo/EigenGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;"></a></p>
 
             <span id="EigenGAN Abstract open" onclick="toggle('EigenGAN', 'Abstract')"><a>&#11167; Abstract</a></span>
             <span id="EigenGAN Abstract close" onclick="toggle('EigenGAN', 'Abstract')" style="display:none;"><a>&#11165; Abstract</a></span> |
@@ -116,7 +116,7 @@ Selected Publications
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p><strong>AttGAN: Facial Attribute Editing by Only Changing What You Want</strong></p>
             <p><strong>Zhenliang He</strong>, Wangmeng Zuo, Meina Kan, Shiguang Shan, Xilin Chen</p>
-            <p><img src="https://img.shields.io/badge/T--IP%202019-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo/AttGAN-Tensorflow" style="outline:none !important;"><img src="https://img.shields.io/github/stars/LynnHo/AttGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;"></a></p>
+            <p><img src="https://img.shields.io/badge/T--IP%202019-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo/AttGAN-Tensorflow" style="margin:0"><img src="https://img.shields.io/github/stars/LynnHo/AttGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;"></a></p>
 
             <span id="AttGAN Abstract open" onclick="toggle('AttGAN', 'Abstract')"><a>&#11167; Abstract</a></span>
             <span id="AttGAN Abstract close" onclick="toggle('AttGAN', 'Abstract')" style="display:none;"><a>&#11165; Abstract</a></span> |
