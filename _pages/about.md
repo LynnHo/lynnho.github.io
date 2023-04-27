@@ -322,5 +322,13 @@ function toggle(prefix, type) {
     toggleDisplay(prefix + " " + type + " open");
     toggleDisplay(prefix + " " + type + " close");
 
+    var types = ["Abstract", "Bib"];
+    // types.forEach(function(t) {
+    //     if (t !== type) {
+    //     setDisplay(prefix + " " + t, 'none');
+    //     setDisplay(prefix + " " + t + " open", 'inline');
+    //     setDisplay(prefix + " " + t + " close", 'none');
+    //     }
+    // });
 }
 </script>
