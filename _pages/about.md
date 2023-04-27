@@ -20,7 +20,7 @@ redirect_from:
 <a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ"><img src="images/google-scholar.png" style="width:auto;height:30px;"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo"><img src="images/github.png" style="width:auto;height:30px;"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:hezhenliang@ict.ac.cn"><img src="images/email.png" style="width:auto;height:30px;"></a>
-&nbsp;[<font size="4">hezhenliang@ict.ac.cn</font>](mailto:hezhenliang@ict.ac.cn)
+&nbsp;[hezhenliang@ict.ac.cn](mailto:hezhenliang@ict.ac.cn)
 
 
 ---
