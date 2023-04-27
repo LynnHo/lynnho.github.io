@@ -307,7 +307,9 @@ function setDisplay(id, display) {
     var x = document.getElementById(id);
     x.style.display = display;
 }
+</script>
 
+<script>
 function toggleDisplay(id) {
   var x = document.getElementById(id);
   if (x.style.display === "none") {
@@ -316,7 +318,9 @@ function toggleDisplay(id) {
     x.style.display = "none";
   }
 }
+</script>
 
+<script>
 function toggle(prefix, type) {
   toggleDisplay(prefix + " " + type);
   toggleDisplay(prefix + " " + type + " open");
