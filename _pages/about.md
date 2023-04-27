@@ -43,10 +43,10 @@ Tutorial
         </td>
     </tr>
 
-    <tr><td colspan="2" style="padding: 0;">
-        <div id="Matrix Calculus Abstract" style="display:none;">
+    <tr><td colspan="2" style="padding:0;">
+        <div id="Matrix Calculus Abstract" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
             In this page, we introduce a differential based method for vector and matrix derivatives (matrix calculus), which <strong>only needs a few simple rules to derive most matrix derivatives</strong>. This method is useful and well established in mathematics; however, few documents clearly or detailedly describe it. Therefore, we make this page aiming at the comprehensive introduction of <strong>matrix calculus via differentials</strong>.
-        </div>
+        </p></div>
     </td></tr>
 </table>
 
@@ -85,13 +85,13 @@ Selected Publications
         </td>
     </tr>
 
-    <tr><td colspan="2" style="padding: 0;">
-        <div id="EigenGAN Abstract" style="display:none;">
+    <tr><td colspan="2" style="padding:0;">
+        <div id="EigenGAN Abstract" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
             Recent studies on Generative Adversarial Network (GAN) reveal that different layers of a generative CNN hold different semantics of the synthesized images. However, few GAN models have explicit dimensions to control the semantic attributes represented in a specific layer. This paper proposes EigenGAN which is able to unsupervisedly mine interpretable and controllable dimensions from different generator layers. Specifically, EigenGAN embeds one linear subspace with orthogonal basis into each generator layer. Via generative adversarial training to learn a target distribution, these layer-wise subspaces automatically discover a set of eigen-dimensions at each layer corresponding to a set of semantic attributes or interpretable variations. By traversing the coefficient of a specific eigen-dimension, the generator can produce samples with continuous changes corresponding to a specific semantic attribute. Taking the human face for example, EigenGAN can discover controllable dimensions for high-level concepts such as pose and gender in the subspace of deep layers, as well as low-level concepts such as hue and color in the subspace of shallow layers. Moreover, in the linear case, we theoretically prove that our algorithm derives the principal components as PCA does.
-        </div>
+        </p></div>
     </td></tr>
 
-    <tr><td colspan="2" style="padding: 0;">
+    <tr><td colspan="2" style="padding:0;">
         <div id="EigenGAN Bib" style="display:none;">
             @inproceedings{he2021eigengan,<br>
               &emsp;title={EigenGAN: Layer-Wise Eigen-Learning for GANs},<br>
@@ -128,13 +128,13 @@ Selected Publications
         </td>
     </tr>
 
-    <tr><td colspan="2" style="padding: 0;">
-        <div id="AttGAN Abstract" style="display:none;">
+    <tr><td colspan="2" style="padding:0;">
+        <div id="AttGAN Abstract" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
             Facial attribute editing aims to manipulate single or multiple attributes on a given face image, i.e., to generate a new face image with desired attributes while preserving other details. Recently, generative adversarial net (GAN) and encoder-decoder architecture are usually incorporated to handle this task with promising results. Based on the encoder-decoder architecture, facial attribute editing is achieved by decoding the latent representation of a given face conditioned on the desired attributes. Some existing methods attempt to establish an attribute-independent latent representation for further attribute editing. However, such attribute-independent constraint on the latent representation is excessive because it restricts the capacity of the latent representation and may result in information loss, leading to over-smooth or distorted generation. Instead of imposing constraints on the latent representation, in this work we propose to apply an <strong>attribute classification constraint</strong> to the generated image to just guarantee the correct change of desired attributes, i.e., to "change what you want". Meanwhile, the <strong>reconstruction learning</strong> is introduced to preserve attribute-excluding details, in other words, to "only change what you want". Besides, the <strong>adversarial learning</strong> is employed for visually realistic editing. These three components cooperate with each other forming an effective framework for high quality facial attribute editing, referred as <strong>AttGAN</strong>. Furthermore, the proposed method is extended for <strong>attribute style manipulation</strong> in an unsupervised manner. Experiments on two wild datasets, CelebA and LFW, show that the proposed method outperforms the state-of-the-arts on realistic attribute editing with other facial details well preserved.
-        </div>
+        </p></div>
     </td></tr>
 
-    <tr><td colspan="2" style="padding: 0;">
+    <tr><td colspan="2" style="padding:0;">
         <div id="AttGAN Bib" style="display:none;">
             @article{he2019attgan,<br>
               &emsp;title={AttGAN: Facial Attribute Editing by Only Changing What You Want},<br>
@@ -171,13 +171,13 @@ Selected Publications
         </td>
     </tr>
 
-    <tr><td colspan="2" style="padding: 0;">
-        <div id="S2GAN Abstract" style="display:none;">
+    <tr><td colspan="2" style="padding:0;">
+        <div id="S2GAN Abstract" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
             Generally, we human follow the roughly <strong>common aging trends</strong>, e.g., the wrinkles only tend to be more, longer or deeper. However, the aging process of each individual is more dominated by his/her <strong>personalized factors</strong>, including the invariant factors such as identity and mole, as well as the personalized aging patterns, e.g., one may age by graying hair while another may age by receding hairline. Following this biological principle, in this work, we propose an effective and efficient method to simulate natural aging. Specifically, a <strong>personalized aging basis</strong> is established for each individual to depict his/her own aging factors. Then different ages share this basis, being derived through <strong>age-specific transforms</strong>. The age-specific transforms represent the aging trends which are shared among all individuals. The proposed method can achieve continuous face aging with favorable aging accuracy, identity preservation, and fidelity. Furthermore, befitted from the effective design, a unique model is capable of all ages and the prediction time is significantly saved.
-        </div>
+        </p></div>
     </td></tr>
 
-    <tr><td colspan="2" style="padding: 0;">
+    <tr><td colspan="2" style="padding:0;">
         <div id="S2GAN Bib" style="display:none;">
             @inproceedings{he2019s2gan,<br>
               &emsp;title={S2GAN: Share Aging Factors Across Ages and Share Aging Trends Among Individuals},<br>
@@ -212,13 +212,13 @@ Selected Publications
         </td>
     </tr>
 
-    <tr><td colspan="2" style="padding: 0;">
-        <div id="PA-GAN Abstract" style="display:none;">
+    <tr><td colspan="2" style="padding:0;">
+        <div id="PA-GAN Abstract" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
             Facial attribute editing aims to manipulate attributes on the human face, e.g., adding a mustache or changing the hair color. Existing approaches suffer from a serious compromise between correct attribute generation and preservation of the other information such as identity and background, because they edit the attributes in the imprecise area. To resolve this dilemma, we propose a progressive attention GAN (PA-GAN) for facial attribute editing. In our approach, the editing is progressively conducted from high to low feature level while being constrained inside a proper attribute area by an attention mask at each level. This manner prevents undesired modifications to the irrelevant regions from the beginning, and then the network can focus more on correctly generating the attributes within a proper boundary at each level. As a result, our approach achieves correct attribute editing with irrelevant details much better preserved compared with the state-of-the-arts.
-        </div>
+        </p></div>
     </td></tr>
 
-    <tr><td colspan="2" style="padding: 0;">
+    <tr><td colspan="2" style="padding:0;">
         <div id="PA-GAN Bib" style="display:none;">
             @article{he2020pagan,<br>
               &emsp;title={PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing},<br>
@@ -252,13 +252,13 @@ Selected Publications
         <span id="STD-GAN Bib close" onclick="toggleText('STD-GAN Bib');toggleText('STD-GAN Bib close');toggleText('STD-GAN Bib open')" style="display:none;"><a>&#11165; Bib</a></span>
     </td>
 
-    <tr><td colspan="2" style="padding: 0;">
-        <div id="STD-GAN Abstract" style="display:none;">
+    <tr><td colspan="2" style="padding:0;">
+        <div id="STD-GAN Abstract" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
             Instance-level facial attribute transfer aims at transferring an attribute including its style from a source face to a target one. Existing studies have limitations on fidelity or correctness. To address this problem, we propose a weakly supervised style disentangling method embedded in Generative Adversarial Network (GAN) for accurate instance-level attribute transfer, using only binary attribute annotations. In our method, the whole attributes transfer process is designed as two steps for easier transfer, which first removes the original attribute or transfers it to a neutral state and then adds the attributes style disentangled from a source face. Moreover, a style disentangling module is proposed to extract the attribute style of an image used in the adding step. Our method aims for accurate attribute style transfer. However, it is also capable of semantic attribute editing as a special case, which is not achievable with existing instance-level attribute transfer methods. Comprehensive experiments on CelebA Dataset show that our method can transfer the style more precisely than existing methods, with an improvement of 39% in user study, 16.5% in accuracy, and about 3.3 in FID.
-        </div>
+        </p></div>
     </td></tr>
 
-    <tr><td colspan="2" style="padding: 0;">
+    <tr><td colspan="2" style="padding:0;">
         <div id="STD-GAN Bib" style="display:none;">
             @article{guo2021image,<br>
               &emsp;title={Image Style Disentangling for Instance-level Facial Attribute Transfer},<br>
