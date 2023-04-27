@@ -304,11 +304,6 @@ Honors & Awards
 
 <script>
 function toggle(prefix, type) {
-    // function setDisplay(id, display) {
-    //     var x = document.getElementById(id);
-    //     x.style.display = display;
-    // }
-
     function toggleDisplay(id) {
         var x = document.getElementById(id);
         if (x.style.display === "none") {
@@ -321,14 +316,5 @@ function toggle(prefix, type) {
     toggleDisplay(prefix + " " + type);
     toggleDisplay(prefix + " " + type + " open");
     toggleDisplay(prefix + " " + type + " close");
-
-    // var types = ["Abstract", "Bib"]
-    // types.forEach(function(t) {
-    //     if (t !== type) {
-    //     setDisplay(prefix + " " + t, 'none');
-    //     setDisplay(prefix + " " + t + " open", 'inline');
-    //     setDisplay(prefix + " " + t + " close", 'none');
-    //     }
-    // });
 }
 </script>
