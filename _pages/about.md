@@ -13,9 +13,9 @@ redirect_from:
 <!-- =                              Contents                               = -->
 <!-- ======================================================================= -->
 
-<div><p align="justify">
-    I am an Assistant Professor in the Visual Information Processing and Learning (<a href=http://vipl.ict.ac.cn/en>VIPL</a>) research group at the Institute of Computing Technology (<a href=http://www.ict.cas.cn>ICT</a>), Chinese Academy of Sciences (<a href=https://english.cas.cn/>CAS</a>). I received my Ph.D. from ICT, CAS in 2021, under the supervision of Prof. <a href=https://vipl.ict.ac.cn/people/~sgshan>Shiguang Shan</a> and close collaboration with Prof. <a href=https://vipl.ict.ac.cn/homepage/mnkan/index.html>Meina Kan</a> and Prof. <a href=https://vipl.ict.ac.cn/people/~xlchen>Xilin Chen</a>. I received my B.E. from Beijing University of Posts and Telecommunications in 2015. My current research focuses on generative models and representation learning.
-</p></div>
+<p align="justify">
+    I am an Assistant Professor in the Visual Information Processing and Learning (<a href="http://vipl.ict.ac.cn/en">VIPL</a>) research group at the Institute of Computing Technology (<a href="http://www.ict.cas.cn">ICT</a>), Chinese Academy of Sciences (<a href="https://english.cas.cn/">CAS</a>). I received my Ph.D. from ICT, CAS in 2021, under the supervision of Prof. <a href="https://vipl.ict.ac.cn/people/~sgshan">Shiguang Shan</a> and close collaboration with Prof. <a href="https://vipl.ict.ac.cn/homepage/mnkan/index.html">Meina Kan</a> and Prof. <a href="https://vipl.ict.ac.cn/people/~xlchen">Xilin Chen</a>. I received my B.E. from Beijing University of Posts and Telecommunications in 2015. My current research focuses on generative models and representation learning.
+</p>
 
 <a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ"><img src="images/google-scholar.png" style="width:auto;height:30px;"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo"><img src="images/github.png" style="width:auto;height:30px;"></a>
