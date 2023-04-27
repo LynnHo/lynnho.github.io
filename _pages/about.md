@@ -94,14 +94,14 @@ Selected Publications
     </td></tr>
 
     <tr><td colspan="2" style="padding:0;">
-        <div id="EigenGAN Bib" style="display:none;">
+        <div id="EigenGAN Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
             @inproceedings{he2021eigengan,<br>
               &emsp;title={EigenGAN: Layer-Wise Eigen-Learning for GANs},<br>
               &emsp;author={He, Zhenliang and Kan, Meina and Shan, Shiguang},<br>
               &emsp;booktitle={International Conference on Computer Vision},<br>
               &emsp;year={2021}<br>
             }
-        </div>
+        </p></div>
     </td></tr>
 
 
@@ -137,7 +137,7 @@ Selected Publications
     </td></tr>
 
     <tr><td colspan="2" style="padding:0;">
-        <div id="AttGAN Bib" style="display:none;">
+        <div id="AttGAN Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
             @article{he2019attgan,<br>
               &emsp;title={AttGAN: Facial Attribute Editing by Only Changing What You Want},<br>
               &emsp;author={He, Zhenliang and Zuo, Wangmeng and Kan, Meina and Shan, Shiguang and Chen, Xilin},<br>
@@ -147,7 +147,7 @@ Selected Publications
               &emsp;pages={5464--5478},<br>
               &emsp;year={2019}<br>
             }
-        </div>
+        </p></div>
     </td></tr>
 
 
@@ -180,14 +180,14 @@ Selected Publications
     </td></tr>
 
     <tr><td colspan="2" style="padding:0;">
-        <div id="S2GAN Bib" style="display:none;">
+        <div id="S2GAN Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
             @inproceedings{he2019s2gan,<br>
               &emsp;title={S2GAN: Share Aging Factors Across Ages and Share Aging Trends Among Individuals},<br>
               &emsp;author={He, Zhenliang and Kan, Meina and Shan, Shiguang and Chen, Xilin},<br>
               &emsp;booktitle={International Conference on Computer Vision},<br>
               &emsp;year={2019}<br>
             }
-        </div>
+        </p></div>
     </td></tr>
 
 
@@ -221,15 +221,14 @@ Selected Publications
     </td></tr>
 
     <tr><td colspan="2" style="padding:0;">
-        <div id="PA-GAN Bib" style="display:none;">
+        <div id="PA-GAN Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
             @article{he2020pagan,<br>
               &emsp;title={PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing},<br>
               &emsp;author={He, Zhenliang and Kan, Meina and Zhang, Jichao and Shan, Shiguang},<br>
               &emsp;journal={arXiv:2007.05892},<br>
               &emsp;year={2020}<br>
             }
-
-        </div>
+        </p></div>
     </td></tr>
 
 
@@ -261,7 +260,7 @@ Selected Publications
     </td></tr>
 
     <tr><td colspan="2" style="padding:0;">
-        <div id="STD-GAN Bib" style="display:none;">
+        <div id="STD-GAN Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
             @article{guo2021image,<br>
               &emsp;title={Image Style Disentangling for Instance-level Facial Attribute Transfer},<br>
               &emsp;author={Guo, Xuyang and Kan, Meina and He, Zhenliang and Song, Xingguang and Shan, Shiguang},<br>
@@ -270,7 +269,7 @@ Selected Publications
               &emsp;pages={103205},<br>
               &emsp;year={2021}<br>
             }
-        </div>
+        </p></div>
     </td></tr>
 </table>
 
