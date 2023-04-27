@@ -307,32 +307,28 @@ function setDisplay(id, display) {
     var x = document.getElementById(id);
     x.style.display = display;
 }
-</script>
 
-<script>
 function toggleDisplay(id) {
-  var x = document.getElementById(id);
-  if (x.style.display === "none") {
-    x.style.display = "inline";
-  } else {
-    x.style.display = "none";
-  }
+  	var x = document.getElementById(id);
+  	if (x.style.display === "none") {
+ 	   	x.style.display = "inline";
+ 	} else {
+ 	  	x.style.display = "none";
+  	}
 }
-</script>
 
-<script>
 function toggle(prefix, type) {
-  toggleDisplay(prefix + " " + type);
-  toggleDisplay(prefix + " " + type + " open");
-  toggleDisplay(prefix + " " + type + " close");
+  	toggleDisplay(prefix + " " + type);
+ 	toggleDisplay(prefix + " " + type + " open");
+ 	toggleDisplay(prefix + " " + type + " close");
 
-  var types = ["Abstract", "Bib"]
-  types.forEach(function(t) {
-    if (t !== type) {
-      setDisplay(prefix + " " + t, 'none');
-      setDisplay(prefix + " " + t + " open", 'inline');
-      setDisplay(prefix + " " + t + " close", 'none');
-    }
-  });
+  	var types = ["Abstract", "Bib"]
+  	types.forEach(function(t) {
+    	if (t !== type) {
+      	setDisplay(prefix + " " + t, 'none');
+      	setDisplay(prefix + " " + t + " open", 'inline');
+      	setDisplay(prefix + " " + t + " close", 'none');
+    	}
+  	});
 }
 </script>
