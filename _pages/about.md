@@ -333,7 +333,9 @@ function toggle(prefix, type) {
 }
 </script>
 
+<style>
 .no-hover:hover {
   text-decoration: none;
   cursor: default;
 }
+</style>
