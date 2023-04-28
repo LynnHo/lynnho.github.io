@@ -78,7 +78,7 @@
     &:hover {
       text-decoration: underline;
 
-      img {
+      img:not(.no-shadow) {
         box-shadow: 0 0 10px rgba(#000, 0.25);
       }
     }
