@@ -29,7 +29,9 @@ Tutorial
 ======
 
 <table>
-<!--Matrix Calculus-->
+    <!-- =============================== -->
+    <!-- =       Matrix Calculus       = -->
+    <!-- =============================== -->
     <tr>
         <td width="1000" style="padding-left:0;padding-top:5px;padding-bottom:0;">
             <a href="https://github.com/LynnHo/Matrix-Calculus-Tutorial"><img src="0_lynn/projects/matrix_calculus/matrix_calculus.png" width="1000"></a>
@@ -38,7 +40,6 @@ Tutorial
             <p><strong>Matrix Calculus (Matrix Derivative, 矩阵求导教程)</strong></p>
             <p><strong>Zhenliang He</strong></p>
             <p><a href="https://github.com/LynnHo/Matrix-Calculus-Tutorial"><img src="https://img.shields.io/github/stars/LynnHo/Matrix-Calculus-Tutorial.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a></p>
-
             <span id="Matrix Calculus Abstract open" onclick="toggle('Matrix Calculus', 'Abstract')"><a>&#11167; Abstract</a></span>
             <span id="Matrix Calculus Abstract close" onclick="toggle('Matrix Calculus', 'Abstract')" style="display:none;"><a>&#11165; Abstract</a></span> |
             <a href="https://github.com/LynnHo/Matrix-Calculus-Tutorial">Project</a>
@@ -95,12 +96,7 @@ Selected Publications
 
     <tr><td colspan="2" style="padding:0;">
         <div id="EigenGAN Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
-            @inproceedings{he2021eigengan,<br>
-              &emsp;title={EigenGAN: Layer-Wise Eigen-Learning for GANs},<br>
-              &emsp;author={He, Zhenliang and Kan, Meina and Shan, Shiguang},<br>
-              &emsp;booktitle={International Conference on Computer Vision},<br>
-              &emsp;year={2021}<br>
-            }
+            @inproceedings{he2021eigengan,<br>&emsp;title={EigenGAN: Layer-Wise Eigen-Learning for GANs},<br>&emsp;author={He, Zhenliang and Kan, Meina and Shan, Shiguang},<br>&emsp;booktitle={International Conference on Computer Vision},<br>&emsp;year={2021}<br>}
         </p></div>
     </td></tr>
 
@@ -138,15 +134,7 @@ Selected Publications
 
     <tr><td colspan="2" style="padding:0;">
         <div id="AttGAN Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
-            @article{he2019attgan,<br>
-              &emsp;title={AttGAN: Facial Attribute Editing by Only Changing What You Want},<br>
-              &emsp;author={He, Zhenliang and Zuo, Wangmeng and Kan, Meina and Shan, Shiguang and Chen, Xilin},<br>
-              &emsp;journal={IEEE Transactions on Image Processing},<br>
-              &emsp;volume={28},<br>
-              &emsp;number={11},<br>
-              &emsp;pages={5464--5478},<br>
-              &emsp;year={2019}<br>
-            }
+            @article{he2019attgan,<br>&emsp;title={AttGAN: Facial Attribute Editing by Only Changing What You Want},<br>&emsp;author={He, Zhenliang and Zuo, Wangmeng and Kan, Meina and Shan, Shiguang and Chen, Xilin},<br>&emsp;journal={IEEE Transactions on Image Processing},<br>&emsp;volume={28},<br>&emsp;number={11},<br>&emsp;pages={5464--5478},<br>&emsp;year={2019}<br>}
         </p></div>
     </td></tr>
 
@@ -181,12 +169,7 @@ Selected Publications
 
     <tr><td colspan="2" style="padding:0;">
         <div id="S2GAN Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
-            @inproceedings{he2019s2gan,<br>
-              &emsp;title={S2GAN: Share Aging Factors Across Ages and Share Aging Trends Among Individuals},<br>
-              &emsp;author={He, Zhenliang and Kan, Meina and Shan, Shiguang and Chen, Xilin},<br>
-              &emsp;booktitle={International Conference on Computer Vision},<br>
-              &emsp;year={2019}<br>
-            }
+            @inproceedings{he2019s2gan,<br>&emsp;title={S2GAN: Share Aging Factors Across Ages and Share Aging Trends Among Individuals},<br>&emsp;author={He, Zhenliang and Kan, Meina and Shan, Shiguang and Chen, Xilin},<br>&emsp;booktitle={International Conference on Computer Vision},<br>&emsp;year={2019}<br>}
         </p></div>
     </td></tr>
 
@@ -222,12 +205,7 @@ Selected Publications
 
     <tr><td colspan="2" style="padding:0;">
         <div id="PA-GAN Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
-            @article{he2020pagan,<br>
-              &emsp;title={PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing},<br>
-              &emsp;author={He, Zhenliang and Kan, Meina and Zhang, Jichao and Shan, Shiguang},<br>
-              &emsp;journal={arXiv:2007.05892},<br>
-              &emsp;year={2020}<br>
-            }
+            @article{he2020pagan,<br>&emsp;title={PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing},<br>&emsp;author={He, Zhenliang and Kan, Meina and Zhang, Jichao and Shan, Shiguang},<br>&emsp;journal={arXiv:2007.05892},<br>&emsp;year={2020}<br>}
         </p></div>
     </td></tr>
 
@@ -261,14 +239,7 @@ Selected Publications
 
     <tr><td colspan="2" style="padding:0;">
         <div id="STD-GAN Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
-            @article{guo2021image,<br>
-              &emsp;title={Image Style Disentangling for Instance-level Facial Attribute Transfer},<br>
-              &emsp;author={Guo, Xuyang and Kan, Meina and He, Zhenliang and Song, Xingguang and Shan, Shiguang},<br>
-              &emsp;journal={Computer Vision and Image Understanding},<br>
-              &emsp;volume={207},<br>
-              &emsp;pages={103205},<br>
-              &emsp;year={2021}<br>
-            }
+            @article{guo2021image,<br>&emsp;title={Image Style Disentangling for Instance-level Facial Attribute Transfer},<br>&emsp;author={Guo, Xuyang and Kan, Meina and He, Zhenliang and Song, Xingguang and Shan, Shiguang},<br>&emsp;journal={Computer Vision and Image Understanding},<br>&emsp;volume={207},<br>&emsp;pages={103205},<br>&emsp;year={2021}<br>}
         </p></div>
     </td></tr>
 </table>
