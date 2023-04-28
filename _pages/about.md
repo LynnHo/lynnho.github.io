@@ -37,7 +37,7 @@ Tutorial
         <td width="4000" style="padding-top:5px;padding-bottom:0;">
             <p><strong>Matrix Calculus (Matrix Derivative, 矩阵求导教程)</strong></p>
             <p><strong>Zhenliang He</strong></p>
-            <p><a href="https://github.com/LynnHo/Matrix-Calculus-Tutorial"><img src="https://img.shields.io/github/stars/LynnHo/Matrix-Calculus-Tutorial.svg?style=social" style="width:auto;height:25px;"></a></p>
+            <p><a href="https://github.com/LynnHo/Matrix-Calculus-Tutorial"><img src="https://img.shields.io/github/stars/LynnHo/Matrix-Calculus-Tutorial.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a></p>
 
             <span id="Matrix Calculus Abstract open" onclick="toggle('Matrix Calculus', 'Abstract')"><a>&#11167; Abstract</a></span>
             <span id="Matrix Calculus Abstract close" onclick="toggle('Matrix Calculus', 'Abstract')" style="display:none;"><a>&#11165; Abstract</a></span> |
@@ -72,7 +72,7 @@ Selected Publications
         <td width="4000" style="padding-top:5px;padding-bottom:0;">
             <p><strong>EigenGAN: Layer-Wise Eigen-Learning for GANs</strong></p>
             <p><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan</p>
-            <p><img src="https://img.shields.io/badge/ICCV%202021-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo/EigenGAN-Tensorflow"><img src="https://img.shields.io/github/stars/LynnHo/EigenGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;"></a></p>
+            <p><img src="https://img.shields.io/badge/ICCV%202021-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo/EigenGAN-Tensorflow"><img src="https://img.shields.io/github/stars/LynnHo/EigenGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a></p>
 
             <span id="EigenGAN Abstract open" onclick="toggle('EigenGAN', 'Abstract')"><a>&#11167; Abstract</a></span>
             <span id="EigenGAN Abstract close" onclick="toggle('EigenGAN', 'Abstract')" style="display:none;"><a>&#11165; Abstract</a></span> |
@@ -116,7 +116,7 @@ Selected Publications
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p><strong>AttGAN: Facial Attribute Editing by Only Changing What You Want</strong></p>
             <p><strong>Zhenliang He</strong>, Wangmeng Zuo, Meina Kan, Shiguang Shan, Xilin Chen</p>
-            <p><img src="https://img.shields.io/badge/T--IP%202019-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo/AttGAN-Tensorflow"><img src="https://img.shields.io/github/stars/LynnHo/AttGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;"></a></p>
+            <p><img src="https://img.shields.io/badge/T--IP%202019-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo/AttGAN-Tensorflow"><img src="https://img.shields.io/github/stars/LynnHo/AttGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a></p>
 
             <span id="AttGAN Abstract open" onclick="toggle('AttGAN', 'Abstract')"><a>&#11167; Abstract</a></span>
             <span id="AttGAN Abstract close" onclick="toggle('AttGAN', 'Abstract')" style="display:none;"><a>&#11165; Abstract</a></span> |
@@ -303,7 +303,6 @@ Honors & Awards
 <!-- ======================================================================= -->
 
 <script>
-
 function toggle(prefix, type) {
     function setDisplay(id, display) {
         var x = document.getElementById(id);
