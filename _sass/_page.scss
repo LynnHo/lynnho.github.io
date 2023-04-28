@@ -81,6 +81,11 @@
       img:not(.no-shadow) {
         box-shadow: 0 0 10px rgba(#000, 0.25);
       }
+
+      img.scale:not(.no-scale) {
+        transform: scale(1.2);
+        transition: all 0.2s ease-in-out;
+      }
     }
   }
 
