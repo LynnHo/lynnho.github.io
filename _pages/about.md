@@ -40,6 +40,7 @@ Tutorial
             <p><strong>Matrix Calculus (Matrix Derivative, 矩阵求导教程)</strong></p>
             <p><strong>Zhenliang He</strong></p>
             <p><a href="https://github.com/LynnHo/Matrix-Calculus-Tutorial"><img src="https://img.shields.io/github/stars/LynnHo/Matrix-Calculus-Tutorial.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a></p>
+
             <span id="Matrix Calculus Abstract open" onclick="toggle('Matrix Calculus', 'Abstract')"><a>&#11167; Abstract</a></span>
             <span id="Matrix Calculus Abstract close" onclick="toggle('Matrix Calculus', 'Abstract')" style="display:none;"><a>&#11165; Abstract</a></span> |
             <a href="https://github.com/LynnHo/Matrix-Calculus-Tutorial">Project</a>
