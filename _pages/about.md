@@ -14,7 +14,7 @@ redirect_from:
 <!-- ======================================================================= -->
 
 <p align="justify">
-    I am an Assistant Professor in the Visual Information Processing and Learning (<a href="http://vipl.ict.ac.cn/en">VIPL</a>) research group at the Institute of Computing Technology (<a href="http://www.ict.cas.cn">ICT</a>), Chinese Academy of Sciences (<a href="https://english.cas.cn/">CAS</a>). I received my Ph.D. from ICT, CAS in 2021, under the supervision of Prof. <a href="https://scholar.google.com/citations?user=Vkzd7MIAAAAJ&hl=en">Shiguang Shan</a> and close collaboration with Prof. <a href="https://scholar.google.com/citations?user=4AKCKKEAAAAJ&hl=en">Meina Kan</a> and Prof. <a href="https://scholar.google.com/citations?user=vVx2v20AAAAJ&hl=zh-CN">Xilin Chen</a>. I received my B.E. from Beijing University of Posts and Telecommunications in 2015. My current research focuses on generative models and representation learning.
+    I am an Assistant Professor in the Visual Information Processing and Learning (<a href="http://vipl.ict.ac.cn/en">VIPL</a>) research group at the Institute of Computing Technology (<a href="http://www.ict.cas.cn">ICT</a>), Chinese Academy of Sciences (<a href="https://english.cas.cn/">CAS</a>). I received my Ph.D. from ICT, CAS in 2021, under the supervision of Prof. <a href="https://scholar.google.com/citations?user=Vkzd7MIAAAAJ">Shiguang Shan</a> and close collaboration with Prof. <a href="https://scholar.google.com/citations?user=4AKCKKEAAAAJ">Meina Kan</a> and Prof. <a href="https://scholar.google.com/citations?user=vVx2v20AAAAJ">Xilin Chen</a>. I received my B.E. from Beijing University of Posts and Telecommunications in 2015. My current research focuses on generative models and representation learning.
 </p>
 
 <a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ"><img src="images/google-scholar.png" class="no-shadow scale" style="width:auto;height:30px;"></a>
@@ -287,7 +287,7 @@ Education & Experience
 
 + 2023.04 - now, Assistant Professor in the Visual Information Processing and Learning ([VIPL](http://vipl.ict.ac.cn/en)) research group at the Institute of Computing Technology ([ICT](http://www.ict.cas.cn)), Chinese Academy of Sciences ([CAS](https://english.cas.cn/)).
 + 2021.08 - 2023.03, Research Engineer at JD.com, Inc.
-+ 2015.09 - 2021.06, Ph.D. student at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS), under the supervision of Prof. [Shiguang Shan](https://scholar.google.com/citations?user=Vkzd7MIAAAAJ&hl=en). I also had close collaboration with Prof. [Meina Kan](https://scholar.google.com/citations?user=4AKCKKEAAAAJ&hl=en) and Prof. [Xilin Chen](https://scholar.google.com/citations?user=vVx2v20AAAAJ&hl=zh-CN).
++ 2015.09 - 2021.06, Ph.D. student at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS), under the supervision of Prof. [Shiguang Shan](https://scholar.google.com/citations?user=Vkzd7MIAAAAJ). I also had close collaboration with Prof. [Meina Kan](https://scholar.google.com/citations?user=4AKCKKEAAAAJ) and Prof. [Xilin Chen](https://scholar.google.com/citations?user=vVx2v20AAAAJ).
 + 2011.09 - 2015.07, college student at Beijing University of Posts and Telecommunications.
 
 
