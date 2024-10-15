@@ -1,3 +1,18 @@
+# Quickstart
+
+1. `conda env create -f dependencies.yml`
+2. `conda activate gh-page`
+3. `bundle clean`
+4. `bundle install`
+5. `bundle exec jekyll liveserve` and open localhost:4000 in your browser
+    + maybe restart your system if port error occurs
+
+
+
+#
+
+# Original README
+
 A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
 
 I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.

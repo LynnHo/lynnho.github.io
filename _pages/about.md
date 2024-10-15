@@ -65,10 +65,44 @@ Selected Publications
 
 <table>
     <!-- =============================== -->
-    <!-- =          EigenGAN           = -->
+    <!-- =           CtrLoRA           = -->
     <!-- =============================== -->
     <tr>
         <td width="1000" style="padding-left:0;padding-top:5px;padding-bottom:0;">
+            <a href="https://github.com/xyfJASON/ctrlora"><img src="0_lynn/projects/ctrlora/ctrlora.jpg" width="1000"></a>
+        </td>
+        <td width="4000" style="padding-top:5px;padding-bottom:0;">
+            <p><strong>CtrLoRA: An Extensible and Efficient Framework for Controllable Image Generation</strong></p>
+            <p>Yifeng Xu, <strong>Zhenliang He</strong>, Shiguang Shan, Xilin Chen</p>
+            <p><img src="https://img.shields.io/badge/arXiv%202024-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<a href="https://github.com/xyfJASON/ctrlora"><img src="https://img.shields.io/github/stars/xyfJASON/ctrlora.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a></p>
+
+            <span id="CtrLoRA Abstract open" onclick="toggle('CtrLoRA', 'Abstract')"><a href="javascript:;">&#11167; Abstract</a></span>
+            <span id="CtrLoRA Abstract close" onclick="toggle('CtrLoRA', 'Abstract')" style="display:none;"><a href="javascript:;">&#11165; Abstract</a></span> |
+            <a href="https://arxiv.org/abs/2410.09400">Paper</a> |
+            <a href="https://github.com/xyfJASON/ctrlora">Project</a> |
+            <span id="CtrLoRA Bib open" onclick="toggle('CtrLoRA', 'Bib')"><a href="javascript:;">&#11167; Bib</a></span>
+            <span id="CtrLoRA Bib close" onclick="toggle('CtrLoRA', 'Bib')" style="display:none;"><a href="javascript:;">&#11165; Bib</a></span>
+        </td>
+    </tr>
+
+    <tr><td colspan="2" style="padding:0;">
+        <div id="CtrLoRA Abstract" style="display:none;"><p align="justify" style="margin-top:15px;margin-bottom:0;">
+            Recently, large-scale diffusion models have made impressive progress in text-to-image (T2I) generation. To further equip these T2I models with fine-grained spatial control, approaches like ControlNet introduce an extra network that learns to follow a condition image. However, for every single condition type, ControlNet requires independent training on millions of data pairs with hundreds of GPU hours, which is quite expensive and makes it challenging for ordinary users to explore and develop new types of conditions. To address this problem, we propose the CtrLoRA framework, which trains a Base ControlNet to learn the common knowledge of image-to-image generation from multiple base conditions, along with condition-specific LoRAs to capture distinct characteristics of each condition. <strong>Utilizing our pretrained Base ControlNet, users can easily adapt it to new conditions, requiring as few as 1,000 data pairs and less than one hour of single-GPU training to obtain satisfactory results in most scenarios. Moreover, our CtrLoRA reduces the learnable parameters by 90% compared to ControlNet, significantly lowering the threshold to distribute and deploy the model weights</strong>. Extensive experiments on various types of conditions demonstrate the efficiency and effectiveness of our method.
+        </p></div>
+    </td></tr>
+
+    <tr><td colspan="2" style="padding:0;">
+        <div id="CtrLoRA Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
+            @article{xu2024ctrlora,<br>&emsp;title={CtrLoRA: An Extensible and Efficient Framework for Controllable Image Generation},<br>&emsp;author={Xu, Yifeng and He, Zhenliang and Shan, Shiguang and Chen, Xilin},<br>&emsp;journal={arXiv preprint arXiv:2410.09400},<br>&emsp;year={2024}<br>}
+        </p></div>
+    </td></tr>
+
+
+    <!-- =============================== -->
+    <!-- =          EigenGAN           = -->
+    <!-- =============================== -->
+    <tr>
+        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;">
             <a href="https://github.com/LynnHo/EigenGAN-Tensorflow"><img src="0_lynn/projects/eigengan/eigengan.gif" width="1000"></a>
         </td>
         <td width="4000" style="padding-top:5px;padding-bottom:0;">
@@ -91,7 +125,7 @@ Selected Publications
 
     <tr><td colspan="2" style="padding:0;">
         <div id="EigenGAN Abstract" style="display:none;"><p align="justify" style="margin-top:15px;margin-bottom:0;">
-            Recent studies on Generative Adversarial Network (GAN) reveal that different layers of a generative CNN hold different semantics of the synthesized images. However, few GAN models have explicit dimensions to control the semantic attributes represented in a specific layer. This paper proposes EigenGAN which is able to unsupervisedly mine interpretable and controllable dimensions from different generator layers. Specifically, EigenGAN embeds one linear subspace with orthogonal basis into each generator layer. Via generative adversarial training to learn a target distribution, these layer-wise subspaces automatically discover a set of eigen-dimensions at each layer corresponding to a set of semantic attributes or interpretable variations. By traversing the coefficient of a specific eigen-dimension, the generator can produce samples with continuous changes corresponding to a specific semantic attribute. Taking the human face for example, EigenGAN can discover controllable dimensions for high-level concepts such as pose and gender in the subspace of deep layers, as well as low-level concepts such as hue and color in the subspace of shallow layers. Moreover, in the linear case, we theoretically prove that our algorithm derives the principal components as PCA does.
+            Recent studies on Generative Adversarial Network (GAN) reveal that different layers of a generative CNN hold different semantics of the synthesized images. However, few GAN models have explicit dimensions to control the semantic attributes represented in a specific layer. This paper proposes EigenGAN which is able to unsupervisedly mine interpretable and controllable dimensions from different generator layers. Specifically, EigenGAN embeds one linear subspace with orthogonal basis into each generator layer. Via generative adversarial training to learn a target distribution, <strong>these layer-wise subspaces automatically discover a set of eigen-dimensions at each layer corresponding to a set of semantic attributes or interpretable variations</strong>. By traversing the coefficient of a specific eigen-dimension, the generator can produce samples with continuous changes corresponding to a specific semantic attribute. Taking the human face for example, EigenGAN can discover controllable dimensions for high-level concepts such as pose and gender in the subspace of deep layers, as well as low-level concepts such as hue and color in the subspace of shallow layers. Moreover, in the linear case, we theoretically prove that our algorithm derives the principal components as PCA does.
         </p></div>
     </td></tr>
 
@@ -112,7 +146,7 @@ Selected Publications
 
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p><strong>AttGAN: Facial Attribute Editing by Only Changing What You Want</strong></p>
-            <p><strong>Zhenliang He</strong>, Wangmeng Zuo, Meina Kan, Shiguang Shan, Xilin Chen</p>
+            <p><strong>Zhenliang He</strong>, Wangmeng Zuo, Meina Kan, Shiguang Shan<sup><strong>*</strong></sup>, Xilin Chen</p>
             <p><img src="https://img.shields.io/badge/T--IP%202019-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo/AttGAN-Tensorflow"><img src="https://img.shields.io/github/stars/LynnHo/AttGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a></p>
 
             <span id="AttGAN Abstract open" onclick="toggle('AttGAN', 'Abstract')"><a href="javascript:;">&#11167; Abstract</a></span>
@@ -186,7 +220,7 @@ Selected Publications
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p><strong>PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing</strong></p>
             <p><strong>Zhenliang He</strong>, Meina Kan, Jichao Zhang, Shiguang Shan</p>
-            <p><img src="https://img.shields.io/badge/arXiv-3A98B9" style="width:auto;height:25px;"></p>
+            <p><img src="https://img.shields.io/badge/arXiv%202020-3A98B9" style="width:auto;height:25px;"></p>
 
             <span id="PA-GAN Abstract open" onclick="toggle('PA-GAN', 'Abstract')"><a href="javascript:;">&#11167; Abstract</a></span>
             <span id="PA-GAN Abstract close" onclick="toggle('PA-GAN', 'Abstract')" style="display:none;"><a href="javascript:;">&#11165; Abstract</a></span> |
@@ -220,7 +254,7 @@ Selected Publications
     
     <td width="4000" style="padding-top:30px;padding-bottom:0;">
         <p><strong>Image Style Disentangling for Instance-Level Facial Attribute Transfer</strong></p>
-        <p>Xuyang Guo, Meina Kan, <strong>Zhenliang He</strong>, Xingguang Song, Shiguang Shan</p>
+        <p>Xuyang Guo, Meina Kan<sup><strong>*</strong></sup>, <strong>Zhenliang He</strong>, Xingguang Song, Shiguang Shan</p>
         <p><img src="https://img.shields.io/badge/CVIU%202021-3A98B9" style="width:auto;height:25px;"></p>
         
         <span id="STD-GAN Abstract open" onclick="toggle('STD-GAN', 'Abstract')"><a href="javascript:;">&#11167; Abstract</a></span>
@@ -262,6 +296,7 @@ Education & Experience
 Honors & Awards
 ======
 
++ [Outstanding Doctoral Dissertation Nomination](https://www.csig.org.cn/67/202404/51791.html), CSIG, 2023
 + Outstanding Graduates Award of Beijing, ICT, CAS, 2021
 + Special Scholarship of ICT (**highest award in ICT**), ICT, CAS, 2019
 + Huawei Excellent Cooperation Award, 2017
