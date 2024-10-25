@@ -17,10 +17,9 @@ redirect_from:
     I am an Assistant Professor in the Visual Information Processing and Learning (<a href="http://vipl.ict.ac.cn/en">VIPL</a>) research group at the Institute of Computing Technology (<a href="http://www.ict.cas.cn">ICT</a>), Chinese Academy of Sciences (<a href="https://english.cas.cn/">CAS</a>). I received my Ph.D. from ICT, CAS in 2021, under the supervision of Prof. <a href="https://scholar.google.com/citations?user=Vkzd7MIAAAAJ">Shiguang Shan</a> and close collaboration with Prof. <a href="https://scholar.google.com/citations?user=4AKCKKEAAAAJ">Meina Kan</a> and Prof. <a href="https://scholar.google.com/citations?user=vVx2v20AAAAJ">Xilin Chen</a>. I received my B.E. from Beijing University of Posts and Telecommunications in 2015. My current research focuses on generative models and representation learning.
 </p>
 
-<a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ"><img src="images/google-scholar.png" class="no-shadow scale" style="width:auto;height:30px;"></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo"><img src="images/github.png" class="no-shadow scale" style="width:auto;height:30px;"></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:hezhenliang@ict.ac.cn"><img src="images/email.png" class="no-shadow scale" style="width:auto;height:30px;"></a>
-&nbsp;[hezhenliang@ict.ac.cn](mailto:hezhenliang@ict.ac.cn)
+<a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ"><img src="images/google-scholar.png" class="no-shadow scale" style="width:auto;height:30px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/LynnHo"><img src="images/github.png" class="no-shadow scale" style="width:auto;height:30px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:hezhenliang@ict.ac.cn"><img src="images/email.png" class="no-shadow scale" style="width:auto;height:30px;"></a>&nbsp;[hezhenliang@ict.ac.cn](mailto:hezhenliang@ict.ac.cn)
 
 
 ---
@@ -75,12 +74,12 @@ Selected Publications
             <p><strong>CtrLoRA: An Extensible and Efficient Framework for Controllable Image Generation</strong></p>
             <p>Yifeng Xu, <strong>Zhenliang He</strong>, Shiguang Shan, Xilin Chen</p>
             <p>
-                <a href="https://arxiv.org/abs/2410.09400"><img src="https://img.shields.io/badge/arXiv%202024-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/2410.09400"><img src="https://img.shields.io/badge/arXiv%202024-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
                 <a href="https://github.com/xyfJASON/ctrlora"><img src="https://img.shields.io/github/stars/xyfJASON/ctrlora.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
             </p>
             <span id="CtrLoRA Abstract open" onclick="toggle('CtrLoRA', 'Abstract')"><a href="javascript:;">&#11167; Abstract</a></span>
             <span id="CtrLoRA Abstract close" onclick="toggle('CtrLoRA', 'Abstract')" style="display:none;"><a href="javascript:;">&#11165; Abstract</a></span> |
-            <a href="https://arxiv.org/abs/2410.09400">Paper</a> |
+            <a href="https://arxiv.org/pdf/2410.09400">Paper</a> |
             <a href="https://github.com/xyfJASON/ctrlora">Project</a> |
             <span id="CtrLoRA Bib open" onclick="toggle('CtrLoRA', 'Bib')"><a href="javascript:;">&#11167; Bib</a></span>
             <span id="CtrLoRA Bib close" onclick="toggle('CtrLoRA', 'Bib')" style="display:none;"><a href="javascript:;">&#11165; Bib</a></span>
@@ -110,7 +109,10 @@ Selected Publications
         <td width="4000" style="padding-top:5px;padding-bottom:0;">
             <p><strong>EigenGAN: Layer-Wise Eigen-Learning for GANs</strong></p>
             <p><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan</p>
-            <p><img src="https://img.shields.io/badge/ICCV%202021-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;&nbsp;<a href="https://github.com/LynnHo/EigenGAN-Tensorflow"><img src="https://img.shields.io/github/stars/LynnHo/EigenGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a></p>
+            <p>
+                <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/He_EigenGAN_Layer-Wise_Eigen-Learning_for_GANs_ICCV_2021_paper.pdf"><img src="https://img.shields.io/badge/ICCV%202021-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
+                <a href="https://github.com/LynnHo/EigenGAN-Tensorflow"><img src="https://img.shields.io/github/stars/LynnHo/EigenGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
+            </p>
 
             <span id="EigenGAN Abstract open" onclick="toggle('EigenGAN', 'Abstract')"><a href="javascript:;">&#11167; Abstract</a></span>
             <span id="EigenGAN Abstract close" onclick="toggle('EigenGAN', 'Abstract')" style="display:none;"><a href="javascript:;">&#11165; Abstract</a></span> |
