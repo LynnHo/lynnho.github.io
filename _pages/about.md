@@ -70,6 +70,7 @@ Selected Publications
         <td width="1000" style="padding-left:0;padding-top:5px;padding-bottom:0;">
             <a href="https://github.com/xyfJASON/ctrlora"><img src="0_lynn/projects/ctrlora/ctrlora.jpg" width="1000"></a>
         </td>
+      
         <td width="4000" style="padding-top:5px;padding-bottom:0;">
             <p><strong>CtrLoRA: An Extensible and Efficient Framework for Controllable Image Generation</strong></p>
             <p>Yifeng Xu, <strong>Zhenliang He</strong>, Shiguang Shan, Xilin Chen</p>
@@ -106,7 +107,8 @@ Selected Publications
         <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;">
             <a href="https://github.com/LynnHo/EigenGAN-Tensorflow"><img src="0_lynn/projects/eigengan/eigengan.gif" width="1000"></a>
         </td>
-        <td width="4000" style="padding-top:5px;padding-bottom:0;">
+        
+        <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p><strong>EigenGAN: Layer-Wise Eigen-Learning for GANs</strong></p>
             <p><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan</p>
             <p>
@@ -117,7 +119,6 @@ Selected Publications
             <span id="EigenGAN Abstract close" onclick="toggle('EigenGAN', 'Abstract')" style="display:none;"><a href="javascript:;">&#11165; Abstract</a></span> |
             <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/He_EigenGAN_Layer-Wise_Eigen-Learning_for_GANs_ICCV_2021_paper.pdf">Paper</a> |
             <a href="0_lynn/projects/eigengan/proof.pdf">Proof</a> |
-            <!-- <a href="https://github.com/LynnHo/EigenGAN-Tensorflow">Project</a> | -->
             <a href="https://www.youtube.com/watch?v=E_88BajgIOs">Video</a> |
             <a href="https://github.com/LynnHo/EigenGAN-Tensorflow">TensorFlow (Official)</a> |
             <a href="https://github.com/bryandlee/eigengan-pytorch">PyTorch</a> |
@@ -157,7 +158,6 @@ Selected Publications
             <span id="AttGAN Abstract open" onclick="toggle('AttGAN', 'Abstract')"><a href="javascript:;">&#11167; Abstract</a></span>
             <span id="AttGAN Abstract close" onclick="toggle('AttGAN', 'Abstract')" style="display:none;"><a href="javascript:;">&#11165; Abstract</a></span> |
             <a href="https://vipl.ict.ac.cn/publications/2019/jour/202212/P020221230369682856969.pdf">Paper</a> |
-            <!-- <a href="https://github.com/LynnHo/AttGAN-Tensorflow">Project</a> | -->
             <a href="https://github.com/LynnHo/AttGAN-Tensorflow">TensorFlow (Official)</a> |
             <a href="https://github.com/elvisyjlin/AttGAN-PyTorch">PyTorch</a> |
             <a href="https://www.paddlepaddle.org.cn/modelbasedetail/attgan">PaddlePaddle</a> |
@@ -263,13 +263,12 @@ Selected Publications
         <p><strong>Image Style Disentangling for Instance-Level Facial Attribute Transfer</strong></p>
         <p>Xuyang Guo, Meina Kan<sup><strong>*</strong></sup>, <strong>Zhenliang He</strong>, Xingguang Song, Shiguang Shan</p>
         <p>
-            <img src="https://img.shields.io/badge/CVIU%202021-3A98B9" style="width:auto;height:25px;">&nbsp;&nbsp;
+            <a href="0_lynn/projects/std-gan/std-gan.pdf"><img src="https://img.shields.io/badge/CVIU%202021-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
             <a href="https://github.com/XuyangGuo/STD-GAN"><img src="https://img.shields.io/github/stars/XuyangGuo/STD-GAN.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
         </p>
         <span id="STD-GAN Abstract open" onclick="toggle('STD-GAN', 'Abstract')"><a href="javascript:;">&#11167; Abstract</a></span>
         <span id="STD-GAN Abstract close" onclick="toggle('STD-GAN', 'Abstract')" style="display:none;"><a href="javascript:;">&#11165; Abstract</a></span> |
         <a href="0_lynn/projects/std-gan/std-gan.pdf">Paper</a> |
-        <!-- <a href="https://github.com/XuyangGuo/STD-GAN">Project</a> | -->
         <a href="https://github.com/XuyangGuo/STD-GAN">PyTorch (Official)</a> |
         <span id="STD-GAN Bib open" onclick="toggle('STD-GAN', 'Bib')"><a href="javascript:;">&#11167; Bib</a></span>
         <span id="STD-GAN Bib close" onclick="toggle('STD-GAN', 'Bib')" style="display:none;"><a href="javascript:;">&#11165; Bib</a></span>
