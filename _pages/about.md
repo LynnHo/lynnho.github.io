@@ -101,6 +101,42 @@ Selected Publications
 
 
     <!-- =============================== -->
+    <!-- =          PrecNeRF           = -->
+    <!-- =============================== -->
+    <tr>
+        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;">
+            <a href="https://github.com/Moreland-cas/Precise-NeRF"><img src="0_lynn/projects/precnerf/precnerf.jpg" width="1000"></a>
+        </td>
+
+        <td width="4000" style="padding-top:30px;padding-bottom:0;">
+            <p><strong>Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical</strong></p>
+            <p>Boyuan Zhang, <strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan</p>
+            <p>
+                <a href="https://github.com/Moreland-cas/Precise-NeRF/blob/main/assets/PrecNeRF_WACV2025_Preview.pdf"><img src="https://img.shields.io/badge/Oral-FFF1DC?label=WACV%202025&labelColor=3A98B9" style="width:auto;height:25px;"></a>
+                <a href="https://github.com/Moreland-cas/Precise-NeRF"><img src="https://img.shields.io/github/stars/Moreland-cas/Precise-NeRF.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
+            </p>
+            <span id="PrecNeRF Abstract open" onclick="toggle('PrecNeRF', 'Abstract')"><a href="javascript:;">&#11167; Abstract</a></span>
+            <span id="PrecNeRF Abstract close" onclick="toggle('PrecNeRF', 'Abstract')" style="display:none;"><a href="javascript:;">&#11165; Abstract</a></span> |
+            <a href="https://github.com/Moreland-cas/Precise-NeRF/blob/main/assets/PrecNeRF_WACV2025_Preview.pdf">Paper</a> |
+            <span id="PrecNeRF Bib open" onclick="toggle('PrecNeRF', 'Bib')"><a href="javascript:;">&#11167; Bib</a></span>
+            <span id="PrecNeRF Bib close" onclick="toggle('PrecNeRF', 'Bib')" style="display:none;"><a href="javascript:;">&#11165; Bib</a></span>
+        </td>
+    </tr>
+
+    <tr><td colspan="2" style="padding:0;">
+        <div id="PrecNeRF Abstract" style="display:none;"><p align="justify" style="margin-top:15px;margin-bottom:0;">
+            Neural Radiance Fields (NeRFs) use neural networks to translate spatial coordinates to corresponding volume density and directional radiance, enabling realistic novel view synthesis through volume rendering. Rendering new viewpoints involves computing volume rendering integrals along rays, usually approximated by numerical quadrature because of lacking closed-form solutions. In this paper, utilizing Taylor expansion, we demonstrate that numerical quadrature causes inevitable approximation error in NeRF integrals due to ignoring the parameter associated with the Lagrange remainder. To mitigate the approximation error, we propose a novel neural field with segment representation as input to implicitly model the remainder parameter. In theory, our proposed method is proven to possess the potential to achieve fully precise rendering integral, as demonstrated by comprehensive experiments on several commonly used datasets with state-of-the-art results.
+        </p></div>
+    </td></tr>
+
+    <tr><td colspan="2" style="padding:0;">
+        <div id="PrecNeRF Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
+            @inproceedings{zhang2025precnerf,<br>&emsp;title={Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature},<br>&emsp;author={Zhang, Boyuan and He, Zhenliang and Kan, Meina and Shan, Shiguang},<br>&emsp;booktitle={Winter Conference on Applications of Computer Vision},<br>&emsp;year={2025}<br>}
+        </p></div>
+    </td></tr>
+
+
+    <!-- =============================== -->
     <!-- =          EigenGAN           = -->
     <!-- =============================== -->
     <tr>
