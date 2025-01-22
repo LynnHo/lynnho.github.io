@@ -109,7 +109,7 @@ Selected Publications
         </td>
 
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
-            <p><strong>Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical</strong></p>
+            <p><strong>Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature</strong></p>
             <p>Boyuan Zhang, <strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan</p>
             <p>
                 <a href="https://github.com/Moreland-cas/Precise-NeRF/blob/main/assets/PrecNeRF_WACV2025_Preview.pdf"><img src="https://img.shields.io/badge/Oral-FFF1DC?label=WACV%202025&labelColor=3A98B9" style="width:auto;height:25px;"></a>
