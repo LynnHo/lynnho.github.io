@@ -118,6 +118,7 @@ Selected Publications
             <span id="PrecNeRF Abstract open" onclick="toggle('PrecNeRF', 'Abstract')"><a href="javascript:;">&#11167; Abstract</a></span>
             <span id="PrecNeRF Abstract close" onclick="toggle('PrecNeRF', 'Abstract')" style="display:none;"><a href="javascript:;">&#11165; Abstract</a></span> |
             <a href="https://github.com/Moreland-cas/Precise-NeRF/blob/main/assets/PrecNeRF_WACV2025_Preview.pdf">Paper</a> |
+            <a href="https://github.com/Moreland-cas/Precise-NeRF">Project</a> |
             <span id="PrecNeRF Bib open" onclick="toggle('PrecNeRF', 'Bib')"><a href="javascript:;">&#11167; Bib</a></span>
             <span id="PrecNeRF Bib close" onclick="toggle('PrecNeRF', 'Bib')" style="display:none;"><a href="javascript:;">&#11165; Bib</a></span>
         </td>
