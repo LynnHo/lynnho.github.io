@@ -75,7 +75,7 @@ Selected Publications
             <p><strong>CtrLoRA: An Extensible and Efficient Framework for Controllable Image Generation</strong></p>
             <p>Yifeng Xu, <strong>Zhenliang He</strong>, Shiguang Shan, Xilin Chen</p>
             <p>
-                <a href="https://arxiv.org/pdf/2410.09400"><img src="https://img.shields.io/badge/arXiv%202024-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/2410.09400"><img src="https://img.shields.io/badge/ICLR%202025-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
                 <a href="https://github.com/xyfJASON/ctrlora"><img src="https://img.shields.io/github/stars/xyfJASON/ctrlora.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
             </p>
             <span id="CtrLoRA Abstract open" onclick="toggle('CtrLoRA', 'Abstract')"><a href="javascript:;">&#11167; Abstract</a></span>
@@ -112,12 +112,12 @@ Selected Publications
             <p><strong>Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature</strong></p>
             <p>Boyuan Zhang, <strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan</p>
             <p>
-                <a href="https://github.com/Moreland-cas/Precise-NeRF/blob/main/assets/PrecNeRF_WACV2025_Preview.pdf"><img src="https://img.shields.io/badge/Oral-FFF1DC?label=WACV%202025&labelColor=3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
+                <a href="https://kdocs.cn/l/cbVoAbvklPFz"><img src="https://img.shields.io/badge/Oral-FFF1DC?label=WACV%202025&labelColor=3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
                 <a href="https://github.com/Moreland-cas/Precise-NeRF"><img src="https://img.shields.io/github/stars/Moreland-cas/Precise-NeRF.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
             </p>
             <span id="PrecNeRF Abstract open" onclick="toggle('PrecNeRF', 'Abstract')"><a href="javascript:;">&#11167; Abstract</a></span>
             <span id="PrecNeRF Abstract close" onclick="toggle('PrecNeRF', 'Abstract')" style="display:none;"><a href="javascript:;">&#11165; Abstract</a></span> |
-            <a href="https://github.com/Moreland-cas/Precise-NeRF/blob/main/assets/PrecNeRF_WACV2025_Preview.pdf">Paper</a> |
+            <a href="https://kdocs.cn/l/cbVoAbvklPFz">Paper</a> |
             <a href="https://github.com/Moreland-cas/Precise-NeRF">Project</a> |
             <span id="PrecNeRF Bib open" onclick="toggle('PrecNeRF', 'Bib')"><a href="javascript:;">&#11167; Bib</a></span>
             <span id="PrecNeRF Bib close" onclick="toggle('PrecNeRF', 'Bib')" style="display:none;"><a href="javascript:;">&#11165; Bib</a></span>
