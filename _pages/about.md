@@ -189,12 +189,12 @@ Selected Publications
             <p><strong>AttGAN: Facial Attribute Editing by Only Changing What You Want</strong></p>
             <p><strong>Zhenliang He</strong>, Wangmeng Zuo, Meina Kan, Shiguang Shan<sup><strong>*</strong></sup>, Xilin Chen</p>
             <p>
-                <a href="https://vipl.ict.ac.cn/publications/2019/jour/202212/P020221230369682856969.pdf"><img src="https://img.shields.io/badge/T--IP%202019-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
+                <a href="https://kdocs.cn/l/cpp7J2ZsFUW7"><img src="https://img.shields.io/badge/TIP%202019-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
                 <a href="https://github.com/LynnHo/AttGAN-Tensorflow"><img src="https://img.shields.io/github/stars/LynnHo/AttGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
             </p>
             <span id="AttGAN Abstract open" onclick="toggle('AttGAN', 'Abstract')"><a href="javascript:;">&#11167; Abstract</a></span>
             <span id="AttGAN Abstract close" onclick="toggle('AttGAN', 'Abstract')" style="display:none;"><a href="javascript:;">&#11165; Abstract</a></span> |
-            <a href="https://vipl.ict.ac.cn/publications/2019/jour/202212/P020221230369682856969.pdf">Paper</a> |
+            <a href="https://kdocs.cn/l/cpp7J2ZsFUW7">Paper</a> |
             <a href="https://github.com/LynnHo/AttGAN-Tensorflow">TensorFlow (Official)</a> |
             <a href="https://github.com/elvisyjlin/AttGAN-PyTorch">PyTorch</a> |
             <a href="https://www.paddlepaddle.org.cn/modelbasedetail/attgan">PaddlePaddle</a> |
