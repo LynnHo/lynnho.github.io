@@ -64,10 +64,47 @@ Selected Publications
 
 <table>
     <!-- =============================== -->
-    <!-- =           CtrLoRA           = -->
+    <!-- =            Jodi             = -->
     <!-- =============================== -->
     <tr>
         <td width="1000" style="padding-left:0;padding-top:5px;padding-bottom:0;">
+            <a href="https://vipl-genun.github.io/Project-Jodi"><img src="0_lynn/projects/jodi/jodi.jpg" width="1000"></a>
+        </td>
+
+        <td width="4000" style="padding-top:5px;padding-bottom:0;">
+            <p><strong>Jodi: Unification of Visual Generation and Understanding via Joint Modeling</strong></p>
+            <p>Yifeng Xu, <strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan, Xilin Chen</p>
+            <p>
+                <a href="https://arxiv.org/pdf/2505.19084"><img src="https://img.shields.io/badge/arXiv%202025-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
+                <a href="https://github.com/VIPL-GENUN/Jodi"><img src="https://img.shields.io/github/stars/VIPL-GENUN/Jodi.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
+            </p>
+            <span id="Jodi Abstract open" onclick="toggle('Jodi', 'Abstract')"><a href="javascript:;">&#11167; Abstract</a></span>
+            <span id="Jodi Abstract close" onclick="toggle('Jodi', 'Abstract')" style="display:none;"><a href="javascript:;">&#11165; Abstract</a></span> |
+            <a href="https://arxiv.org/pdf/2505.19084">Paper</a> |
+            <a href="https://vipl-genun.github.io/Project-Jodi">Project</a> |
+            <span id="Jodi Bib open" onclick="toggle('Jodi', 'Bib')"><a href="javascript:;">&#11167; Bib</a></span>
+            <span id="Jodi Bib close" onclick="toggle('Jodi', 'Bib')" style="display:none;"><a href="javascript:;">&#11165; Bib</a></span>
+        </td>
+    </tr>
+
+    <tr><td colspan="2" style="padding:0;">
+        <div id="Jodi Abstract" style="display:none;"><p align="justify" style="margin-top:15px;margin-bottom:0;">
+            Visual generation and understanding are two deeply interconnected aspects of human intelligence, yet they have been traditionally treated as separate tasks in machine learning. In this paper, we propose Jodi, a diffusion framework that unifies visual generation and understanding by jointly modeling the image domain and multiple label domains. Specifically, Jodi is built upon a linear diffusion transformer along with a role switch mechanism, which enables it to perform three particular types of tasks: (1) <strong>joint generation</strong>, where the model simultaneously generates images and multiple labels; (2) <strong>controllable generation</strong>, where images are generated conditioned on any combination of labels; and (3) <strong>image perception</strong>, where multiple labels can be predicted at once from a given image. Furthermore, we present the <strong>Joint-1.6M dataset</strong>, which contains 200,000 high-quality images collected from public sources, automatic labels for 7 visual domains, and LLM-generated captions. Extensive experiments demonstrate that Jodi excels in both generation and understanding tasks and exhibits strong extensibility to a wider range of visual domains.
+        </p></div>
+    </td></tr>
+
+    <tr><td colspan="2" style="padding:0;">
+        <div id="Jodi Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
+            @article{xu2025jodi,<br>&emsp;title={Jodi: Unification of Visual Generation and Understanding via Joint Modeling},<br>&emsp;author={Xu, Yifeng and He, Zhenliang and Kan, Meina and Shan, Shiguang and Chen, Xilin},<br>&emsp;journal={arXiv preprint arXiv:2505.19084},<br>&emsp;year={2025},<br>}
+        </p></div>
+    </td></tr>
+
+
+    <!-- =============================== -->
+    <!-- =           CtrLoRA           = -->
+    <!-- =============================== -->
+    <tr>
+        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;">
             <a href="https://github.com/xyfJASON/ctrlora"><img src="0_lynn/projects/ctrlora/ctrlora.jpg" width="1000"></a>
         </td>
       
