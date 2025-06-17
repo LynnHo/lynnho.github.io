@@ -82,6 +82,7 @@ Selected Publications
             <span id="Jodi Abstract close" onclick="toggle('Jodi', 'Abstract')" style="display:none;"><a href="javascript:;">&#11165; Abstract</a></span> |
             <a href="https://arxiv.org/pdf/2505.19084">Paper</a> |
             <a href="https://vipl-genun.github.io/Project-Jodi">Project</a> |
+            <a href="https://huggingface.co/datasets/VIPL-GENUN/Joint-1.6M-1024px"Joint-1.6M Dataset</a> |
             <span id="Jodi Bib open" onclick="toggle('Jodi', 'Bib')"><a href="javascript:;">&#11167; Bib</a></span>
             <span id="Jodi Bib close" onclick="toggle('Jodi', 'Bib')" style="display:none;"><a href="javascript:;">&#11165; Bib</a></span>
         </td>
