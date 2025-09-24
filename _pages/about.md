@@ -13,19 +13,27 @@ redirect_from:
 <!-- =                              Contents                               = -->
 <!-- ======================================================================= -->
 
-<p align="justify">
-    I am an Assistant Professor in the Visual Information Processing and Learning (<a href="http://vipl.ict.ac.cn/en">VIPL</a>) research group at the Institute of Computing Technology (<a href="http://www.ict.cas.cn">ICT</a>), Chinese Academy of Sciences (<a href="https://english.cas.cn/">CAS</a>). I received my Ph.D. from ICT, CAS in 2021, under the supervision of Prof. <a href="https://scholar.google.com/citations?user=Vkzd7MIAAAAJ">Shiguang Shan</a> and close collaboration with Prof. <a href="https://scholar.google.com/citations?user=4AKCKKEAAAAJ">Meina Kan</a> and Prof. <a href="https://scholar.google.com/citations?user=vVx2v20AAAAJ">Xilin Chen</a>. I received my B.E. from Beijing University of Posts and Telecommunications in 2015. My current research focuses on generative models and representation learning.
-</p>
+---
 
+<a href="https://github.com/VIPL-GENUN"><img src="images/vipl-genun.svg" class="no-shadow scale" style="width:auto;height:35px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ"><img src="images/google-scholar.png" class="no-shadow scale" style="width:auto;height:30px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/LynnHo"><img src="images/github.png" class="no-shadow scale" style="width:auto;height:30px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="mailto:hezhenliang@ict.ac.cn"><img src="images/email.png" class="no-shadow scale" style="width:auto;height:30px;"></a>&nbsp;[hezhenliang@ict.ac.cn](mailto:hezhenliang@ict.ac.cn)
 
+<p align="justify">
+    I am an Assistant Professor in the Visual Information Processing and Learning (<a href="http://vipl.ict.ac.cn/en">VIPL</a>) research group at the Institute of Computing Technology (<a href="http://www.ict.cas.cn">ICT</a>), Chinese Academy of Sciences (<a href="https://english.cas.cn/">CAS</a>). I co-lead the <a href="https://github.com/VIPL-GENUN">VIPL-GENUN</a> research group with Prof. <a href="https://scholar.google.com/citations?user=Vkzd7MIAAAAJ">Shiguang Shan</a>, focusing on generative models for visual generation, understanding, and their unification.
+</p>
+<p align="justify">
+    I received my Ph.D. from ICT, CAS in 2021, under the supervision of Prof. <a href="https://scholar.google.com/citations?user=Vkzd7MIAAAAJ">Shiguang Shan</a> and close collaboration with Prof. <a href="https://scholar.google.com/citations?user=4AKCKKEAAAAJ">Meina Kan</a> and Prof. <a href="https://scholar.google.com/citations?user=vVx2v20AAAAJ">Xilin Chen</a>. I received my B.E. from Beijing University of Posts and Telecommunications in 2015.
+</p>
 
----
+
+&nbsp;
+
 
 Tutorial
 ======
+---
 
 <table>
     <!-- =============================== -->
@@ -54,10 +62,12 @@ Tutorial
 </table>
 
 
----
+&nbsp;
+
 
 Selected Publications
 ======
+---
 
 *See the full list on [Google Scholar](https://scholar.google.com/citations?user=fDTTEaAAAAAJ)*
 
@@ -363,10 +373,36 @@ Selected Publications
 </table>
 
 
+&nbsp;
+
+
+Competitions
+======
 ---
+
+<table>
+    <!-- =============================== -->
+    <!-- =   AgiBot World Challenge    = -->
+    <!-- =============================== -->
+    <tr>
+        <p style="margin-bottom:2px;">
+            <span style="display:inline-block; width:150px;"><strong style="color:#3A98B9;">[ <a href="https://agibot-world.com/challenge" style="color:#3A98B9;">CHAMPION 1st</a> ]</strong></span>
+            <span><strong>AgiBot World Challenge - World Model Track, IROS 2025</strong></span>
+         </p>
+        <p style="font-size:16px;">
+            <span style="display:inline-block; width:150px;"></span>
+            <span>Chen An, Wancheng Feng, <strong>Zhenliang He</strong>*, Lixuan Zhang, Meina Kan, Shiguang Shan, Xilin Chen</span>
+        </p>
+    </tr>
+</table>
+
+
+&nbsp;
+
 
 Education & Experience
 ======
+---
 
 + 2023.04 - now, Assistant Professor in the Visual Information Processing and Learning ([VIPL](http://vipl.ict.ac.cn/en)) research group at the Institute of Computing Technology ([ICT](http://www.ict.cas.cn)), Chinese Academy of Sciences ([CAS](https://english.cas.cn/)).
 + 2021.08 - 2023.03, Research Engineer at JD.com, Inc.
@@ -374,10 +410,12 @@ Education & Experience
 + 2011.09 - 2015.07, college student at Beijing University of Posts and Telecommunications.
 
 
----
+&nbsp;
+
 
 Honors & Awards
 ======
+---
 
 + [Outstanding Doctoral Dissertation Nomination](https://www.csig.org.cn/67/202404/51791.html), CSIG, 2023
 + Outstanding Graduates Award of Beijing, ICT, CAS, 2021
