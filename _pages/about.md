@@ -386,12 +386,26 @@ Competitions
     <!-- =============================== -->
     <tr>
         <p style="margin-bottom:2px;">
-            <span style="display:inline-block; width:190px;"><img src="https://img.shields.io/badge/%F0%9F%A5%87-444444?label=%E2%A0%80CHAMPION%201ST%E2%A0%80&labelColor=FFD700" style="width:auto;height:25px;"></span>
+            <span style="display:inline-block; width:190px;"><img src="https://img.shields.io/badge/%F0%9F%A5%87-444444?label=CHAMPION%20%20%20%20%201ST&labelColor=FFD700" style="width:auto;height:25px;"></span>
             <span><strong>AgiBot World Challenge - World Model Track, IROS 2025</strong> (<a href="https://agibot-world.com/challenge">website</a>)</span>
          </p>
         <p style="font-size:16px;">
             <span style="display:inline-block; width:190px;"></span>
             <span>Chen An, Wancheng Feng, <strong>Zhenliang He</strong>*, Lixuan Zhang, Meina Kan, Shiguang Shan, Xilin Chen</span>
+        </p>
+    </tr>
+
+    <!-- =============================== -->
+    <!-- =       Menpo Challenge       = -->
+    <!-- =============================== -->
+    <tr>
+        <p style="margin-bottom:2px;">
+            <span style="display:inline-block; width:190px;"><img src="https://img.shields.io/badge/%F0%9F%A5%88-444444?label=RUNNER-UP%20%20%202ND&labelColor=C0C0C0" style="width:auto;height:25px;"></span>
+            <span><strong>Menpo Facial Landmark Localisation Challenge, CVPR 2017</strong></span>
+         </p>
+        <p style="font-size:16px;">
+            <span style="display:inline-block; width:190px;"></span>
+            <span><strong>Zhenliang He</strong>, Jie Zhang, Meina Kan*, Shiguang Shan, Xilin Chen</span>
         </p>
     </tr>
 </table>
@@ -421,7 +435,6 @@ Honors & Awards
 + Outstanding Graduates Award of Beijing, ICT, CAS, 2021
 + Special Scholarship of ICT (**highest award in ICT**), ICT, CAS, 2019
 + Huawei Excellent Cooperation Award, 2017
-+ Second Place Winner of MENPO Challenge in CVPR 2017
 + First Prize of Beijing Higher Mathematics Competition, 2012
 + National Scholarship (**top 8 of 610 students**), BUPT, 2012 & 2014
 
