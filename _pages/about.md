@@ -386,7 +386,7 @@ Competitions
     <!-- =============================== -->
     <tr>
         <p style="margin-bottom:2px;">
-            <span style="display:inline-block; white-space:pre; width:190px;"><strong style="color:#3A98B9;">[&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://agibot-world.com/challenge" style="color:#3A98B9;">CHAMPION 1st</a>&nbsp;&nbsp;&nbsp;&nbsp;]</strong></span>
+            <span style="display:inline-block; white-space:pre; width:190px;"><strong style="color:#3A98B9;">[&nbsp;&nbsp;&nbsp;<a href="https://agibot-world.com/challenge" style="color:#3A98B9;">CHAMPION 1st</a>&nbsp;&nbsp;&nbsp;]</strong></span>
             <span><strong>AgiBot World Challenge - World Model Track, IROS 2025</strong></span>
          </p>
         <p style="font-size:16px;">
