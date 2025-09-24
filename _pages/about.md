@@ -400,7 +400,7 @@ Competitions
     <!-- =============================== -->
     <tr>
         <p style="margin-bottom:2px;">
-            <span style="display:inline-block; width:190px;"><img src="https://img.shields.io/badge/%F0%9F%A5%88-444444?label=RUNNER-UP%20%20%202ND&labelColor=C0C0C0" style="width:auto;height:25px;"></span>
+            <span style="display:inline-block; width:190px;"><img src="https://img.shields.io/badge/%F0%9F%A5%88-444444?label=RUNNER-UP%20%20%202ND&labelColor=F5F5F5" style="width:auto;height:25px;"></span>
             <span><strong>Menpo Facial Landmark Localisation Challenge, CVPR 2017</strong></span>
          </p>
         <p style="font-size:16px;">
