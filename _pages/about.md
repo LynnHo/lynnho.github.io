@@ -17,7 +17,8 @@ redirect_from:
 
 <a href="https://github.com/VIPL-GENUN"><img src="images/vipl-genun.svg" class="no-shadow scale" style="width:auto;height:35px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ"><img src="images/google-scholar.png" class="no-shadow scale" style="width:auto;height:30px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/LynnHo"><img src="images/github.png" class="no-shadow scale" style="width:auto;height:30px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- <a href="https://github.com/LynnHo"><img src="images/github.png" class="no-shadow scale" style="width:auto;height:30px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<a href="https://github.com/LynnHo"><img src="https://img.shields.io/github/stars/LynnHo?label=+&color=FFFFFF" class="no-shadow scale" style="width:auto;height:33px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="mailto:hezhenliang@ict.ac.cn"><img src="images/email.png" class="no-shadow scale" style="width:auto;height:30px;"></a>&nbsp;[hezhenliang@ict.ac.cn](mailto:hezhenliang@ict.ac.cn)
 
 <p align="justify">
