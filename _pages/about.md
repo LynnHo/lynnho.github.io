@@ -120,7 +120,7 @@ Selected Publications
             <a href="https://github.com/xyfJASON/ctrlora"><img src="0_lynn/projects/ctrlora/ctrlora.jpg" width="1000"></a>
         </td>
       
-        <td width="4000" style="padding-top:5px;padding-bottom:0;">
+        <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p><strong>CtrLoRA: An Extensible and Efficient Framework for Controllable Image Generation</strong></p>
             <p>Yifeng Xu, <strong>Zhenliang He</strong>, Shiguang Shan, Xilin Chen</p>
             <p>
