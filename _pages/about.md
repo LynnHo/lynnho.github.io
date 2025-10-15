@@ -73,16 +73,16 @@ Selected Publications
 *See the full list on [Google Scholar](https://scholar.google.com/citations?user=fDTTEaAAAAAJ)*
 
 
-<table>
+<table style="padding-top:-25px;">
     <!-- =============================== -->
     <!-- =            Jodi             = -->
     <!-- =============================== -->
     <tr>
-        <td width="1000" style="padding-left:0;padding-top:5px;padding-bottom:0;">
+        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;">
             <a href="https://vipl-genun.github.io/Project-Jodi"><img src="0_lynn/projects/jodi/jodi.jpg" width="1000"></a>
         </td>
 
-        <td width="4000" style="padding-top:5px;padding-bottom:0;">
+        <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p><strong>Jodi: Unification of Visual Generation and Understanding via Joint Modeling</strong></p>
             <p>Yifeng Xu, <strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan, Xilin Chen</p>
             <p>
