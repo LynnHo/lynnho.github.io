@@ -36,15 +36,15 @@ Tutorial
 ======
 ---
 
-<table>
+<table style="margin-top:-25px;">
     <!-- =============================== -->
     <!-- =       Matrix Calculus       = -->
     <!-- =============================== -->
     <tr>
-        <td width="1000" style="padding-left:0;padding-top:5px;padding-bottom:0;">
+        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;">
             <a href="https://github.com/LynnHo/Matrix-Calculus-Tutorial"><img src="0_lynn/projects/matrix_calculus/matrix_calculus.png" width="1000"></a>
         </td>
-        <td width="4000" style="padding-top:5px;padding-bottom:0;">
+        <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p><strong>Matrix Calculus (Matrix Derivative, 矩阵求导教程)</strong></p>
             <p><strong>Zhenliang He</strong></p>
             <p><a href="https://github.com/LynnHo/Matrix-Calculus-Tutorial"><img src="https://img.shields.io/github/stars/LynnHo/Matrix-Calculus-Tutorial.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a></p>
@@ -73,7 +73,7 @@ Selected Publications
 *See the full list on [Google Scholar](https://scholar.google.com/citations?user=fDTTEaAAAAAJ)*
 
 
-<table style="margin-top:-25px;">
+<table style="margin-top:-30px;">
     <!-- =============================== -->
     <!-- =            Jodi             = -->
     <!-- =============================== -->
