@@ -73,7 +73,7 @@ Selected Publications
 *See the full list on [Google Scholar](https://scholar.google.com/citations?user=fDTTEaAAAAAJ)*
 
 
-<table style="padding-top:-25px;">
+<table style="margin-top:-25px;">
     <!-- =============================== -->
     <!-- =            Jodi             = -->
     <!-- =============================== -->
