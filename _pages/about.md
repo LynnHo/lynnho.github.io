@@ -84,7 +84,7 @@ Selected Publications
 
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p><strong>Jodi: Unification of Visual Generation and Understanding via Joint Modeling</strong></p>
-            <p>Yifeng Xu, <strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan, Xilin Chen</p>
+            <p>Yifeng Xu, <strong>Zhenliang He</strong><sup>✉</sup>, Meina Kan, Shiguang Shan, Xilin Chen</p>
             <p>
                 <a href="https://arxiv.org/pdf/2505.19084"><img src="https://img.shields.io/badge/arXiv%202025-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
                 <a href="https://github.com/VIPL-GENUN/Jodi"><img src="https://img.shields.io/github/stars/VIPL-GENUN/Jodi.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
@@ -122,7 +122,7 @@ Selected Publications
       
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p><strong>CtrLoRA: An Extensible and Efficient Framework for Controllable Image Generation</strong></p>
-            <p>Yifeng Xu, <strong>Zhenliang He</strong>, Shiguang Shan, Xilin Chen</p>
+            <p>Yifeng Xu, <strong>Zhenliang He</strong><sup>✉</sup>, Shiguang Shan, Xilin Chen</p>
             <p>
                 <a href="https://arxiv.org/pdf/2410.09400"><img src="https://img.shields.io/badge/ICLR%202025-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
                 <a href="https://github.com/xyfJASON/ctrlora"><img src="https://img.shields.io/github/stars/xyfJASON/ctrlora.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
@@ -159,7 +159,7 @@ Selected Publications
 
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p><strong>Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature</strong></p>
-            <p>Boyuan Zhang, <strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan</p>
+            <p>Boyuan Zhang, <strong>Zhenliang He</strong><sup>✉</sup>, Meina Kan, Shiguang Shan</p>
             <p>
                 <a href="https://openaccess.thecvf.com/content/WACV2025/papers/Zhang_Precise_Integral_in_NeRFs_Overcoming_the_Approximation_Errors_of_Numerical_WACV_2025_paper.pdf"><img src="https://img.shields.io/badge/Oral-FFF1DC?label=WACV%202025&labelColor=3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
                 <a href="https://github.com/Moreland-cas/Precise-NeRF"><img src="https://img.shields.io/github/stars/Moreland-cas/Precise-NeRF.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
@@ -236,7 +236,7 @@ Selected Publications
 
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p><strong>AttGAN: Facial Attribute Editing by Only Changing What You Want</strong></p>
-            <p><strong>Zhenliang He</strong>, Wangmeng Zuo, Meina Kan, Shiguang Shan<sup><strong>*</strong></sup>, Xilin Chen</p>
+            <p><strong>Zhenliang He</strong>, Wangmeng Zuo, Meina Kan, Shiguang Shan<sup>✉</sup>, Xilin Chen</p>
             <p>
                 <a href="https://kdocs.cn/l/cpp7J2ZsFUW7"><img src="https://img.shields.io/badge/TIP%202019-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
                 <a href="https://github.com/LynnHo/AttGAN-Tensorflow"><img src="https://img.shields.io/github/stars/LynnHo/AttGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
@@ -347,7 +347,7 @@ Selected Publications
     
     <td width="4000" style="padding-top:30px;padding-bottom:0;">
         <p><strong>Image Style Disentangling for Instance-Level Facial Attribute Transfer</strong></p>
-        <p>Xuyang Guo, Meina Kan<sup><strong>*</strong></sup>, <strong>Zhenliang He</strong>, Xingguang Song, Shiguang Shan</p>
+        <p>Xuyang Guo, Meina Kan<sup>✉</sup>, <strong>Zhenliang He</strong>, Xingguang Song, Shiguang Shan</p>
         <p>
             <a href="0_lynn/projects/std-gan/std-gan.pdf"><img src="https://img.shields.io/badge/CVIU%202021-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
             <a href="https://github.com/XuyangGuo/STD-GAN"><img src="https://img.shields.io/github/stars/XuyangGuo/STD-GAN.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
@@ -392,7 +392,7 @@ Competitions
          </p>
         <p style="font-size:16px;">
             <span style="display:inline-block; width:190px;"></span>
-            <span>Chen An, Wancheng Feng, <strong>Zhenliang He</strong>*, Lixuan Zhang, Meina Kan, Shiguang Shan, Xilin Chen</span>
+            <span>Chen An, Wancheng Feng, <strong>Zhenliang He</strong><sup>✉</sup>, Lixuan Zhang, Meina Kan, Shiguang Shan, Xilin Chen</span>
         </p>
     </tr>
 
@@ -406,7 +406,7 @@ Competitions
          </p>
         <p style="font-size:16px;">
             <span style="display:inline-block; width:190px;"></span>
-            <span><strong>Zhenliang He</strong>, Jie Zhang, Meina Kan*, Shiguang Shan, Xilin Chen</span>
+            <span><strong>Zhenliang He</strong>, Jie Zhang, Meina Kan<sup>✉</sup>, Shiguang Shan, Xilin Chen</span>
         </p>
     </tr>
 </table>
