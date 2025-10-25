@@ -196,7 +196,7 @@ Selected Publications
         
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p><strong>EigenGAN: Layer-Wise Eigen-Learning for GANs</strong></p>
-            <p><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan</p>
+            <p><strong>Zhenliang He</strong>, Meina Kan<sup>✉</sup>, Shiguang Shan</p>
             <p>
                 <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/He_EigenGAN_Layer-Wise_Eigen-Learning_for_GANs_ICCV_2021_paper.pdf"><img src="https://img.shields.io/badge/ICCV%202021-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
                 <a href="https://github.com/LynnHo/EigenGAN-Tensorflow"><img src="https://img.shields.io/github/stars/LynnHo/EigenGAN-Tensorflow.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
@@ -274,8 +274,8 @@ Selected Publications
         </td>
 
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
-            <p><strong>S2GAN: Share Aging Factors Across Ages and Share Aging Trends Among Individuals</strong></p>
-            <p><strong>Zhenliang He</strong>, Meina Kan, Shiguang Shan, Xilin Chen</p>
+            <p><strong>S<sup>2</sup>GAN: Share Aging Factors Across Ages and Share Aging Trends Among Individuals</strong></p>
+            <p><strong>Zhenliang He</strong>, Meina Kan<sup>✉</sup>, Shiguang Shan, Xilin Chen</p>
             <p>
                 <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/He_S2GAN_Share_Aging_Factors_Across_Ages_and_Share_Aging_Trends_ICCV_2019_paper.pdf"><img src="https://img.shields.io/badge/Oral-FFF1DC?label=ICCV%202019&labelColor=3A98B9" style="width:auto;height:25px;"></a>
             </p>
@@ -311,7 +311,7 @@ Selected Publications
 
         <td width="4000" style="padding-top:30px;padding-bottom:0;">
             <p><strong>PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing</strong></p>
-            <p><strong>Zhenliang He</strong>, Meina Kan, Jichao Zhang, Shiguang Shan</p>
+            <p><strong>Zhenliang He</strong>, Meina Kan<sup>✉</sup>, Jichao Zhang, Shiguang Shan</p>
             <p>
                 <a href="https://arxiv.org/pdf/2007.05892.pdf"><img src="https://img.shields.io/badge/arXiv%202020-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
                 <a href="https://github.com/LynnHo/PA-GAN-Tensorflow"><img src="https://img.shields.io/github/stars/LynnHo/PA-GAN-Tensorflow.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
