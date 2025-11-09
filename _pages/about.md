@@ -422,7 +422,7 @@ Education & Experience
 + 2025.11 - now, Associate Professor in the Visual Information Processing and Learning ([VIPL](http://vipl.ict.ac.cn/en)) research group at the Institute of Computing Technology ([ICT](http://www.ict.cas.cn)), Chinese Academy of Sciences ([CAS](https://english.cas.cn/)).
 + 2023.04 - 2025.10, Assistant Professor in VIPL, ICT, CAS.
 + 2021.08 - 2023.03, Research Engineer at JD.com, Inc.
-+ 2015.09 - 2021.06, Ph.D. student at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS), under the supervision of Prof. [Shiguang Shan](https://scholar.google.com/citations?user=Vkzd7MIAAAAJ). I also had close collaboration with Prof. [Meina Kan](https://scholar.google.com/citations?user=4AKCKKEAAAAJ) and Prof. [Xilin Chen](https://scholar.google.com/citations?user=vVx2v20AAAAJ).
++ 2015.09 - 2021.06, Ph.D. student at ICT, CAS, under the supervision of Prof. [Shiguang Shan](https://scholar.google.com/citations?user=Vkzd7MIAAAAJ) and close collaboration with Prof. [Meina Kan](https://scholar.google.com/citations?user=4AKCKKEAAAAJ) and Prof. [Xilin Chen](https://scholar.google.com/citations?user=vVx2v20AAAAJ).
 + 2011.09 - 2015.07, college student at Beijing University of Posts and Telecommunications.
 
 
