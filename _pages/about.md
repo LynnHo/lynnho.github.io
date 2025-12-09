@@ -75,6 +75,43 @@ Selected Publications
 
 <table style="margin-top:-30px;">
     <!-- =============================== -->
+    <!-- =           JoPano            = -->
+    <!-- =============================== -->
+    <tr>
+        <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;">
+            <a href="https://vipl-genun.github.io/Project-JoPano/"><img src="0_lynn/projects/jopano/jopano.gif" width="1000"></a>
+        </td>
+
+        <td width="4000" style="padding-top:30px;padding-bottom:0;">
+            <p><strong>JoPano: Unified Panorama Generation via Joint Modeling</strong></p>
+            <p>Wancheng Feng<sup>*</sup>, Chen An<sup>*</sup>, <strong>Zhenliang He</strong><sup>✉</sup>, Meina Kan, Shiguang Shan, Lukun Wang</p>
+            <p>
+                <a href="https://arxiv.org/pdf/2512.06885"><img src="https://img.shields.io/badge/arXiv%202025-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
+                <a href="https://github.com/VIPL-GENUN/JoPano"><img src="https://img.shields.io/github/stars/VIPL-GENUN/JoPano.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
+            </p>
+            <span id="JoPano Abstract open" onclick="toggle('JoPano', 'Abstract')"><a href="javascript:;">&#11167; Abstract</a></span>
+            <span id="JoPano Abstract close" onclick="toggle('JoPano', 'Abstract')" style="display:none;"><a href="javascript:;">&#11165; Abstract</a></span> |
+            <a href="https://arxiv.org/pdf/2512.06885">Paper</a> |
+            <a href="https://vipl-genun.github.io/Project-JoPano/">Project</a> |
+            <span id="JoPano Bib open" onclick="toggle('JoPano', 'Bib')"><a href="javascript:;">&#11167; Bib</a></span>
+            <span id="JoPano Bib close" onclick="toggle('JoPano', 'Bib')" style="display:none;"><a href="javascript:;">&#11165; Bib</a></span>
+        </td>
+    </tr>
+
+    <tr><td colspan="2" style="padding:0;">
+        <div id="JoPano Abstract" style="display:none;"><p align="justify" style="margin-top:15px;margin-bottom:0;">
+            Panorama generation has recently attracted growing interest in the research community, with two core tasks, text-to-panorama and view-to-panorama generation. However, existing methods still face two major challenges: their U-Net-based architectures constrain the visual quality of the generated panoramas, and they usually treat the two core tasks independently, which leads to modeling redundancy and inefficiency. To overcome these challenges, we propose a joint-face panorama (JoPano) generation approach that unifies the two core tasks within a DiT-based model. To transfer the rich generative capabilities of existing DiT backbones learned from natural images to the panorama domain, we propose a Joint-Face Adapter built on the cubemap representation of panoramas, which enables a pretrained DiT to jointly model and generate different views of a panorama. We further apply Poisson Blending to reduce seam inconsistencies that often appear at the boundaries between cube faces. Correspondingly, we introduce Seam-SSIM and Seam-Sobel metrics to quantitatively evaluate the seam consistency. Moreover, we propose a condition switching mechanism that unifies text-to-panorama and view-to-panorama tasks within a single model. Comprehensive experiments show that JoPano can generate high-quality panoramas for both text-to-panorama and view-to-panorama generation tasks, achieving state-of-the-art performance on FID, CLIP-FID, IS, and CLIP-Score metrics.
+        </p></div>
+    </td></tr>
+
+    <tr><td colspan="2" style="padding:0;">
+        <div id="JoPano Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
+            @article{JoPano2025,<br>&emsp;title={JoPano: Unified Panorama Generation via Joint Modeling},<br>&emsp;author={Wancheng Feng, Chen An, Zhenliang He, Meina Kan, Shiguang Shan, Lukun Wang},<br>&emsp;journal={arXiv preprint arXiv:2512.06885},<br>&emsp;year={2025}<br>}
+        </p></div>
+    </td></tr>
+
+
+    <!-- =============================== -->
     <!-- =            Jodi             = -->
     <!-- =============================== -->
     <tr>
@@ -334,41 +371,6 @@ Selected Publications
     <tr><td colspan="2" style="padding:0;">
         <div id="PA-GAN Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
             @article{he2020pagan,<br>&emsp;title={PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing},<br>&emsp;author={He, Zhenliang and Kan, Meina and Zhang, Jichao and Shan, Shiguang},<br>&emsp;journal={arXiv:2007.05892},<br>&emsp;year={2020}<br>}
-        </p></div>
-    </td></tr>
-
-
-    <!-- =============================== -->
-    <!-- =           STD-GAN           = -->
-    <!-- =============================== -->
-    <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;"><a href="https://github.com/XuyangGuo/STD-GAN">
-        <img src="0_lynn/projects/std-gan/std-gan.jpg" width="1000"></a>
-    </td>
-    
-    <td width="4000" style="padding-top:30px;padding-bottom:0;">
-        <p><strong>Image Style Disentangling for Instance-Level Facial Attribute Transfer</strong></p>
-        <p>Xuyang Guo, Meina Kan<sup>✉</sup>, <strong>Zhenliang He</strong>, Xingguang Song, Shiguang Shan</p>
-        <p>
-            <a href="0_lynn/projects/std-gan/std-gan.pdf"><img src="https://img.shields.io/badge/CVIU%202021-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
-            <a href="https://github.com/XuyangGuo/STD-GAN"><img src="https://img.shields.io/github/stars/XuyangGuo/STD-GAN.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
-        </p>
-        <span id="STD-GAN Abstract open" onclick="toggle('STD-GAN', 'Abstract')"><a href="javascript:;">&#11167; Abstract</a></span>
-        <span id="STD-GAN Abstract close" onclick="toggle('STD-GAN', 'Abstract')" style="display:none;"><a href="javascript:;">&#11165; Abstract</a></span> |
-        <a href="0_lynn/projects/std-gan/std-gan.pdf">Paper</a> |
-        <a href="https://github.com/XuyangGuo/STD-GAN">PyTorch (Official)</a> |
-        <span id="STD-GAN Bib open" onclick="toggle('STD-GAN', 'Bib')"><a href="javascript:;">&#11167; Bib</a></span>
-        <span id="STD-GAN Bib close" onclick="toggle('STD-GAN', 'Bib')" style="display:none;"><a href="javascript:;">&#11165; Bib</a></span>
-    </td>
-
-    <tr><td colspan="2" style="padding:0;">
-        <div id="STD-GAN Abstract" style="display:none;"><p align="justify" style="margin-top:15px;margin-bottom:0;">
-            Instance-level facial attribute transfer aims at transferring an attribute including its style from a source face to a target one. Existing studies have limitations on fidelity or correctness. To address this problem, we propose a weakly supervised style disentangling method embedded in Generative Adversarial Network (GAN) for accurate instance-level attribute transfer, using only binary attribute annotations. In our method, the whole attributes transfer process is designed as two steps for easier transfer, which first removes the original attribute or transfers it to a neutral state and then adds the attributes style disentangled from a source face. Moreover, a style disentangling module is proposed to extract the attribute style of an image used in the adding step. Our method aims for accurate attribute style transfer. However, it is also capable of semantic attribute editing as a special case, which is not achievable with existing instance-level attribute transfer methods. Comprehensive experiments on CelebA Dataset show that our method can transfer the style more precisely than existing methods, with an improvement of 39% in user study, 16.5% in accuracy, and about 3.3 in FID.
-        </p></div>
-    </td></tr>
-
-    <tr><td colspan="2" style="padding:0;">
-        <div id="STD-GAN Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
-            @article{guo2021image,<br>&emsp;title={Image Style Disentangling for Instance-level Facial Attribute Transfer},<br>&emsp;author={Guo, Xuyang and Kan, Meina and He, Zhenliang and Song, Xingguang and Shan, Shiguang},<br>&emsp;journal={Computer Vision and Image Understanding},<br>&emsp;volume={207},<br>&emsp;pages={103205},<br>&emsp;year={2021}<br>}
         </p></div>
     </td></tr>
 </table>
