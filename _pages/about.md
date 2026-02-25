@@ -390,7 +390,7 @@ Competitions
     <tr>
         <p style="margin-bottom:2px;">
             <span style="display:inline-block; width:190px;"><img src="https://img.shields.io/badge/%F0%9F%A5%87-444444?label=CHAMPION%20%20%20%20%201ST&labelColor=FFD700" style="width:auto;height:25px;"></span>
-            <span><strong>AgiBot World Challenge - World Model Track, IROS 2025</strong> (<a href="https://agibot-world.com/challenge">website</a>)</span>
+            <span><strong>AgiBot World Challenge - World Model Track, IROS 2025</strong> (<a href="https://agibot-world.com/challenge2025">website</a>)</span>
          </p>
         <p style="font-size:16px;">
             <span style="display:inline-block; width:190px;"></span>
