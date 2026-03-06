@@ -106,7 +106,7 @@ Selected Publications
 
     <tr><td colspan="2" style="padding:0;">
         <div id="JoPano Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
-            @article{JoPano2025,<br>&emsp;title={JoPano: Unified Panorama Generation via Joint Modeling},<br>&emsp;author={Wancheng Feng, Chen An, Zhenliang He, Meina Kan, Shiguang Shan, Lukun Wang},<br>&emsp;journal={arXiv preprint arXiv:2512.06885},<br>&emsp;year={2025}<br>}
+            @article{feng2025jopano,<br>&emsp;title={JoPano: Unified Panorama Generation via Joint Modeling},<br>&emsp;author={Feng, Wancheng and An, Chen and He, Zhenliang and Kan, Meina and Shan, Shiguang and Wang, Lukun},<br>&emsp;journal={arXiv:2512.06885},<br>&emsp;year={2025}<br>}
         </p></div>
     </td></tr>
 
@@ -144,7 +144,7 @@ Selected Publications
 
     <tr><td colspan="2" style="padding:0;">
         <div id="Jodi Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
-            @article{xu2025jodi,<br>&emsp;title={Jodi: Unification of Visual Generation and Understanding via Joint Modeling},<br>&emsp;author={Xu, Yifeng and He, Zhenliang and Kan, Meina and Shan, Shiguang and Chen, Xilin},<br>&emsp;journal={arXiv preprint arXiv:2505.19084},<br>&emsp;year={2025},<br>}
+            @article{xu2025jodi,<br>&emsp;title={Jodi: Unification of Visual Generation and Understanding via Joint Modeling},<br>&emsp;author={Xu, Yifeng and He, Zhenliang and Kan, Meina and Shan, Shiguang and Chen, Xilin},<br>&emsp;journal={arXiv:2505.19084},<br>&emsp;year={2025},<br>}
         </p></div>
     </td></tr>
 
@@ -181,7 +181,7 @@ Selected Publications
 
     <tr><td colspan="2" style="padding:0;">
         <div id="CtrLoRA Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
-            @article{xu2024ctrlora,<br>&emsp;title={CtrLoRA: An Extensible and Efficient Framework for Controllable Image Generation},<br>&emsp;author={Xu, Yifeng and He, Zhenliang and Shan, Shiguang and Chen, Xilin},<br>&emsp;journal={arXiv preprint arXiv:2410.09400},<br>&emsp;year={2024}<br>}
+            @article{xu2024ctrlora,<br>&emsp;title={CtrLoRA: An Extensible and Efficient Framework for Controllable Image Generation},<br>&emsp;author={Xu, Yifeng and He, Zhenliang and Shan, Shiguang and Chen, Xilin},<br>&emsp;journal={International Conference on Learning Representations (ICLR)},<br>&emsp;year={2025}<br>}
         </p></div>
     </td></tr>
 
@@ -218,7 +218,7 @@ Selected Publications
 
     <tr><td colspan="2" style="padding:0;">
         <div id="PrecNeRF Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
-            @inproceedings{zhang2025precnerf,<br>&emsp;title={Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature},<br>&emsp;author={Zhang, Boyuan and He, Zhenliang and Kan, Meina and Shan, Shiguang},<br>&emsp;booktitle={Winter Conference on Applications of Computer Vision},<br>&emsp;year={2025}<br>}
+            @inproceedings{zhang2025precnerf,<br>&emsp;title={Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature},<br>&emsp;author={Zhang, Boyuan and He, Zhenliang and Kan, Meina and Shan, Shiguang},<br>&emsp;booktitle={IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},<br>&emsp;year={2025}<br>}
         </p></div>
     </td></tr>
 
@@ -258,7 +258,7 @@ Selected Publications
 
     <tr><td colspan="2" style="padding:0;">
         <div id="EigenGAN Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
-            @inproceedings{he2021eigengan,<br>&emsp;title={EigenGAN: Layer-Wise Eigen-Learning for GANs},<br>&emsp;author={He, Zhenliang and Kan, Meina and Shan, Shiguang},<br>&emsp;booktitle={International Conference on Computer Vision},<br>&emsp;year={2021}<br>}
+            @inproceedings{he2021eigengan,<br>&emsp;title={EigenGAN: Layer-Wise Eigen-Learning for GANs},<br>&emsp;author={He, Zhenliang and Kan, Meina and Shan, Shiguang},<br>&emsp;booktitle={IEEE International Conference on Computer Vision (ICCV)},<br>&emsp;year={2021}<br>}
         </p></div>
     </td></tr>
 
@@ -297,7 +297,7 @@ Selected Publications
 
     <tr><td colspan="2" style="padding:0;">
         <div id="AttGAN Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
-            @article{he2019attgan,<br>&emsp;title={AttGAN: Facial Attribute Editing by Only Changing What You Want},<br>&emsp;author={He, Zhenliang and Zuo, Wangmeng and Kan, Meina and Shan, Shiguang and Chen, Xilin},<br>&emsp;journal={IEEE Transactions on Image Processing},<br>&emsp;volume={28},<br>&emsp;number={11},<br>&emsp;pages={5464--5478},<br>&emsp;year={2019}<br>}
+            @article{he2019attgan,<br>&emsp;title={AttGAN: Facial Attribute Editing by Only Changing What You Want},<br>&emsp;author={He, Zhenliang and Zuo, Wangmeng and Kan, Meina and Shan, Shiguang and Chen, Xilin},<br>&emsp;journal={IEEE Transactions on Image Processing (TIP)},<br>&emsp;volume={28},<br>&emsp;number={11},<br>&emsp;pages={5464--5478},<br>&emsp;year={2019}<br>}
         </p></div>
     </td></tr>
 
@@ -333,7 +333,7 @@ Selected Publications
 
     <tr><td colspan="2" style="padding:0;">
         <div id="S2GAN Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
-            @inproceedings{he2019s2gan,<br>&emsp;title={S2GAN: Share Aging Factors Across Ages and Share Aging Trends Among Individuals},<br>&emsp;author={He, Zhenliang and Kan, Meina and Shan, Shiguang and Chen, Xilin},<br>&emsp;booktitle={International Conference on Computer Vision},<br>&emsp;year={2019}<br>}
+            @inproceedings{he2019s2gan,<br>&emsp;title={S2GAN: Share Aging Factors Across Ages and Share Aging Trends Among Individuals},<br>&emsp;author={He, Zhenliang and Kan, Meina and Shan, Shiguang and Chen, Xilin},<br>&emsp;booktitle={IEEE International Conference on Computer Vision (ICCV)},<br>&emsp;year={2019}<br>}
         </p></div>
     </td></tr>
 
