@@ -181,7 +181,7 @@ Selected Publications
 
     <tr><td colspan="2" style="padding:0;">
         <div id="CtrLoRA Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
-            @article{xu2024ctrlora,<br>&emsp;title={CtrLoRA: An Extensible and Efficient Framework for Controllable Image Generation},<br>&emsp;author={Xu, Yifeng and He, Zhenliang and Shan, Shiguang and Chen, Xilin},<br>&emsp;journal={International Conference on Learning Representations (ICLR)},<br>&emsp;year={2025}<br>}
+            @inproceedings{xu2024ctrlora,<br>&emsp;title={CtrLoRA: An Extensible and Efficient Framework for Controllable Image Generation},<br>&emsp;author={Xu, Yifeng and He, Zhenliang and Shan, Shiguang and Chen, Xilin},<br>&emsp;journal={International Conference on Learning Representations (ICLR)},<br>&emsp;year={2025}<br>}
         </p></div>
     </td></tr>
 
