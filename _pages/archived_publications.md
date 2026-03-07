@@ -31,3 +31,39 @@
         @article{guo2021image,<br>&emsp;title={Image Style Disentangling for Instance-level Facial Attribute Transfer},<br>&emsp;author={Guo, Xuyang and Kan, Meina and He, Zhenliang and Song, Xingguang and Shan, Shiguang},<br>&emsp;journal={Computer Vision and Image Understanding},<br>&emsp;volume={207},<br>&emsp;pages={103205},<br>&emsp;year={2021}<br>}
     </p></div>
 </td></tr>
+
+<!-- =============================== -->
+<!-- =           PA-GAN            = -->
+<!-- =============================== -->
+<tr>
+    <td width="1000" style="padding-left:0;padding-top:30px;padding-bottom:0;">
+        <a href="https://github.com/LynnHo/PA-GAN-Tensorflow"><img src="0_lynn/projects/pa-gan/pa-gan.jpg" width="1000"></a>
+    </td>
+
+    <td width="4000" style="padding-top:30px;padding-bottom:0;">
+        <p><strong>PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing</strong></p>
+        <p><strong>Zhenliang He</strong>, Meina Kan<sup>✉</sup>, Jichao Zhang, Shiguang Shan</p>
+        <p>
+            <a href="https://arxiv.org/pdf/2007.05892.pdf"><img src="https://img.shields.io/badge/arXiv%202020-3A98B9" style="width:auto;height:25px;"></a>&nbsp;&nbsp;
+            <a href="https://github.com/LynnHo/PA-GAN-Tensorflow"><img src="https://img.shields.io/github/stars/LynnHo/PA-GAN-Tensorflow.svg?style=social" style="width:auto;height:25px;" class="no-shadow"></a>
+        </p>
+        <span id="PA-GAN Abstract open" onclick="toggle('PA-GAN', 'Abstract')"><a href="javascript:;">&#11167; Abstract</a></span>
+        <span id="PA-GAN Abstract close" onclick="toggle('PA-GAN', 'Abstract')" style="display:none;"><a href="javascript:;">&#11165; Abstract</a></span> |
+        <a href="https://arxiv.org/pdf/2007.05892.pdf">Paper</a> |
+        <a href="https://github.com/LynnHo/PA-GAN-Tensorflow">TensorFlow (Official)</a> |
+        <span id="PA-GAN Bib open" onclick="toggle('PA-GAN', 'Bib')"><a href="javascript:;">&#11167; Bib</a></span>
+        <span id="PA-GAN Bib close" onclick="toggle('PA-GAN', 'Bib')" style="display:none;"><a href="javascript:;">&#11165; Bib</a></span>
+    </td>
+</tr>
+
+<tr><td colspan="2" style="padding:0;">
+    <div id="PA-GAN Abstract" style="display:none;"><p align="justify" style="margin-top:15px;margin-bottom:0;">
+        Facial attribute editing aims to manipulate attributes on the human face, e.g., adding a mustache or changing the hair color. Existing approaches suffer from a serious compromise between correct attribute generation and preservation of the other information such as identity and background, because they edit the attributes in the imprecise area. To resolve this dilemma, we propose a progressive attention GAN (PA-GAN) for facial attribute editing. In our approach, the editing is progressively conducted from high to low feature level while being constrained inside a proper attribute area by an attention mask at each level. This manner prevents undesired modifications to the irrelevant regions from the beginning, and then the network can focus more on correctly generating the attributes within a proper boundary at each level. As a result, our approach achieves correct attribute editing with irrelevant details much better preserved compared with the state-of-the-arts.
+    </p></div>
+</td></tr>
+
+<tr><td colspan="2" style="padding:0;">
+    <div id="PA-GAN Bib" style="display:none;"><p style="margin-top:15px;margin-bottom:0;">
+        @article{he2020pagan,<br>&emsp;title={PA-GAN: Progressive Attention Generative Adversarial Network for Facial Attribute Editing},<br>&emsp;author={He, Zhenliang and Kan, Meina and Zhang, Jichao and Shan, Shiguang},<br>&emsp;journal={arXiv:2007.05892},<br>&emsp;year={2020}<br>}
+    </p></div>
+</td></tr>
