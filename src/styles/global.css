@@ -286,8 +286,28 @@ img {
   width: min(138px, 76%);
   height: auto;
   opacity: 0.88;
-  filter: drop-shadow(0 16px 24px oklch(28% 0.02 245 / 9%));
+  filter:
+    drop-shadow(0 0 3px oklch(82% 0.07 212 / 0%))
+    drop-shadow(0 0 8px oklch(76% 0.07 212 / 0%))
+    drop-shadow(0 0 16px oklch(72% 0.075 212 / 0%))
+    drop-shadow(0 16px 24px oklch(28% 0.02 245 / 9%));
   transform: translate(-8px, -13px);
+  transform-origin: center;
+  will-change: filter, opacity, transform;
+  transition:
+    filter 300ms ease,
+    opacity 260ms ease,
+    transform 260ms ease;
+}
+
+.nav-footer:hover .nav-hugo {
+  opacity: 0.94;
+  filter:
+    drop-shadow(0 0 3px oklch(82% 0.07 212 / 42%))
+    drop-shadow(0 0 8px oklch(76% 0.07 212 / 24%))
+    drop-shadow(0 0 16px oklch(72% 0.075 212 / 12%))
+    drop-shadow(0 16px 24px oklch(28% 0.02 245 / 10%));
+  transform: translate(-8px, -13px) scale(1.018);
 }
 
 .profile-panel {
@@ -431,6 +451,10 @@ img {
   object-fit: contain;
   opacity: 1;
   filter: none;
+  transform-origin: center;
+  transition:
+    transform 180ms ease,
+    filter 180ms ease;
 }
 
 .profile-link-vipl img {
@@ -451,6 +475,10 @@ img {
   height: 18px;
   fill: #24292f;
   opacity: 1;
+  transform-origin: center;
+  transition:
+    transform 180ms ease,
+    filter 180ms ease;
 }
 
 .profile-link > span:not(.profile-stars-value),
@@ -463,6 +491,13 @@ img {
 .email-link:hover img,
 .profile-link:hover .profile-github-icon {
   opacity: 1;
+}
+
+.profile-link:is(:hover, :focus-visible) img,
+.email-link:is(:hover, :focus-visible) img,
+.profile-link:is(:hover, :focus-visible) .profile-github-icon {
+  transform: scale(1.16);
+  filter: drop-shadow(0 2px 5px oklch(45% 0.04 230 / 16%));
 }
 
 .profile-link-stars {
@@ -486,6 +521,12 @@ img {
   stroke: none;
   stroke-linejoin: round;
   transform: translateY(-0.03em);
+  transform-origin: center;
+  transition: transform 180ms ease;
+}
+
+.profile-link-stars:is(:hover, :focus-visible) .profile-star-icon {
+  transform: translateY(-0.03em) scale(1.12);
 }
 
 .profile-link-stars strong {
