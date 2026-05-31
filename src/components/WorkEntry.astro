@@ -10,6 +10,7 @@ interface Props {
 const { work, Content } = Astro.props;
 const data = work.data;
 const imageHref = data.image_link;
+const videoHref = data.video ? resolveWorkHref(work, data.video) : "";
 const titleText = stripHtml(data.title_html);
 const visibleLinks = data.links;
 const workId = `work-${data.slug.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`;
@@ -21,11 +22,23 @@ const hasExpansion = showAbstract || Boolean(data.bib);
   {
     imageHref ? (
       <a class="work-media" data-image-fit={data.image_fit} href={imageHref} aria-label={titleText}>
-        <img src={data.image.src} width={data.image.width} height={data.image.height} alt={titleText} loading="eager" />
+        {
+          videoHref ? (
+            <video src={videoHref} poster={data.image.src} width={data.image.width} height={data.image.height} autoplay muted loop playsinline preload="metadata" aria-label={titleText}></video>
+          ) : (
+            <img src={data.image.src} width={data.image.width} height={data.image.height} alt={titleText} loading="lazy" decoding="async" />
+          )
+        }
       </a>
     ) : (
       <div class="work-media" data-image-fit={data.image_fit}>
-        <img src={data.image.src} width={data.image.width} height={data.image.height} alt={titleText} loading="eager" />
+        {
+          videoHref ? (
+            <video src={videoHref} poster={data.image.src} width={data.image.width} height={data.image.height} autoplay muted loop playsinline preload="metadata" aria-label={titleText}></video>
+          ) : (
+            <img src={data.image.src} width={data.image.width} height={data.image.height} alt={titleText} loading="lazy" decoding="async" />
+          )
+        }
       </div>
     )
   }

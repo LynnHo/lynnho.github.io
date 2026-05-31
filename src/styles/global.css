@@ -276,14 +276,21 @@ img {
 .nav-footer {
   align-self: end;
   display: grid;
+  gap: 10px;
   justify-items: center;
   justify-self: center;
   width: min(100%, 218px);
   padding-top: 18px;
 }
 
-.nav-hugo {
+.nav-hugo-picture {
+  display: block;
   width: min(138px, 76%);
+}
+
+.nav-hugo {
+  display: block;
+  width: 100%;
   height: auto;
   opacity: 0.88;
   filter:
@@ -310,6 +317,22 @@ img {
   transform: translate(-8px, -13px) scale(1.018);
 }
 
+.visit-counter {
+  display: grid;
+  justify-items: center;
+  width: 150px;
+  margin: -10px 0 0;
+  opacity: 0.62;
+  transform: translateX(-8px);
+}
+
+.visit-counter #clustrmaps-widget-v2 {
+  width: 150px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+
 .profile-panel {
   --profile-photo-size: var(--work-media-size);
   grid-column: 1;
@@ -327,8 +350,14 @@ img {
   align-items: start;
 }
 
-.profile-photo {
+.profile-picture {
   grid-area: photo;
+  display: block;
+  width: var(--profile-photo-size);
+  height: var(--profile-photo-size);
+}
+
+.profile-photo {
   width: var(--profile-photo-size);
   height: var(--profile-photo-size);
   aspect-ratio: 1;
@@ -662,7 +691,8 @@ img {
   transform: translateY(-2px);
 }
 
-.work-media img {
+.work-media img,
+.work-media video {
   position: relative;
   z-index: 0;
   width: 100%;
@@ -673,7 +703,12 @@ img {
   box-shadow: none;
 }
 
-.work-media[data-image-fit="contain"] img {
+.work-media video {
+  display: block;
+}
+
+.work-media[data-image-fit="contain"] img,
+.work-media[data-image-fit="contain"] video {
   object-fit: contain;
   padding: 10px;
 }

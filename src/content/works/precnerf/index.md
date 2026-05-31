@@ -5,7 +5,8 @@ section: "publication"
 order: 50
 title_html: "Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature"
 authors_html: "Boyuan Zhang, <strong>Zhenliang He</strong><sup>✉</sup>, Meina Kan, Shiguang Shan"
-image: "./precnerf.gif"
+image: "./precnerf-poster.jpg"
+video: "./precnerf.mp4"
 image_link: "https://github.com/Moreland-cas/Precise-NeRF"
 badges:
   - url: "https://openaccess.thecvf.com/content/WACV2025/papers/Zhang_Precise_Integral_in_NeRFs_Overcoming_the_Approximation_Errors_of_Numerical_WACV_2025_paper.pdf"

@@ -2,7 +2,7 @@ import type { CollectionEntry } from "astro:content";
 
 type ContentEntry = CollectionEntry<"works"> | CollectionEntry<"competitions">;
 
-const localAssets = import.meta.glob("../content/**/*.pdf", {
+const localAssets = import.meta.glob("../content/**/*.{mp4,pdf}", {
   eager: true,
   import: "default",
   query: "?url"

@@ -7,6 +7,7 @@ const entryFields = ({ image }: Parameters<NonNullable<Parameters<typeof defineC
   title_html: z.string(),
   authors_html: z.string(),
   image: image(),
+  video: z.string().optional().default(""),
   image_link: z.string().optional().default(""),
   image_fit: z.enum(["cover", "contain"]).optional().default("cover"),
   badges: z

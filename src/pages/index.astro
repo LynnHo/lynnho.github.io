@@ -59,8 +59,19 @@ const navItems = [
           ))
         }
       </div>
-      <div class="nav-footer" aria-hidden="true">
-        <img class="nav-hugo" src="/images/hugo.png" alt="" loading="lazy" />
+      <div class="nav-footer">
+        <picture class="nav-hugo-picture">
+          <source srcset="/images/hugo.webp" type="image/webp" />
+          <img class="nav-hugo" src="/images/hugo.png" alt="" loading="lazy" width="512" height="512" />
+        </picture>
+        <div class="visit-counter" aria-label="Visitor map">
+          <script
+            is:inline
+            type="text/javascript"
+            id="clustrmaps"
+            src="//cdn.clustrmaps.com/map_v2.js?cl=077277&w=150&t=tt&d=PVt8seZaWEiot3Clr9Sb-4EICkWWEj0IzMdRw0vyqhc&co=ffffff&ct=000000&cmo=ff5353&cmn=3a5ccc"
+          ></script>
+        </div>
       </div>
     </nav>
 

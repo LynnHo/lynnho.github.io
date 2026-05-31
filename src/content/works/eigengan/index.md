@@ -5,7 +5,8 @@ section: "publication"
 order: 60
 title_html: "EigenGAN: Layer-Wise Eigen-Learning for GANs"
 authors_html: "<strong>Zhenliang He</strong>, Meina Kan<sup>✉</sup>, Shiguang Shan"
-image: "./eigengan.gif"
+image: "./eigengan-poster.jpg"
+video: "./eigengan.mp4"
 image_link: "https://github.com/LynnHo/EigenGAN-Tensorflow"
 badges:
   - url: "https://openaccess.thecvf.com/content/ICCV2021/papers/He_EigenGAN_Layer-Wise_Eigen-Learning_for_GANs_ICCV_2021_paper.pdf"

@@ -5,7 +5,8 @@ section: "publication"
 order: 20
 title_html: "JoPano: Unified Panorama Generation via Joint Modeling"
 authors_html: "Wancheng Feng<sup>†</sup>, Chen An<sup>†</sup>, <strong>Zhenliang He</strong><sup>✉</sup>, Meina Kan, Shiguang Shan, Lukun Wang"
-image: "./jopano.gif"
+image: "./jopano-poster.jpg"
+video: "./jopano.mp4"
 image_link: "https://vipl-genun.github.io/Project-JoPano/"
 badges:
   - url: "https://arxiv.org/pdf/2512.06885"

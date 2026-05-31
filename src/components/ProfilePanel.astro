@@ -6,7 +6,10 @@ const nameMatch = profile.name.match(/^(.*?)\s*[（(](.*)[）)]$/);
 
 <aside class="profile-panel" aria-label="Profile">
   <div class="profile-lockup">
-    <img class="profile-photo" src="/images/profile-transparent.png" alt="Zhenliang He" />
+    <picture class="profile-picture">
+      <source srcset="/images/profile-transparent.webp" type="image/webp" />
+      <img class="profile-photo" src="/images/profile-transparent.png" alt="Zhenliang He" width="560" height="560" />
+    </picture>
     <div class="profile-main">
       <div class="profile-heading">
         <h1>
