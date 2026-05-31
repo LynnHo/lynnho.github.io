@@ -1,0 +1,155 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { resolveWorkHref, stripHtml } from "../lib/workAssets";
+
+interface Props {
+  work: CollectionEntry<"works"> | CollectionEntry<"competitions">;
+  Content: any;
+}
+
+const { work, Content } = Astro.props;
+const data = work.data;
+const imageHref = data.image_link;
+const titleText = stripHtml(data.title_html);
+const visibleLinks = data.links;
+const workId = `work-${data.slug.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`;
+const showAbstract = work.collection !== "competitions";
+const hasExpansion = showAbstract || Boolean(data.bib);
+---
+
+<article class="work-entry">
+  {
+    imageHref ? (
+      <a class="work-media" data-image-fit={data.image_fit} href={imageHref} aria-label={titleText}>
+        <img src={data.image.src} width={data.image.width} height={data.image.height} alt={titleText} loading="eager" />
+      </a>
+    ) : (
+      <div class="work-media" data-image-fit={data.image_fit}>
+        <img src={data.image.src} width={data.image.width} height={data.image.height} alt={titleText} loading="eager" />
+      </div>
+    )
+  }
+
+  <div class="work-copy">
+    <h3 set:html={data.title_html} />
+    <p class="work-authors" set:html={data.authors_html} />
+
+    {
+      data.badges.length > 0 && (
+        <div class="badges">
+          {data.badges.map((badge) =>
+            badge.url ? (
+              <a href={badge.url}><img src={badge.image} alt="" loading="lazy" /></a>
+            ) : (
+              <img src={badge.image} alt="" loading="lazy" />
+            )
+          )}
+        </div>
+      )
+    }
+
+    <div class="work-actions">
+      {
+        showAbstract && (
+          <button
+            class="work-toggle"
+            type="button"
+            data-work-toggle="abstract"
+            aria-expanded="false"
+            aria-controls={`${workId}-abstract`}
+          >
+            <span data-toggle-icon aria-hidden="true">⮟</span>
+            <span>Abstract</span>
+          </button>
+        )
+      }
+
+      {
+        visibleLinks.map((link, index) => {
+          const href = resolveWorkHref(work, link.url);
+          return (
+            <>
+              {(showAbstract || index > 0) && <span class="work-action-separator">|</span>}
+              {href ? <a href={href}>{link.label}</a> : <span>{link.label}</span>}
+            </>
+          );
+        })
+      }
+
+      {
+        data.bib && (
+          <>
+            {(showAbstract || visibleLinks.length > 0) && <span class="work-action-separator">|</span>}
+            <button
+              class="work-toggle"
+              type="button"
+              data-work-toggle="bib"
+              aria-expanded="false"
+              aria-controls={`${workId}-bib`}
+            >
+              <span data-toggle-icon aria-hidden="true">⮟</span>
+              <span>Bib</span>
+            </button>
+          </>
+        )
+      }
+    </div>
+  </div>
+
+  {
+    hasExpansion && (
+      <div class="work-expansion" data-work-expansion hidden>
+        {
+          showAbstract && (
+            <div id={`${workId}-abstract`} class="work-panel detail-body" data-work-panel="abstract" hidden>
+              <Content />
+            </div>
+          )
+        }
+
+        {
+          data.bib && (
+            <pre id={`${workId}-bib`} class="work-panel bib-panel" data-work-panel="bib" hidden>{data.bib}</pre>
+          )
+        }
+      </div>
+    )
+  }
+</article>
+
+<script>
+  document.querySelectorAll<HTMLElement>(".work-entry").forEach((entry) => {
+    const expansion = entry.querySelector<HTMLElement>("[data-work-expansion]");
+    const panels = Array.from(entry.querySelectorAll<HTMLElement>("[data-work-panel]"));
+    const toggles = Array.from(entry.querySelectorAll<HTMLButtonElement>("[data-work-toggle]"));
+
+    const setActivePanel = (targetPanel: string | null) => {
+      if (expansion) {
+        expansion.hidden = !targetPanel;
+      }
+
+      panels.forEach((panel) => {
+        panel.hidden = panel.dataset.workPanel !== targetPanel;
+      });
+
+      toggles.forEach((toggle) => {
+        const isActive = toggle.dataset.workToggle === targetPanel;
+        toggle.setAttribute("aria-expanded", String(isActive));
+        toggle.classList.toggle("is-active", isActive);
+
+        const icon = toggle.querySelector<HTMLElement>("[data-toggle-icon]");
+        if (icon) {
+          icon.textContent = isActive ? "⮝" : "⮟";
+        }
+      });
+    };
+
+    toggles.forEach((toggle) => {
+      toggle.addEventListener("click", () => {
+        const targetPanel = toggle.dataset.workToggle ?? null;
+        const isActive = toggle.getAttribute("aria-expanded") === "true";
+        setActivePanel(isActive ? null : targetPanel);
+      });
+    });
+  });
+</script>

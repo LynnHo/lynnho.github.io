@@ -1,0 +1,92 @@
+---
+import { profile } from "../data/site";
+
+const nameMatch = profile.name.match(/^(.*?)\s*[（(](.*)[）)]$/);
+---
+
+<aside class="profile-panel" aria-label="Profile">
+  <div class="profile-lockup">
+    <img class="profile-photo" src="/images/profile-transparent.png" alt="Zhenliang He" />
+    <div class="profile-main">
+      <div class="profile-heading">
+        <h1>
+          {
+            nameMatch ? (
+              <>
+                <span>{nameMatch[1]}</span>
+                <span>({nameMatch[2]})</span>
+              </>
+            ) : (
+              profile.name
+            )
+          }
+        </h1>
+      </div>
+      <div class="profile-links" aria-label="Profile links">
+        {
+          profile.links.map((link) => (
+            <a
+              class:list={[
+                "profile-link",
+                link.kind === "stars" && "profile-link-stars",
+                link.label === "VIPL-GENUN" && "profile-link-vipl",
+                link.label === "Scholar" && "profile-link-scholar"
+              ]}
+              href={link.url}
+              aria-label={link.label}
+            >
+              {
+                link.image ? (
+                  <img src={link.image} alt="" />
+                ) : (
+                  <>
+                    {link.kind === "stars" && (
+                      <svg class="profile-github-icon" viewBox="0 0 16 16" aria-hidden="true">
+                        <path d="M8 0.2a8 8 0 0 0-2.53 15.59c0.4 0.07 0.55-0.17 0.55-0.38v-1.49c-2.23 0.49-2.7-0.95-2.7-0.95-0.36-0.92-0.88-1.17-0.88-1.17-0.72-0.49 0.05-0.48 0.05-0.48 0.8 0.06 1.22 0.82 1.22 0.82 0.71 1.22 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82A7.62 7.62 0 0 1 8 4.09c0.68 0 1.35 0.09 1.99 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48v2.18c0 0.21 0.14 0.46 0.55 0.38A8 8 0 0 0 8 0.2Z" />
+                      </svg>
+                    )}
+                    <span>{link.label}</span>
+                    {link.starsUrl && (
+                      <span class="profile-stars-value">
+                        <svg class="profile-star-icon" viewBox="0 0 24 24" aria-hidden="true">
+                          <path d="m12 2.8 2.86 5.8 6.4.93-4.63 4.51 1.09 6.38L12 17.42l-5.72 3 1.09-6.38-4.63-4.51 6.4-.93L12 2.8Z" />
+                        </svg>
+                        <strong data-stars-url={link.starsUrl}>Stars</strong>
+                      </span>
+                    )}
+                  </>
+                )
+              }
+              {link.image && <span>{link.label}</span>}
+            </a>
+          ))
+        }
+        <a class="email-link" href={`mailto:${profile.email.address}`}>
+          <img src={profile.email.image} alt="" />
+          <span>{profile.email.address}</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bio-copy">
+    {profile.bio.map((paragraph) => <p set:html={paragraph} />)}
+  </div>
+</aside>
+
+<script>
+  const stars = document.querySelector<HTMLElement>("[data-stars-url]");
+
+  if (stars?.dataset.starsUrl) {
+    fetch(stars.dataset.starsUrl)
+      .then((response) => (response.ok ? response.json() : null))
+      .then((payload) => {
+        if (payload?.message) {
+          stars.textContent = payload.message;
+        }
+      })
+      .catch(() => {
+        stars.textContent = "Stars";
+      });
+  }
+</script>

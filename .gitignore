@@ -1,2 +1,8 @@
-_site/
-
+node_modules/
+dist/
+.astro/
+.omx/
+.env
+.env.*
+*.log
+npm-debug.log*

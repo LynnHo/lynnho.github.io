@@ -1,0 +1,191 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ProfilePanel from "../components/ProfilePanel.astro";
+import SectionShell from "../components/SectionShell.astro";
+import WorkEntry from "../components/WorkEntry.astro";
+import { experience, honors } from "../data/site";
+
+const entries = (await getCollection("works"))
+  .filter((entry) => entry.data.work)
+  .sort((a, b) => a.data.order - b.data.order);
+
+const competitionEntries = (await getCollection("competitions")).sort((a, b) => a.data.order - b.data.order);
+
+const renderedWorks = await Promise.all(
+  entries.map(async (entry) => {
+    const { Content } = await render(entry);
+    return { entry, Content };
+  })
+);
+
+const renderedCompetitions = await Promise.all(
+  competitionEntries.map(async (entry) => {
+    const { Content } = await render(entry);
+    return { entry, Content };
+  })
+);
+
+const tutorials = renderedWorks.filter(({ entry }) => entry.data.section === "tutorial");
+const publications = renderedWorks.filter(({ entry }) => entry.data.section === "publication");
+
+const navItems = [
+  { href: "#tutorial", label: "Tutorials" },
+  { href: "#publications", label: "Publications" },
+  { href: "#competitions", label: "Competitions" },
+  { href: "#experience", label: "Experience" },
+  { href: "#honors", label: "Honors" }
+];
+---
+
+<BaseLayout title="何振梁（Zhenliang He） - Lynn Ho">
+  <main id="main-content" class="page-grid">
+    <nav class="site-nav" aria-label="Page sections">
+      <a class="nav-brand" href="#main-content" aria-label="Back to top">
+        <span class="nav-brand-copy">
+          <strong>Zhenliang He</strong>
+          <span>VIPL · ICT · CAS</span>
+        </span>
+      </a>
+      <div class="nav-links">
+        {
+          navItems.map((item) => (
+            <a href={item.href}>
+              <span class="nav-index" aria-hidden="true"></span>
+              <span class="nav-label">
+                <strong>{item.label}</strong>
+              </span>
+            </a>
+          ))
+        }
+      </div>
+      <div class="nav-footer" aria-hidden="true">
+        <img class="nav-hugo" src="/images/hugo.png" alt="" loading="lazy" />
+      </div>
+    </nav>
+
+    <ProfilePanel />
+
+    <div class="content-flow">
+      <SectionShell id="tutorial" title="Tutorials">
+        <div class="work-list compact">
+          {tutorials.map(({ entry, Content }) => <WorkEntry work={entry} Content={Content} />)}
+        </div>
+      </SectionShell>
+
+      <SectionShell
+        id="publications"
+        title="Selected Publications"
+        note={`See the full list on <a href="https://scholar.google.com/citations?user=fDTTEaAAAAAJ">Google Scholar</a>`}
+      >
+        <div class="work-list">
+          {publications.map(({ entry, Content }) => <WorkEntry work={entry} Content={Content} />)}
+        </div>
+      </SectionShell>
+
+      <SectionShell id="competitions" title="Competitions">
+        <div class="work-list compact">
+          {renderedCompetitions.map(({ entry, Content }) => <WorkEntry work={entry} Content={Content} />)}
+        </div>
+      </SectionShell>
+
+      <SectionShell id="experience" title="Education & Experience">
+        <ul class="timeline-list">
+          {experience.map((item) => <li set:html={item.text_html} />)}
+        </ul>
+      </SectionShell>
+
+      <SectionShell id="honors" title="Honors & Awards">
+        <ul class="timeline-list honors-list">
+          {honors.map((item) => <li set:html={item.text_html} />)}
+        </ul>
+      </SectionShell>
+    </div>
+  </main>
+
+  <script>
+    const navLinks = Array.from(document.querySelectorAll<HTMLAnchorElement>(".nav-links a[href^='#']"));
+    const sectionMap = new Map(
+      navLinks
+        .map((link) => {
+          const section = document.querySelector(link.hash);
+          return section ? [section, link] : null;
+        })
+        .filter(Boolean) as Array<[Element, HTMLAnchorElement]>
+    );
+
+    if (sectionMap.size > 0) {
+      const sections = Array.from(sectionMap.keys()) as HTMLElement[];
+
+      const setActiveLink = (activeSection: Element) => {
+        navLinks.forEach((link) => {
+          const isActive = link === sectionMap.get(activeSection);
+          if (isActive) {
+            link.setAttribute("aria-current", "true");
+          } else {
+            link.removeAttribute("aria-current");
+          }
+        });
+      };
+
+      const getActiveSection = () => {
+        const viewportMarker = window.scrollY + Math.min(window.innerHeight * 0.34, 260);
+        const bottomDistance = document.documentElement.scrollHeight - window.innerHeight - window.scrollY;
+
+        if (bottomDistance < 24) {
+          return sections.at(-1);
+        }
+
+        return sections.reduce((active, section) => {
+          return section.offsetTop <= viewportMarker ? section : active;
+        }, sections[0]);
+      };
+
+      let frame = 0;
+      let scrollLock: Element | null = null;
+      let scrollLockTimer = 0;
+
+      const scheduleScrollLockRelease = () => {
+        window.clearTimeout(scrollLockTimer);
+        scrollLockTimer = window.setTimeout(() => {
+          scrollLock = null;
+          syncActiveLink();
+        }, 180);
+      };
+
+      const syncActiveLink = () => {
+        cancelAnimationFrame(frame);
+        frame = requestAnimationFrame(() => {
+          if (scrollLock) {
+            setActiveLink(scrollLock);
+            scheduleScrollLockRelease();
+            return;
+          }
+
+          const activeSection = getActiveSection();
+          if (activeSection) {
+            setActiveLink(activeSection);
+          }
+        });
+      };
+
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          const section = document.querySelector(link.hash);
+          if (section) {
+            scrollLock = section;
+            setActiveLink(section);
+            scheduleScrollLockRelease();
+          }
+
+          link.blur();
+        });
+      });
+
+      window.addEventListener("scroll", syncActiveLink, { passive: true });
+      window.addEventListener("resize", syncActiveLink);
+      window.addEventListener("hashchange", syncActiveLink);
+      syncActiveLink();
+    }
+  </script>
+</BaseLayout>

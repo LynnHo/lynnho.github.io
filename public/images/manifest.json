@@ -1,0 +1,11 @@
+{
+  "name": "Lynn Ho",
+  "short_name": "Lynn Ho",
+  "icons": [
+    {
+      "src": "/images/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
