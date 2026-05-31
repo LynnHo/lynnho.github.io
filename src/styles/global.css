@@ -317,22 +317,6 @@ img {
   transform: translate(-8px, -13px) scale(1.018);
 }
 
-.visit-counter {
-  display: grid;
-  justify-items: center;
-  width: 150px;
-  margin: -10px 0 0;
-  opacity: 0.62;
-  transform: translateX(-8px);
-}
-
-.visit-counter #clustrmaps-widget-v2 {
-  width: 150px !important;
-  margin: 0 auto !important;
-  padding: 0 !important;
-  background: transparent !important;
-}
-
 .profile-panel {
   --profile-photo-size: var(--work-media-size);
   grid-column: 1;
