@@ -27,6 +27,16 @@ export const profile = {
   bio: [
     `I am an Associate Professor in the Visual Information Processing and Learning (<a href="http://vipl.ict.ac.cn/en">VIPL</a>) research group at the Institute of Computing Technology (<a href="http://www.ict.cas.cn">ICT</a>), Chinese Academy of Sciences (<a href="https://english.cas.cn/">CAS</a>). I co-lead the <a href="https://github.com/VIPL-GENUN">VIPL-GENUN</a> research group with Prof. <a href="https://scholar.google.com/citations?user=Vkzd7MIAAAAJ">Shiguang Shan</a>, focusing on generative models for visual generation, understanding, and their unification.`,
     `I received my Ph.D. from ICT, CAS in 2021, under the supervision of Prof. <a href="https://scholar.google.com/citations?user=Vkzd7MIAAAAJ">Shiguang Shan</a> and close collaboration with Prof. <a href="https://scholar.google.com/citations?user=4AKCKKEAAAAJ">Meina Kan</a> and Prof. <a href="https://scholar.google.com/citations?user=vVx2v20AAAAJ">Xilin Chen</a>. I received my B.E. from Beijing University of Posts and Telecommunications in 2015.`
+  ],
+  recruiting: [
+    {
+      label: "研究生",
+      text: "每年招收硕士研究生，请关注计算所7月的保研夏令营、9月的保研考核和3月的考研考核"
+    },
+    {
+      label: "实习生",
+      text: "长期招收本科、硕士、博士实习生，实习地点为线上或中科院计算所"
+    }
   ]
 };
 

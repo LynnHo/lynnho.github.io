@@ -75,6 +75,17 @@ const nameMatch = profile.name.match(/^(.*?)\s*[（(](.*)[）)]$/);
   <div class="bio-copy">
     {profile.bio.map((paragraph) => <p set:html={paragraph} />)}
   </div>
+
+  <div class="recruiting-note" aria-label="Recruiting information">
+    {
+      profile.recruiting.map((item) => (
+        <p>
+          <strong>[ {item.label} ]</strong>
+          <span>{item.text}</span>
+        </p>
+      ))
+    }
+  </div>
 </aside>
 
 <script>
