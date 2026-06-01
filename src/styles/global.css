@@ -408,13 +408,12 @@ img {
 .profile-links {
   display: grid;
   grid-template-columns: max-content;
-  gap: 4px;
+  gap: 3px;
   align-self: end;
   align-items: start;
   width: max-content;
   margin: 0;
   padding-top: 0;
-  transform: translateY(4px);
 }
 
 .profile-link,
@@ -424,7 +423,7 @@ img {
   column-gap: 8px;
   align-items: center;
   justify-items: start;
-  min-height: 25px;
+  min-height: 24px;
   color: var(--meta);
   font-size: var(--page-text-size);
   font-weight: 540;
